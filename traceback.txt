@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/prologue.rpy", line 49, in script
+    jump P1C1
+ScriptError: could not find label 'P1C1'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/prologue.rpy", line 49, in script
+    jump P1C1
+  File "D:\Games\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\Games\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'P1C1'.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Dreaming of a Hopeful Death 1.0
+Wed Dec 14 17:44:27 2022
