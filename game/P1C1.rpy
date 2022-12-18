@@ -6,8 +6,12 @@
 define h = Character("Humanity")
 
 label P1C1:
+    centered "{size=+16}Dreaming of a Hopeful Death{/size}"
+    centered "{size=+16}by A. S. Mori{/size}"
+    centered "{size=+12}Part 1: Wishes from a Past Far Gone{/size}"
+    centered "{size=+10}Chapter 1: The Curse{/size}"
     centered "It is not always evolutionarily advantageous to be able to comprehend the fragility of one’s life and one’s race."
-    centered "In the past, whether a meteor was about to impact the earth, or a galaxy could collide with the Milky Way was of no concern of the common man."
+    centered "In the past, whether a meteor was about to impact the earth, or a galaxy could collide with the Milky Way was of no concern to the common man."
     centered "We do not perceive everything, and our senses are fundamentally flawed when considering what lies beyond our senses and our intellectual abilities to comprehend what is not."
     centered "To supplement our shortcomings, we use tools such as eyeglasses, telescopes, microscopes, as well as sensors that convert from other spectra and streams into a format we understand."
     centered "These too have a limitation in that they are the creations of humans. These humans are subject to human error, to misconceptions, and to a simple limitation of intellect and body."
@@ -31,5 +35,5 @@ label P1C1:
     centered "Its existence was now that of a singular entity unable to die or physically interact with the physical world until the universe reaches heat death."
     centered "Its role in the universe was no longer that of an active player, but rather an observer unable to act upon reality or conversely be acted upon."
     centered "Its future was now one that was sentenced to wander the universe like a sorrowful ghost that haunted the empty spaces between solar systems and planets— a Sisyphus of the cosmos."
-    # This ends the game.
-    return
+    
+    jump P1C2

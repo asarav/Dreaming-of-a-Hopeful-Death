@@ -17,6 +17,7 @@ label prologue:
 
     play music "audio/Songs Without Words - No.12 in F Sharp Minor, Op.30.mp3" fadeout 1.0 fadein 1.0
     # Prologue
+    centered "{size=+12}Prologue{/size}"
     centered "Once upon a time, there was a witch who lived within a forest deep within the territory of a burgeoning kingdom that was in the midst of turmoil."
     centered "This witch was a master of magic, potions, and alchemy whose practice has continued since the day she resolved herself to gain the highest of proficiencies in the occult arts during an era of history long forgotten."
     centered "Her livelihood was typically one of a relaxed solitude and hermitage."
