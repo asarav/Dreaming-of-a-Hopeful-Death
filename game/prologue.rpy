@@ -4,7 +4,24 @@
 # name of the character.
 
 define h = Character("Humanity")
+image bg Prologue_witch_cabin = "bg Prologue_witch_cabin.png"
 
+screen centeredbox(said):
+    style_prefix "centered"
+    hbox: 
+        xalign 0.5 
+        yalign 0.5    
+        frame: 
+            background Image("gui/textbox.png", xalign=0.5, yalign=0.5)
+            vbox: 
+                box_wrap True 
+                xalign 0.5 
+                yalign 0.5 
+                text said
+
+style centered_text:
+    text_align 0.5
+    layout "subtitle"
 
 # The game starts here.
 
@@ -13,12 +30,16 @@ label prologue:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    scene bg room
+    scene bg Prologue_witch_cabin
 
     play music "audio/Songs Without Words - No.12 in F Sharp Minor, Op.30.mp3" fadeout 1.0 fadein 1.0
     # Prologue
-    centered "{size=+12}Prologue{/size}"
-    centered "Once upon a time, there was a witch who lived within a forest deep within the territory of a burgeoning kingdom that was in the midst of turmoil."
+    show screen centeredbox("{size=+12}{outlinecolor=#000000}Prologue{/outlinecolor}{/size}")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Once upon a time, there was a witch who lived within a forest deep within the territory of a burgeoning kingdom that was in the midst of turmoil.")
+    pause
+    hide screen centeredbox
     centered "This witch was a master of magic, potions, and alchemy whose practice has continued since the day she resolved herself to gain the highest of proficiencies in the occult arts during an era of history long forgotten."
     centered "Her livelihood was typically one of a relaxed solitude and hermitage."
     centered "The domain of man seldom reached her doorstep until now as a result of the fierce beasts that prowled the forest floors and the vegetation that spanned the savage reaches of nature’s dominion..."

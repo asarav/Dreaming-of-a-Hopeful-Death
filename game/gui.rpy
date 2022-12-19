@@ -209,8 +209,8 @@ define gui.choice_button_borders = Borders(80, 4, 80, 4)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_idle_color = "#f8c9c9"
+define gui.choice_button_text_hover_color = "#f7a3a3"
 define gui.choice_button_text_insensitive_color = "#444444"
 
 
@@ -282,7 +282,7 @@ define gui.main_menu_text_xalign = 1.0
 ## components when an overlay or window is not present.
 
 ## Generic frames.
-define gui.frame_borders = Borders(4, 4, 4, 4)
+define gui.frame_borders = Borders(4, 8, 4, 8)
 
 ## The frame that is used as part of the confirm screen.
 define gui.confirm_frame_borders = Borders(32, 32, 32, 32)
