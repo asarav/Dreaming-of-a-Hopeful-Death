@@ -4,15 +4,22 @@
 # name of the character.
 
 define h = Character("Humanity")
+image bg Humanity_on_hill = "bg P1C2_humanity_on_hill.png"
 
 label P1C2:
-    centered "{size=+10}Chapter 2: Birth{/size}"
+    show screen centeredbox("{size=+10}Chapter 2: Birth{/size}")
+    pause
+    hide screen centeredbox
     "Prior to opening my eyes, I had what I thought was a dream."
     "I dreamed a dream, but I don’t sleep anymore."
     "So, that cannot be what it was."
     "I was standing, unclothed in a grassy plain on a clear, sunny day."
+
+    scene bg Humanity_on_hill
+
     "I have no recollection of how I arrived there, but I was there, and I was calm, as though I belonged there."
-    "The endless ripples of green which undulated up to the horizon were punctuated by clusters of trees and ended in a mountain range that rose up in the distance to meet cumulus clouds that filled the deep blue above with small puffs of white and gray."
+    "The endless ripples of green which undulated up to the horizon were punctuated by clusters of trees..."
+    "and ended in a mountain range that rose up in the distance to meet cumulus clouds that filled the deep blue above with small puffs of white and gray."
     "It was lush, it was pristine, and it was lonely: an Eden for one."
     "I peered around to glimpse an androgynous humanoid figure in the distance atop a hill."
     "Perhaps the figure saw me as well since it craned its neck, towards me."
@@ -61,11 +68,12 @@ label P1C2:
     "The roll of the dice has been unkind."
     "My body no longer exists, this version of me no longer exists, and yet this moment feels so real to me just as it did during the time it happened."
     "My head began to submerge, following my chest."
-    "As I sank, I could see trails of darkness following after me, my colorless dark blood painting the streaks of flowing glimmers from the window in varying shades, like a rainbow of shadows spreading across my vision, until all I could see was black, bringing me back."
+    "As I sank, I could see trails of darkness following after me, my colorless dark blood painting the streaks of flowing glimmers from the window in varying shades..."
+    "like a rainbow of shadows spreading across my vision, until all I could see was black, bringing me back."
 
     #Scene Change
     "I faded back to the present to my current world of black and silence."
-    "In this expanse of cold and darkness dotted by celestial bodies lightyears away in the distance, I remembered once more: that feeling may have been real at one point, but it will never be real again outside the confines of my mind."
+    "In this expanse of cold and darkness dotted by celestial bodies lightyears away in the distance, I remembered once more: "
+    "that feeling may have been real at one point, but it will never be real again outside the confines of my mind."
 
-    # This ends the game.
-    return
+    jump P1C3
