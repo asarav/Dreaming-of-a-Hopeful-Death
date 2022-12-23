@@ -102,5 +102,119 @@ label P1C3:
     show screen centeredbox("Among the species that were capable of using tools, apes which diverged from other primates stood out as one of the more sophisticated, eventually evolving into humans that were capable of long distance travel, language, and high level reasoning.")
     pause
     hide screen centeredbox
+    show screen centeredbox("These apes adopted a unique form of locomotion through bipedal movement that allowed for the free use of the forelimbs to use tools and a higher height to identify opportunities and threats far in the distance at the cost of speed.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("One foot could be placed in front of the other and with eyes facing front, the main direction that was considered was forward. By this point, the forward trajectory of humanity was set in stone.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Progress had become the status quo.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Following the rise of Homo Sapiens, domestication and farming brought about the rise of settlements which transformed the lives of humans from hunter-gatherers to that of specialized settlers.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Following the rise of Homo Sapiens, domestication and farming brought about the rise of settlements which transformed the lives of humans from hunter-gatherers to that of specialized settlers.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Materials advanced as well.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("First it was simple stone tools.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("However, stone eventually became bronze which was supplanted by iron.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("All the better to shape the world and kill one another with.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Civilizations rose, fell, and were succeeded by those that learned from the mistakes of their predecessors.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Systems of government changed from rudimentary forms of organization to sophisticated machines that attempted to better ensure the longevity of a society while sating the desires of the individuals within in order to maintain control.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Such control was disrupted by the need for information—a curiosity deeply ingrained within human nature.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Such control was disrupted by the need for information—a curiosity deeply ingrained within human nature.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("With the advent of writing and the printing press, knowledge spread more quickly, enabling a larger population to not only gain information, but to disseminate it as well.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Such improvements in the dispersion of information was a boon to the scientific pursuits of the human race and soon led to advancements in an understanding of the laws of physics.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("The applications of such concepts led to more refined tools capable of tremendously reducing human effort.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("With classical mechanics eventually leading to studies of energy, increased mastery of energy storage and transport ushered in a revolution in self-powered machines and the industrialization of many areas of commerce.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("It is here that a dramatic shift in the transfer of knowledge can be seen.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Previously, messages might take minutes to hours or even days to be sent and received, but the use of electric signals reduced the lag in communication by several orders of magnitude.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("This led to the beginning of a series of steps towards an optimizing of the computational aspects of society, and it was only a century afterwards that transistor based computers used similar techniques as the foundation for the far more sophisticated task of rapid calculation.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Mathematics and geometry became physics simulations which then led to user interfaces that acted as an intermediary between code understood by machines and actions understood by laypeople.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("The ability to represent almost anything in a digital format and present information in an understandable manner led to widespread adoption of the technology.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("This, combined with the ability to communicate digitally with a computer brought about a primitive representation of society’s sea of consciousness which was called the internet.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("The internet became a playground for human activity, allowing for social interaction, while providing a wealth of data describing the intricacies of human behavior in great detail.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Although it was originally accessed behind a computer screen, the internet eventually, for a moment, became an alternate reality that could be experienced as simply as breathing air through the use of neural interfaces that made all transactions occur at the speed of human thought.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Within such an environment, prior to the last day man walked the earth, mankind began to run its finger along the seductive surface of human level general artificial intelligence.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Within such an environment, prior to the last day man walked the earth, mankind began to run its finger along the seductive surface of human level general artificial intelligence.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Just as mankind was about to attain the status of demigod by creating life with its own hands, it vanished from the surface of the earth, leaving behind a damaged planet with no appointed successors to its place.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Metal rusted.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Concrete crumbled.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Paint peeled.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Nature reclaimed the property of man with little fanfare.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("Nature reclaimed the property of man with little fanfare.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("It was an unceremonious end to the result of thousands of years of effort, and there was not even a single wail or cry to mark the tragic nature of a civilization’s impact being whittled away.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("The global temperature’s rate of increase slowed, but it did not stop the melting of glacial ice until many years later.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("It was only until the sea levels have risen significantly to swallow the coastal lands that the earth began to truly heal.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("In the absence of the continuous torture inflicted by the cruel ruler that unwillingly abdicated his throne, the earth and its biosphere was allowed a moment’s rest.")
+    pause
+    hide screen centeredbox
+    show screen centeredbox("With its healing, perhaps there will be an opportunity for a more responsible steward to take the place of the civilizations that plundered the earth in the past.")
+    pause
+    hide screen centeredbox
     # This ends the game.
-    return
+    jump P1C4
