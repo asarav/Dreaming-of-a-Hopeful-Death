@@ -118,7 +118,7 @@ define gui.namebox_height = None
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(5, 5, 5, 5)
+define gui.namebox_borders = Borders(0, 16, 0, 50)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.
@@ -351,7 +351,7 @@ define gui.history_name_xalign = 1.0
 ## The position, width, and alignment of the dialogue text.
 define gui.history_text_xpos = 136
 define gui.history_text_ypos = 2
-define gui.history_text_width = 592
+define gui.history_text_width = 610
 define gui.history_text_xalign = 0.0
 
 
