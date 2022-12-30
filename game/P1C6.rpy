@@ -4,11 +4,11 @@
 # name of the character.
 
 define h = Character("Humanity")
-define v = Character("A Voice Among Billions")
-define a_v = Character("Another Voice Among Billions")
-define e = Character("An Executive Among Billions")
-define n = Character("A Neurologist Among  Billions")
-define s = Character("A Scientist Among  Billions")
+define voice1 = Character("A Voice Among Billions")
+define a_voice = Character("Another Voice Among Billions")
+define executive = Character("An Executive Among Billions")
+define neurologist = Character("A Neurologist Among  Billions")
+define scientist = Character("A Scientist Among  Billions")
 
 label P1C6:
     show screen centeredbox("{size=+10}Chapter 6: The Absent Self{/size}")
@@ -43,9 +43,9 @@ label P1C6:
     h "Die asking why we are born unequal, live unequally, and die unequally."
     h "We are all the same outside the realm of the living, but so different from one another within life."
     h "Rinse and repeat."
-    v "It never ends does it."
-    v "No matter where we live or what we do, it never ends."
-    v "We live and afterwards, it is as though we were never here."
+    voice1 "It never ends does it."
+    voice1 "No matter where we live or what we do, it never ends."
+    voice1 "We live and afterwards, it is as though we were never here."
     h "We have reached the verge of death many times, and have questioned countless times why we were alive, why we continued to live in the face of unfair and cruel circumstances."
     h "What is it that matters, especially now that civilization is lost to the past."
     h "In many past lives, I have worked and worked and worked."
@@ -61,14 +61,14 @@ label P1C6:
     h "As long as we agreed that it had value and we reached a consensus on how much, people were willing to exchange their time for it, to kill others over it, and to ruin their lives for it."
     h "Now, there is no such thing."
     h "What do I live for now?"
-    e "You do it to live."
-    e "You do it to justify your place in society."
+    executive "You do it to live."
+    executive "You do it to justify your place in society."
     h "None of that applies anymore."
     h "There is no society, and no one is asking for me to justify my place in the universe."
     h "I have nothing to prove."
     h "Gone is the footing I had."
     h "Now, for better or worse, it is all up to us."
-    v "Humans have certain needs."
+    voice1 "Humans have certain needs."
     h "I had certain needs."
     h "Food, water, shelter."
     h "None of these apply anymore."
@@ -96,8 +96,8 @@ label P1C6:
     h "No materials to buy."
     h "No high end car to buy and show off."
     h "There’s only one fancy car floating out here in space, and I don’t have the hands to grab the steering wheel."
-    v "This is freedom isn’t it?"
-    v "Isn’t this what we always wanted?"
+    voice1 "This is freedom isn’t it?"
+    voice1 "Isn’t this what we always wanted?"
     h "In a sense, it is the ultimate freedom, but what can I do with this freedom?"
     h "I feel nothing bad, but conversely, I feel nothing good."
     h "As though I am locked within a sensory deprivation tank and someone threw away the keys."
@@ -115,11 +115,11 @@ label P1C6:
     h "Give me a chance to feel something again."
     h "Give us our punishment."
     h "Give me a way out."
-    v "Who are you speaking for?"
-    v "I don’t want to die quite yet."
-    a_v "The majority of course"
-    a_v "The dominant thoughts win out"
-    a_v "Although, sometimes, it’s those nagging thoughts that grow like a parasite to eventually overpower the mundane ideas of the human mind."
+    voice1 "Who are you speaking for?"
+    voice1 "I don’t want to die quite yet."
+    a_voice "The majority of course"
+    a_voice "The dominant thoughts win out"
+    a_voice "Although, sometimes, it’s those nagging thoughts that grow like a parasite to eventually overpower the mundane ideas of the human mind."
     h "Let me kill myself."
     h "Let me end it."
     h "At least allow us the choice."
@@ -149,9 +149,9 @@ label P1C6:
     h "Everybody asked the question, but no one could provide a convincing answer."
     h "What does it mean to live all this life only to die."
     h "Were all my actions meaningless if we were only going to die in the end?"
-    v "No, that can’t be right"
-    v "Even if what we do does not last, doesn’t it mean something if we lived at all?"
-    a_v "Says who?"
+    voice1 "No, that can’t be right"
+    voice1 "Even if what we do does not last, doesn’t it mean something if we lived at all?"
+    a_voice "Says who?"
     h "How did I live with my mortality hanging over me?"
     h "I distracted myself with other things."
     h "I convinced myself life had a purpose despite there being no such evidence for such a thing beyond evolutionary needs."
@@ -231,10 +231,10 @@ label P1C6:
     h "Not much different from our current predicament is it not?"
     h "It brings us to question what we see."
     h "All of it."
-    v "Is anything I am seeing real?"
-    n "Look for clues."
-    n "If it is not real, then there should be inconsistencies."
-    n "A human mind is an imperfect one."
+    voice1 "Is anything I am seeing real?"
+    neurologist "Look for clues."
+    neurologist "If it is not real, then there should be inconsistencies."
+    neurologist "A human mind is an imperfect one."
     h "Indeed, it is hard to say"
     h "We could be dreaming it."
     h "Similarly, how do we know that we are not an artificial creation much like those bots that so many versions of me were tricked into interacting with unknowingly?"
@@ -258,10 +258,10 @@ label P1C6:
     h "Maybe I wished deep inside that I was human, that these memories and the strong feelings I recollect from them were real and meant more to me."
     h "\"Is there a way for me to know for sure\""
     h "\"A conclusive method to determine what is real and what is not?\""
-    s "Construct a hypothesis."
-    s "See what we can observe, and if our observations don’t match, then the hypothesis is false."
-    s "We need to collect empirical data and draw our conclusions."
-    s "Science is our only ally."
+    scientist "Construct a hypothesis."
+    scientist "See what we can observe, and if our observations don’t match, then the hypothesis is false."
+    scientist "We need to collect empirical data and draw our conclusions."
+    scientist "Science is our only ally."
     h "I don’t know if I am truly here."
     h "Past a perfect asteroid belt, nearing the orbit of a pristine and turbulent Jupiter, I have no way of understanding what \"here\" actually is."
     h "But I am a thinking entity capable of having a sense of self."
@@ -287,7 +287,7 @@ label P1C6:
     h "What if it is a matter of understanding this form to become a master of our destiny."
     h "When I lost my legs and arms in the past, when I lost my body, I created prosthetics and learned to control those over time."
     h "I do not know what means I have to control my environment, but if I needed to walk and I did not know if I had legs, then I would have never walked."
-    s "This is illogical, we have no proof."
+    scientist "This is illogical, we have no proof."
     h "I am unaware of the options that are laid out before me, but if they are there, then all it takes is a little bit of patience."
     h "The only way we still have a chance of imposing our will on the universe is by using my imagination and trying to move all the phantom limbs I may or may not have."
     h "It will be a long journey."

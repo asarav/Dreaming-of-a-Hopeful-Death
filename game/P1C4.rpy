@@ -4,7 +4,7 @@
 # name of the character.
 
 define h = Character("Humanity")
-define p = Character("Politician")
+define politician = Character("Politician")
 define one_of_billions = Character("One of Billions within Humanity")
 define a_child_among_billions = Character("A Child Among Billions")
 define a_believer = Character("A Believer Among Billions")
@@ -19,7 +19,7 @@ label P1C4:
     pause
     hide screen centeredbox
 
-    p "Do you know what year it is, or how long it has been since we have been trapped in this form?"
+    politician "Do you know what year it is, or how long it has been since we have been trapped in this form?"
     one_of_billions "I lost count after about twelve"
     one_of_billions "I don’t think we age anymore."
     one_of_billions "Does it still matter?"
