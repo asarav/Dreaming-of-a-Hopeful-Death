@@ -187,5 +187,5 @@ label P2C3:
     h "Regardless of where I was, where I am, when I lived, and who I am, the only thing I was entitled to were my own thoughts, and now, those were the most valuable possessions I had."
     h "The universe may forget us, but we refuse to forget ourselves and lose ourselves within the void."
 
-    # End the game here
-    return
+    jump P2C4
+
