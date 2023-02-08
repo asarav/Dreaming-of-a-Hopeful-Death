@@ -123,5 +123,4 @@ label P2C4:
     h "Some progress is made, but soon, everything returns back to its original state."
     h "We want to live in the moment, but to many, this moment is a never ending disappointment that we are unwilling to accept."
 
-    # End the game here
-    return
+    jump P2C5
