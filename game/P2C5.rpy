@@ -253,5 +253,4 @@ label P2C5:
     h "It should be one of transcendence and endless drive for more."
     h "That is what Humanity should be remembered as."
 
-    # End the game here
-    return
+    jump P2C6

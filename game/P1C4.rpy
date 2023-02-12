@@ -10,6 +10,8 @@ define a_child_among_billions = Character("A Child Among Billions")
 define a_believer = Character("A Believer Among Billions")
 define a_preacher = Character("A Preacher Among Billions")
 define astronomer = Character("An Astronomer Among Billions")
+image bg earth_view_orbit = "P1C4/bg P1C4_view_of_Earth_from_orbit.png"
+image bg earth_view_2 = "P1C4/bg P1C4_view_of_Earth_from_orbit_2.png"
 
 label P1C4:
     show screen centeredbox("{size=+10}Chapter 4: A Way Out?{/size}")
@@ -18,6 +20,8 @@ label P1C4:
     show screen centeredbox("Note: As the main character is the assimilation of billions of human beings, it uses the words \"I\" and \"we\" interchangeably based on how it feels.")
     pause
     hide screen centeredbox
+
+    scene bg earth_view_orbit
 
     politician "Do you know what year it is, or how long it has been since we have been trapped in this form?"
     one_of_billions "I lost count after about twelve"
@@ -42,6 +46,7 @@ label P1C4:
     a_preacher "Then who among us is most guilty?"
     h "A preacher's voice boomed across the emptiness of space from within me."
     a_preacher "Who is the one who has doomed us to this fate?"
+    scene bg earth_view_2
     h "An interesting question."
     h "Was it the soldiers that fought the wars?"
     h "No."

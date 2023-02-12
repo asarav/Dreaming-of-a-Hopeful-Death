@@ -4,7 +4,7 @@
 # name of the character.
 
 define h = Character("Humanity")
-image bg Humanity_on_hill = "bg P1C2_humanity_on_hill.png"
+image bg Humanity_on_hill = "P1C2/bg P1C2_humanity_on_hill.png"
 
 label P1C2:
     show screen centeredbox("{size=+10}Chapter 2: Birth{/size}")

@@ -4,7 +4,9 @@
 # name of the character.
 
 define h = Character("Humanity")
-image bg Prologue_witch_cabin = "bg Prologue_witch_cabin.png"
+image bg Prologue_witch_cabin = "prologue/bg Prologue_witch_cabin.png"
+image bg Prologue_kingdom = "prologue/bg Prologue_fantasy_kingdom.png"
+image bg Prologue_kingdom_2 = "prologue/bg Prologue_2_fantasy_kingdom.png"
 
 screen centeredbox(said):
     style_prefix "centered"
@@ -58,6 +60,9 @@ label prologue:
     show screen centeredbox("Initially, the witch acted cordially, healing the wounds of travelers and teaching them of the ways of the forest.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_kingdom
+
     show screen centeredbox("With time, as those from the civilized world began to grow less fearful of the forest, the lost traveler was replaced by the prospecting adventurer who wished for profit within the impenetrable woods.")
     pause
     hide screen centeredbox
@@ -76,6 +81,9 @@ label prologue:
     show screen centeredbox("Eventually, these excursions into the forest by these invaders declined as the kingdom reached the end of its tenure.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_kingdom_2
+
     show screen centeredbox("The statues withered to dust, and the kingdom which encroached upon the edge of the forest retreated as an extended civil war split the kingdom into two factions.")
     pause
     hide screen centeredbox

@@ -241,5 +241,4 @@ label P2C7:
     h "If the universe could speak back, maybe it would be my friend."
     h "Maybe it already is, and I just have not realized."
 
-    # End the game here
-    return
+    jump P2C8
