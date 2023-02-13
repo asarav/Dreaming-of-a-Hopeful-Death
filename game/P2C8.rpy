@@ -132,5 +132,4 @@ label P2C8:
     h "We had these very same thoughts before haven’t we?"
     h "You might be able to change your future actions to some degree, but unless you can turn back the clock, the past is set in stone."
 
-    # End the game here
-    return
+    jump P3C1
