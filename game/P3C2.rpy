@@ -324,5 +324,4 @@ label P3C2:
     h "They tell us of the mistakes we have made, the mistakes we are making, and the mistakes that we will make."
     h "All we can do in response is to simply dream another dream and hope for a satisfying ending."
 
-    # End the game here
-    return
+    jump P3C3
