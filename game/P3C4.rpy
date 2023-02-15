@@ -126,5 +126,4 @@ label P3C4:
     h "To never experience either is to experience true freedom through ignorance."
     h "At least then do we never experience our hopes and dreams being trampled by reality and ending in our passing which ultimately signifies nothing and leaves a fading legacy that too passes into insignificance with the march of time."
 
-    # End the game here
-    return
+    jump P4C1
