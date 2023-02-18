@@ -122,5 +122,4 @@ label P4C2:
     h "Life is a selfish existence that desires itself."
     h "Once it is gone, nothing will desire it ever again."
 
-    # End the game here
-    return
+    jump P4C3
