@@ -199,5 +199,4 @@ label P4C3:
     h "We may struggle, but we are still chained to the same sequence of events."
     h "So where would that leave us then?"
 
-    # End the game here
-    return
+    jump P4C4
