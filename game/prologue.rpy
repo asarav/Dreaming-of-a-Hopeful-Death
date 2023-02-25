@@ -7,6 +7,10 @@ define h = Character("Humanity")
 image bg Prologue_witch_cabin = "prologue/bg Prologue_witch_cabin.png"
 image bg Prologue_kingdom = "prologue/bg Prologue_fantasy_kingdom.png"
 image bg Prologue_kingdom_2 = "prologue/bg Prologue_2_fantasy_kingdom.png"
+image bg Prologue_witch_cabin_statues = "prologue/bg Prologue - A witch's cabin in a sizeable clearing in a large forest surrounded by human statues.png"
+image bg Prologue_field_statues = "prologue/bg Prologue - A clearing in a forest filled with statues of humans from all walks of life.png"
+image bg Prologue_princess_statue = "prologue/bg Prologue - A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest..png"
+image bg Prologue_princess_statue2 = "prologue/bg Prologue - 2 A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest..png"
 
 screen centeredbox(said):
     style_prefix "centered"
@@ -72,6 +76,9 @@ label prologue:
     show screen centeredbox("A decision needed to be made on the proper course of action and this decision resulted in a large-scale circle of transmutation which surrounded the witch’s territory.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_witch_cabin_statues
+
     show screen centeredbox("All who failed to heed the warnings placed on the edges of the circle were cursed to rapidly turn to stone when they trespassed into the domain of the witch.")
     pause
     hide screen centeredbox
@@ -108,9 +115,15 @@ label prologue:
     show screen centeredbox("Upon approaching the shadows, it became clear they held a humanoid form.")
     pause
     hide screen centeredbox
+    
+    scene bg Prologue_field_statues
+
     show screen centeredbox("She reached out with a hand, as though to ask for help, and it was in that position she stayed as stone crawled upon her arm to leave her as a landmark.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_princess_statue
+
     show screen centeredbox("Unable to speak, unable to move, unable to ask for help.")
     pause
     hide screen centeredbox
@@ -120,6 +133,10 @@ label prologue:
     show screen centeredbox("She wished that someone could save her.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_princess_statue2
+
+
     show screen centeredbox("Unfortunately, the witch no longer resided in the forest.")
     pause
     hide screen centeredbox

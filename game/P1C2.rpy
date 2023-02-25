@@ -4,7 +4,8 @@
 # name of the character.
 
 define h = Character("Humanity")
-image bg Humanity_on_hill = "P1C2/bg P1C2_humanity_on_hill.png"
+image bg P1C2_Humanity_on_hill = "P1C2/bg P1C2_humanity_on_hill.png"
+image bg P1C2_Humanity_on_hill2 = "P1C2/bg P1C2_army_of_humanity.png"
 
 label P1C2:
     show screen centeredbox("{size=+10}Chapter 2: Birth{/size}")
@@ -15,7 +16,7 @@ label P1C2:
     h "So, that cannot be what it was."
     h "I was standing, unclothed in a grassy plain on a clear, sunny day."
 
-    scene bg Humanity_on_hill
+    scene bg P1C2_Humanity_on_hill
 
     h "I have no recollection of how I arrived there, but I was there, and I was calm, as though I belonged there."
     h "The endless ripples of green which undulated up to the horizon were punctuated by clusters of trees..."
@@ -35,6 +36,9 @@ label P1C2:
     h "Then its eyes glanced behind me, and I saw a shadow cover the sun in its eyes and the face turn to one of apprehension."
     h "I turned around to see another figure."
     h "It was one with the same face, same hands, and same body— a clone of sorts."
+
+    scene bg P1C2_Humanity_on_hill2
+    
     h "I heard muffled footsteps and glanced in the direction of the sound to see another, and another, and another."
     h "The fields were full of them."
     h "They overcame the scenery that was there before and became the scenery."

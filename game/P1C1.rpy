@@ -5,6 +5,12 @@
 
 define h = Character("Humanity")
 
+image bg P1C1_empty_metropolis = "P1C1/bg P1C1 - A large modern metropolis devoid of any humans.png"
+image bg P1C1_empty_metropolis2 = "P1C1/bg P1C1 - 2 A large modern metropolis devoid of any humans.png"
+image bg P1C1_empty_metropolis3 = "P1C1/bg P1C1 - New York city after all humans have disappeared to leave it unmaintained..png"
+image bg P1C1_empty_metropolis4 = "P1C1/bg P1C1 - 2 New York city after all humans have disappeared to leave it unmaintained..png"
+
+
 label P1C1:
     show screen centeredbox("{size=+16}Dreaming of a Hopeful Death{/size}")
     pause
@@ -18,6 +24,9 @@ label P1C1:
     show screen centeredbox("{size=+10}Chapter 1: The Curse{/size}")
     pause
     hide screen centeredbox
+
+    scene bg P1C1_empty_metropolis
+
     show screen centeredbox("It is not always evolutionarily advantageous to be able to comprehend the fragility of one’s life and one’s race.")
     pause
     hide screen centeredbox
@@ -42,6 +51,9 @@ label P1C1:
     show screen centeredbox("Humanity is no exception.")
     pause
     hide screen centeredbox
+
+    scene bg P1C1_empty_metropolis2
+
     show screen centeredbox("From the smallest building block of reality to the entirety of the unobservable universe, although there is much to learn of within a single lifetime, there is infinitely more that will never be known even when given the lifetime of the universe to explore it.")
     pause
     hide screen centeredbox
@@ -66,6 +78,9 @@ label P1C1:
     show screen centeredbox("Ignorant of the large-scale phenomena that occur in other dimensions, humanity was unaware of the occurrences and beings that resided within higher dimensions and was naturally unprepared for the fate they would be cursed to for the remainder of all time.")
     pause
     hide screen centeredbox
+
+    scene bg P1C1_empty_metropolis3
+
     show screen centeredbox("Like stepping on an ant is to a human, an eldritch being operating beyond the third dimension mutated all living humans into a single entity within an instant.")
     pause
     hide screen centeredbox
@@ -75,6 +90,9 @@ label P1C1:
     show screen centeredbox("In the next, humanity was one entity with the memories of all living humans at the time, leaving the earth to all other species to fill the void.")
     pause
     hide screen centeredbox
+
+    scene bg P1C1_empty_metropolis4
+
     show screen centeredbox("Society and civilization became one sentient being and in doing so, the nature of human existence was forever changed.")
     pause
     hide screen centeredbox

@@ -4,15 +4,16 @@
 # name of the character.
 
 define h = Character("Humanity")
-image bg Current_Universe = "P1C3/bg P1C3_our_current_universe.png"
-image bg Current_Universe_2 = "P1C3/bg P1C3_our_current_universe_2.png"
+image bg P1C3_Current_Universe = "P1C3/bg P1C3_our_current_universe.png"
+image bg P1C3_Current_Universe_2 = "P1C3/bg P1C3_our_current_universe_2.png"
+image bg P1C3_internet = "P1C3/bg P1C3 - 2 The metaverse an ocean of information that can be traversed at the speed of thought.png"
 
 label P1C3:
     show screen centeredbox("{size=+10}Chapter 3: The Stelliferous Era{/size}")
     pause
     hide screen centeredbox
 
-    scene bg Current_Universe
+    scene bg P1C3_Current_Universe
 
     show screen centeredbox("We are now witness to the Stelliferous Era which is the successor of the Primordial Era.")
     pause
@@ -44,7 +45,7 @@ label P1C3:
     show screen centeredbox("Population I stars define the modern age and it is one such star that humans called their home.")
     pause
 
-    scene bg Current_Universe_2
+    scene bg P1C3_Current_Universe_2
     
     hide screen centeredbox
     show screen centeredbox("The solar system within which Earth is located is a collection of planetary bodies that revolve around the star that humans have called Sol after the Latin word for sun.")
@@ -173,6 +174,9 @@ label P1C3:
     show screen centeredbox("The ability to represent almost anything in a digital format and present information in an understandable manner led to widespread adoption of the technology.")
     pause
     hide screen centeredbox
+
+    scene bg P1C3_internet
+
     show screen centeredbox("This, combined with the ability to communicate digitally with a computer brought about a primitive representation of society’s sea of consciousness which was called the internet.")
     pause
     hide screen centeredbox
