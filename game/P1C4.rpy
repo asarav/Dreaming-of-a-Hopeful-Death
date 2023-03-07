@@ -12,6 +12,10 @@ define a_preacher = Character("A Preacher Among Billions")
 define astronomer = Character("An Astronomer Among Billions")
 image bg earth_view_orbit = "P1C4/bg P1C4_view_of_Earth_from_orbit.png"
 image bg earth_view_2 = "P1C4/bg P1C4_view_of_Earth_from_orbit_2.png"
+image bg mars_view = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_1.png"
+image bg mars_view_2 = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_2.png"
+image bg mars_view_3 = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_3.png"
+image bg night_sky = "P1C4/bg P1C4_the_night_sky_with_all_the_planets_of_our_solar_system.png"
 
 label P1C4:
     show screen centeredbox("{size=+10}Chapter 4: A Way Out?{/size}")
@@ -91,6 +95,7 @@ label P1C4:
     h "Whether it be through boredom, an unwarranted enmity, or self-hatred, those around me turned against me."
     h "However, those moments were in the minority as I spent the majority of my time in a cell, watching an unchanging scenery from behind a set of bars."
     h "Trapped ‘til death do us part."
+    scene bg mars_view
     astronomer "There’s no need to count the years"
     astronomer "The stars can tell us exactly how long it has been."
     h "Astronomical dating."
@@ -98,9 +103,11 @@ label P1C4:
     h "But I am merely an accumulation of all living humans in the form of a single individual."
     h "I have all my senses, but I do not appear to have a human body."
     h "My vision is that of a human’s."
+    scene bg mars_view_2
     h "My hearing, if it worked in this empty vacuum of space, is most likely the same."
     h "There is no air here, but if I could smell, what scent would I recognize?"
     h "Taste? Taste is not even worth mentioning."
+    scene bg mars_view_3
     h "If I could speak, even if someone could hear me, what could I say?"
     h "The stars in the distance were dim and did not twinkle."
     h "There was no telescope here."
@@ -108,6 +115,7 @@ label P1C4:
     h "Nothing can be made, and nothing can be used except for my mind."
     h "Physical autonomy was a thing of the past."
     h "Sometimes, I would catch a comet or planetary bodies in the form of colored dots when the sun was behind me."
+    scene bg night_sky
     h "It was a rough guess, but we think that it has been almost a century."
     h "A century of nothing."
     h "I have eyes but I cannot close them."
