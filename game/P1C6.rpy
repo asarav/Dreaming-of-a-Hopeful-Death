@@ -10,7 +10,11 @@ define executive = Character("An Executive Among Billions")
 define neurologist = Character("A Neurologist Among  Billions")
 define scientist = Character("A Scientist Among  Billions")
 
+image bg rat_race = "P1C6/bg P1C6 A painting of the insidious nature of the modern life and work.png"
+image bg rat_race2 = "P1C6/bg P1C6 An oil painting of the insidious nature of the modern rat race.png"
+
 label P1C6:
+    scene bg rat_race
     show screen centeredbox("{size=+10}Chapter 6: The Absent Self{/size}")
     pause
     hide screen centeredbox
@@ -24,6 +28,7 @@ label P1C6:
     h "Watch them grow."
     h "Retire."
     h "Live the last moments of your life in regret."
+    scene bg rat_race2
     h "Question whether you will be remembered by anyone after you are gone while knowing that your accomplishments were not unique in the slightest despite doing everything right."
     h "See yourself wither and die a mundane death."
     h "Rinse and repeat."

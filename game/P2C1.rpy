@@ -5,7 +5,13 @@
 
 define h = Character("Humanity")
 
+image bg degenerate_era = "P2C1/bg P2C1 A universe of dying stars and red giants.png"
+image bg degenerate_era2 = "P2C1/bg P2C1 A universe of dying stars and red giants 2.png"
+image bg spacefaring_civilizations = "P2C1/bg P2C1 A painting of space faring civilizations in the galaxy.png"
+image bg spacefaring_civilizations2 = "P2C1/bg P2C1 A painting of space faring civilizations in the galaxy 2.png"
+
 label P2C1:
+    scene bg degenerate_era
     show screen centeredbox("{size=+12}Part 2: Wishes from a Past Far Gone{/size}")
     pause
     hide screen centeredbox
@@ -30,6 +36,7 @@ label P2C1:
     show screen centeredbox("The beginnings of a death march can be seen here leaving behind a deep, dark trail of blood.")
     pause
     hide screen centeredbox
+    scene bg degenerate_era2
     show screen centeredbox("The stars that still exist are white dwarfs, brown dwarfs, neutron stars, or have collapsed into a black hole.")
     pause
     hide screen centeredbox
@@ -45,6 +52,7 @@ label P2C1:
     show screen centeredbox("Like a tree is to a human, these alternate lifeforms operate on time scales that are incomprehensible to the traditional forms we saw in the past.")
     pause
     hide screen centeredbox
+    scene bg spacefaring_civilizations
     show screen centeredbox("Traditional forms of life cling to any remaining planets and stars like shipwreck survivors drifting at sea.")
     pause
     hide screen centeredbox
@@ -66,6 +74,7 @@ label P2C1:
     show screen centeredbox("It is as though there is drought approaching the oases in the desert, and what good soil remains is quickly turning to dry sand.")
     pause
     hide screen centeredbox
+    scene bg spacefaring_civilizations2
     show screen centeredbox("The resources needed for large-scale projects that can potentially create new discoveries needed to break off the current cycles of meager subsistence are insufficient.")
     pause
     hide screen centeredbox
