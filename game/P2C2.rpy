@@ -5,7 +5,15 @@
 
 define h = Character("Humanity")
 
+image bg first_steps = "P2C2/bg P2C2 A child taking its first steps.png"
+image bg first_steps2 = "P2C2/bg P2C2 A painting of a child taking its first steps.png"
+image bg blurry_childhood = "P2C2/bg P2C2 A painting of the blurry memories of childhood.png"
+image bg blurry_childhood2 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 2.png"
+image bg blurry_childhoo3 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 3.png"
+image bg blurry_childhood4 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 4.png"
+
 label P2C2:
+    scene bg first_steps
     show screen centeredbox("{size=+10}Chapter 8: The Miraculous Odyssey towards Adversity{/size}")
     pause
     hide screen centeredbox
@@ -30,6 +38,7 @@ label P2C2:
     h "None of this meant anything for me."
     h "I simply wanted."
     h "I simply did."
+    scene bg first_steps2
     h "And in the process, I simply learned."
     h "Which brought me to the decision to take my first step."
     h "I am not sure what brought me up from the ground in all those lives."
@@ -67,6 +76,7 @@ label P2C2:
     h "Each day, with each time, I would add another step to my personal record."
     h "I would make it further and further, and my body would change and adapt to help me."
     h "Then, one day, I reached the end, and what was once one of the greatest challenges simply became a milestone on a series of landmarks along the way to old age and eventually death."
+    scene bg blurry_childhood
     h "From that moment, my greatest concerns would continue to be forward looking, while occasionally being grateful for the past."
     h "I rarely considered the series of events that led up to this point, and took whatever occurred for granted irrespective of how improbable as though I deserved it and was entitled to it for simply being alive."
     h "Every time I looked back, all I thought was how quickly time passed as though everything was a whirl when in reality, the passage of time did not quicken nor slow."
@@ -77,6 +87,7 @@ label P2C2:
     h "The universe needed to form, and our reality needed to have certain rules."
     h "Time needed to flow forward."
     h "Matter needed to exist."
+    scene bg blurry_childhood2
     h "The Earth needed to be placed in the appropriate location within the solar system."
     h "It needed a moon and the gravitational force it exerted."
     h "It needed the right combination of elements and molecules and a certain amount of energy for the formation of the foundational building blocks of life."
@@ -92,6 +103,7 @@ label P2C2:
     h "Even when considering events after the appearance of Homo Sapiens, there was no shortage of things that had to go right to bring us to this point."
     h "Ignoring all the inventions, the rise and fall of civilizations, when looking at what individuals themselves needed to accomplish, it is quite clear that all of the stars needed to align accordingly."
     h "Our ancestors needed to survive genocides, disasters, and outlive their competition long enough to form families and find offspring."
+    scene bg blurry_childhood2
     h "What of my parents—these people who stood at the end of a room waiting for me to walk towards them with the utmost patience?"
     h "My parents needed to be born, and they needed to be born without severe defects or impairments."
     h "They needed to live long enough to reach the point where they could meet, know one another, and decide to stay together."
@@ -105,6 +117,7 @@ label P2C2:
     h "One often wonders when this collection of cells becomes a human, but what is quite clear is that there is a point where this alien soul turns from..."
     h "something subjectively perceived as merely a clump of flesh to something that might be more, something that is human."
     h "Where this point lies is unclear, and dependent on each person."
+    scene bg blurry_childhood3
     h "To some, the child does not feel human even after birth, and it is only when it is able to express itself meaningfully that it is acknowledged as a human with intelligent thoughts and self-awareness."
     h "While for others, the human spark started well before its conception, as though the human was born billions of years before it even gained a physical form."
     h "There is no denying that the connection between the mother and the child leads to the question of whether these were two individuals prior to birth instead of just one."
@@ -117,6 +130,7 @@ label P2C2:
     h "The notion that I have nothing but squandered chances lying in store for me is a fear I have that dwarfs all other fears, and I am terrified that I can do nothing about it."
     h "Whenever I am reminded of this, all the joyful moments of the past morph into demons that torment me with prophecies of rapture and judgment in the future."
     h "To this day, I still do not know who I am, and what I want to be."
+    scene bg blurry_childhood4
     h "I can barely remember the children I once were."
     h "In place of the childlike wonder I had and the liberty I felt despite being only a child, is a deafening cynicism that stands in stark contrast to what we once were."
     h "Whether this is cause to be afraid is something I have yet to know and yet I still dread whatever is to come next despite knowing nothing."
