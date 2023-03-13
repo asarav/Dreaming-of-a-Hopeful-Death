@@ -5,7 +5,14 @@
 
 define h = Character("Humanity")
 
+image bg zooming_through_universe = "P2C3/bg P2C3 A first person view of traveling through space at light speed in the style of Leonardo Da Vinci.png"
+image bg traveling_for_centuries = "P2C3/bg P2C3 Traveling through the vastness of space for hundreds lightyears in the style of Henry Fuseli.png"
+image bg galaxies_colliding = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli.png"
+image bg galaxies_colliding2 = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli 2.png"
+image bg galaxies_colliding3 = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli 3.png"
+
 label P2C3:
+    scene bg zooming_through_universe
     show screen centeredbox("{size=+10}Chapter 9: Infinite Failure{/size}")
     pause
     hide screen centeredbox
@@ -18,6 +25,7 @@ label P2C3:
     h "A level that is orders of magnitude beyond any meditation, any prison sentence, and any ordeal."
     h "The human mind was not designed for such a thing, and yet here we are."
     h "It is a mental marathon of unprecedented proportions."
+    scene bg traveling_for_centuries
     h "It seems that our plight was predetermined and any struggles were ultimately futile."
     h "In such a situation, patience and resilience were the closest thing to stopgaps which could save us from the periodic episodes of plunging into mental abysses from which we escaped only by clawing our way out."
     h "It was a meager existence of falling in and climbing desperately out over and over again with no end in sight."
@@ -150,15 +158,18 @@ label P2C3:
     h "Although my perception of time may explain how much time passed for me, it does not tell us how much time has passed in the greater universe."
     h "I left the Milky Way galaxy with my companions in tow and left for the realm of nomads, strangers, and orphans, where everything was an endangered species."
     h "Here, there was even less than there was in the emptiness of the galaxy."
+    scene bg galaxies_colliding
     h "The spaces grew wider, and I began to approach speeds that resulted in time dilation."
     h "I felt as though I was chasing after cars and watching them fly away."
     h "Whatever light there was formed streaks in my vision, blurring my periphery while the galaxies off in the distance shone brightly in a seductive manner."
     h "They were beckoning to me to visit."
     h "I realized, however, that the chances of sojourning to such large places were slim."
+    scene bg galaxies_colliding2
     h "As far away as planets and stars were from one another, that did not even remotely compare with that of galaxies."
     h "Even the Andromeda galaxy, which was our closest neighbor, was millions of light years away, and at this point, I understood that the world of matter and light was.."
     h "in the minority, and nothingness was to be my reality for the foreseeable future."
     h "Even with the dilation of time, it is still a long period of time to witness the dying of creation."
+    scene bg galaxies_colliding3
     h "It was just like that stage in life where I was behind bars in a cell."
     h "Time passed, but I could no longer tell."
     h "The outside world to me was just bland concrete and unchanging routine forced onto all of us at the prison."

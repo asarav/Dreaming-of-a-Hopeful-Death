@@ -5,6 +5,10 @@
 
 define h = Character("Humanity")
 
+image bg megastructures_from_far = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich.png"
+image bg megastructures_from_far2 = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich 2.png"
+image bg megastructures_from_far3 = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich 3.png"
+
 label P2C6:
     show screen centeredbox("{size=+10}Chapter 12: The Collapse{/size}")
     pause
