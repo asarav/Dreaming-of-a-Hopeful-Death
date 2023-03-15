@@ -6,7 +6,12 @@
 define h = Character("Humanity")
 define voice1 = Character("A Voice Among Billions")
 
+image bg school_recess = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya.png"
+image bg school_recess2 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 2.png"
+image bg school_recess3 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 3.png"
+
 label P2C4:
+    scene bg school_recess
     show screen centeredbox("{size=+10}Chapter 10: The Lives of Others{/size}")
     pause
     hide screen centeredbox
@@ -17,6 +22,7 @@ label P2C4:
     h "The rest was determined by society."
     h "But here, there is no society."
     h "We can be whatever we wish and rewrite the rules as we see fit."
+    scene bg school_recess2
     h "Yes, here I am, there is a playground."
     h "What should I include in it?"
     h "A slide, some swings, a few trees and rocks to climb, and unlimited recess."
@@ -24,6 +30,7 @@ label P2C4:
     h "But there’s something missing."
     h "Oh yes."
     h "Friends."
+    scene bg school_recess3
     h "How many should I have?"
     h "I should have a lot."
     h "But that sounds tiresome."
