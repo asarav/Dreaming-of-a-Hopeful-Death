@@ -5,19 +5,29 @@
 
 define h = Character("Humanity")
 
+image bg alone_in_a_crowded_society = "P2C7/bg P2C7 Being alone in a crowded society.png"
+image bg alone_in_a_crowded_society2 = "P2C7/bg P2C7 Being alone in a crowded society 2.png"
+image bg alone_in_a_crowded_society3 = "P2C7/bg P2C7 Being alone in a crowded society 3.png"
+image bg greed_envy_gluttony = "P2C7/bg P2C7 Greed, envy, and gluttony leading to the suffering of the human race.png"
+image bg pride_of_civilization = "P2C7/bg P2C7 The pride of human civilization becoming its downfall.png"
+image bg pride_of_civilization2 = "P2C7/bg P2C7 The pride of human civilization becoming its downfall 2.png"
+
 label P2C7:
     show screen centeredbox("{size=+10}Chapter 13: Stranded{/size}")
     pause
     hide screen centeredbox
 
+    scene bg alone_in_a_crowded_society
     h "In a sense, we are all born alone, live alone, and die alone."
     h "This is the predicament of all life."
     h "The presence of others is merely a distraction from this fact."
+    scene bg alone_in_a_crowded_society2
     h "There is nothing here but me."
     h "The thoughts I think are mine."
     h "You standing there before me is only of significance if I notice you and acknowledge your presence."
     h "Otherwise, your existence is diminished."
     h "If you were out of my sight, and I did not hear you or notice your influence on my world, you would effectively not exist to me for that moment."
+    scene bg alone_in_a_crowded_society3
     h "We are all isolated from one another."
     h "This is a double edged sword."
     h "On one hand, you have a sense of privacy, and by keeping yourself separated from others, you can generate a unique identity."
@@ -129,6 +139,7 @@ label P2C7:
     h "The tactile sensation of another person’s skin, the emanation of warmth radiating through human contact."
     h "The understanding that we are separate individuals brought together is one that I cannot stop longing for."
     h "You do not need others to live, and yet it hurts to be without them, like holding your heart over a vat of liquid nitrogen and feeling it gradually freeze into a hard mass of flesh that can easily shatter when dropped."
+    scene bg pride_of_civilization
     h "Simultaneously, the presence of others can be like holding your heart over an open flame and feeling it slowly turn to cinders like your personality is being eroded away bit by bit."
     h "Others can be hurtful and unforgiving."
     h "They can insult you, reject you, and deny you of any dignity at a moment's notice."
@@ -136,6 +147,7 @@ label P2C7:
     h "However, trust is difficult to build and easy to destroy."
     h "Often, backstabbing and treachery have even been rewarded and have been a strategic and pragmatic choice."
     h "One moment you are a friend, and the next, you are a stepping stone."
+    scene bg pride_of_civilization2
     h "The whims of humans are fickle, and betrayal and shame can be directed towards you without warning."
     h "This is the nature of human relationships."
     h "There is the experience of being cheated and the experience of cheating."
@@ -180,6 +192,7 @@ label P2C7:
     h "All we were meant to do was to handle any obstacle that came our way, get a leg up on any and all competition, and leave behind offspring that would be doomed to do the same thing."
     h "Even if we built utopias, how long can such a thing stay intact?"
     h "All civilizations rise and fall."
+    scene bg greed_envy_gluttony
     h "People grow greedy, and the cycle of misery continues."
     h "The utopias that celebrate our individuality rather than use our individual nature as a way to force responsibilities that were no longer needed would never last."
     h "We can say that one day we could have lived in a time when others would not have stomped on our creativity and imposed their views on our identities, race, sexualities and backgrounds."

@@ -5,9 +5,17 @@
 
 define h = Character("Humanity")
 
+image bg dying_civilizations = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzisław Beksiński.png"
+image bg dying_civilizations2 = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzisław Beksiński 2.png"
+image bg first_contact = "P2C6/bg P2C6 First contact with extraterrestrials in the style of Zdzisław Beksiński.png"
+image bg intergalactic_wars = "P2C6/bg P2C6 Intergalactic wars in the far future. photorealistic.png"
+image bg intergalactic_wars2 = "P2C6/bg P2C6 Intergalactic wars in the far future. photorealistic 2.png"
+image bg merchant_ships = "P2C6/bg P2C6 Merchant ships that are are traveling across the galaxy as part of intergalactic trade networks. photorealistic.png"
 image bg megastructures_from_far = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich.png"
 image bg megastructures_from_far2 = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich 2.png"
 image bg megastructures_from_far3 = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich 3.png"
+image bg telepathic_communication = "P2C6/bg P2C6 Telepathic communication with other civilizations across thousands of light years in the style of Leonardo da Vinci.png"
+image bg telepathic_communication2 = "P2C6/bg P2C6 Telepathic communication with other civilizations across thousands of light years in the style of Leonardo da Vinci 2.png"
 
 label P2C6:
     show screen centeredbox("{size=+10}Chapter 12: The Collapse{/size}")
@@ -29,6 +37,7 @@ label P2C6:
     h "The more advanced species built megastructures that were visible from space and some of these structures were even larger than planets."
     h "At some point, I imagine chemical rockets were too rudimentary, and they required larger structures that could help them reach orbit and siphon energy and resources from other parts of their solar systems."
     h "This must have been especially true for those worlds with higher gravity."
+    scene bg megastructures_from_far
     h "In my travels, there was one planet I saw that was in the beginning stages of colonizing their system and going interstellar."
     h "It had an orbital ring around it that circled the equator."
     h "Meanwhile, at the Lagrangian point, where the gravitational pull between the planet and their sun was effectively the same, was a large grid that would fire out high powered lasers periodically."
@@ -44,6 +53,7 @@ label P2C6:
     h "Their ambitions seemed to extend over millennia, to the outer reaches of their galaxy, and towards the end of the universe’s lifespan."
     h "Ambition, however, is not a rarity among the spacefaring generations of the various races that dot the cosmos, but culture and approach is."
     h "We were witness to another system that had similar megastructures and incredible engineering, but it was distinctive in that those aforementioned structures appeared to have been present for an extremely long period of time."
+    scene bg megastructures_from_far2
     h "Most structures like space elevators and space bridges, which were once thought impossible to construct in our time, have been bleached by solar radiation and broken into fragments due to impacts from space junk."
     h "Somehow the planets had their orbits altered to the point where their orbits were in perfect alignment, allowing for bridges to be made to connect the planets together."
     h "I do not understand how such alignments could be maintained in the long term when considering that the impact of the gravitational pull of moons and collisions from non-planetary bodies could easily misalign the configuration."
@@ -53,6 +63,7 @@ label P2C6:
     h "I do not know what it took to do this, or how long, but what is clear is that it must have taken a great deal of creativity to resolve to construct such an unconventional thing."
     h "I imagine with each revolution, the planets traveled across the system like the hand of a clock, ticking away along a two dimensional plane even after their creators were long gone."
     h "I wondered what could have happened for a civilization to go dark as this one has."
+    scene bg megastructures_from_far3
     h "Was it system level apocalypse, or were they spirited away?"
     h "As I darted away from this system, I saw, out in the cold reaches of space far from any star, a large solar system sized object that did not match anything I have seen previously."
     h "It was a large metallic object with corridors and grooves that zigzagged along its length, forming labyrinths of metal."
@@ -81,10 +92,12 @@ label P2C6:
     h "Is it loud and bombastic, or quiet and precise?"
     h "How is it fought?"
     h "Although I never found out the identity of this giant hunk of metal, I would learn well how interstellar wars are fought in the billions and trillions of years to come."
+    scene bg first_contact
     h "By this point, it became apparent that not only was there life throughout the universe, but there were also many intelligent species, some of which managed to become space faring."
     h "The spacefaring civilizations, while they may have been few when we landed on the moon and walked on Mars, became more widespread in the eras and epochs afterwards, growing in number and diversity."
     h "Not only were we living in a galaxy teeming with life, but we were living in a galaxy that acted as the playground of many intelligent species."
     h "Each of these held their own culture, their own views on life, and approached their growth and spread in different ways."
+    scene bg merchant_ships
     h "For those that could communicate with each other upon contact, I imagine they would open lines of trade and collaborate on large projects."
     h "There is no way to know for sure, but the patterns of movement, and interactions between spaceships that appeared to have designs originating from differing schools of thought indicated a level of interplay between multiple species on an interstellar level."
     h "Of course, this is merely speculation."
@@ -94,10 +107,12 @@ label P2C6:
     h "We could only extrapolate from the observations that we made based on past experience, and in an existence where all I could do was observe and theorize without consequence, my imagination led me down multiple interesting realms of possibilities."
     h "Sooner or later, I found myself questioning, given the nature of the large spans of distance between stars and systems and the way in which different systems travel throughout the galaxy, how can communication be handled effectively if it is limited to the speed of light?"
     h "I am willing to bet that these civilizations have mastered the quantum realm and may be capable of using small artificially created wormholes to send messages."
+    scene bg telepathic_communication
     h "This would enable the flow of information to be instantaneous regardless of the distance and limitations imposed upon us by relativity."
     h "This means that communication between civilizations may actually be like our interactions over the internet: seemingly instant, overflowing with information, and effectively connecting multiple physical places in digital form."
     h "When the internet was made available to the average person, it allowed for a homogenizing of culture across the world where people could interact with each other regardless of the country that they were from."
     h "The main dividers seemed to be that of language and hardware."
+    scene bg telepathic_communication2
     h "However, if a civilization has reached a sufficiently high level of advancement, then would it not be true that language would not be a barrier?"
     h "Similarly, differences in hardware or technology can easily be remedied by providing the appropriate information regarding how to manufacture and improve hardware to allow for new functionality."
     h "The phenomenon of homogenization may not be limited to the tools of communication, but also perhaps physical bodies."
@@ -164,16 +179,20 @@ label P2C6:
     h "If it were not for the expansion of the universe, I believe these creatures would have spread through the cosmos like a virus and supplanted the status quo."
     h "Fortunately, they did not, and I could enjoy the fruits of advanced civilizations without limit till the end."
     h "The end, if it could be called that, was gradual."
+    scene bg dying_civilizations
     h "It was a slow process that took place over trillions of years and was a long period of turbulence, uncertainty, and a slow dying."
     h "It was like watching a sick, old man with labored breathing fight to live when a quick, merciful end might have been for the best."
     h "As time passed, the civilizations that kept pace on my journey began to drop away."
+    scene bg dying_civilizations2
     h "Some of them were wiped out in wars where they fought over the empty region of space that I occupied."
     h "These wars were not dissimilar to watching ants and insects fight."
+    scene bg intergalactic_wars
     h "It was, from a distance, like watching large armies in intricate geometrical shapes change configuration over and over until one side was no longer left."
     h "If I had to liken it to something, it was like watching a game of Go."
     h "However, where Go might be played by two players on a flat board with a grid, this was a game with far more complexity."
     h "It was a game with trillions or even quadrillions of players, an endless, continuous grid, and it took place in at least three dimensions."
     h "The strategic foresight on each and every spaceship, on each army, was something that would make the most intelligent human seem as smart as a rock and I imagine the toll was something that would make the worst of humanity’s past atrocities against their fellow man seem peaceful or merciful in comparison."
+    scene bg intergalactic_wars2
     h "Then there were the eccentric."
     h "Some of those who were not wiped out in war wasted their resources building strange, functionless structures wherever I went as though they were planting flags."
     h "These were beautiful and intricate pieces that seemed to have artistic value, but art is a very subjective thing."

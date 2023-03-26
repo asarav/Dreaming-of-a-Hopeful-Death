@@ -8,6 +8,15 @@ define economist = Character("An Economist Among Billions")
 define voice1 = Character("A Voice Among Billions")
 define activist = Character("An Activist Among Billions")
 
+image bg meaningless_afterlife = "P2C5/bg P2C5 A meaningless afterlife in the style of Zdzisław Beksiński.png"
+image bg meaningless_afterlife2 = "P2C5/bg P2C5 A meaningless afterlife in the style of Zdzisław Beksiński 2.png"
+image bg crushing_the_competition = "P2C5/bg P2C5 Crushing the competition in the style of Zdzisław Beksiński.png"
+image bg cursing_the_next_generation = "P2C5/bg P2C5 Cursing the next generation to the pain of living in modern society in the style of Zdzisław Beksiński.png"
+image bg cursing_the_next_generation2 = "P2C5/bg P2C5 Cursing the next generation to the pain of living in modern society in the style of Zdzisław Beksiński 2.png"
+image bg cursing_the_next_generation3 = "P2C5/bg P2C5 Cursing the next generation to the pain of living in modern society in the style of Zdzisław Beksiński 3.png"
+image bg the_ego_of_the_human_race = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli.png"
+image bg the_ego_of_the_human_race2 = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli 2.png"
+
 label P2C5:
     show screen centeredbox("{size=+10}Chapter 11: Why{/size}")
     pause
@@ -53,23 +62,27 @@ label P2C5:
     h "Suffering was an industry."
     h "Damage was an industry."
     h "We became good at it and optimized it as though it was an essential part a manufacturing pipeline."
+    scene bg crushing_the_competition
     h "We turned it into a mantra, an anthem, and made it the new set of commandments supporting the new world order."
     h "Cheapen the labor."
     h "Slash and burn."
     h "Push them out into the cold streets."
     h "Leave them to die."
     h "Place them in chains."
+    scene bg cursing_the_next_generation
     h "Poison the well after drinking from it."
     h "Take their souls."
     h "Own their bodies."
     h "Take their wealth."
     h "Leave them with nothing."
+    scene bg cursing_the_next_generation2
     h "Have them beg for a morsel."
     h "Make them grateful for what little they have."
     h "Distract them from the truth."
     h "Take what's mine."
     h "Pillage."
     h "Plunder."
+    scene bg cursing_the_next_generation3
     h "Celebrate it all as achievements."
     h "Eat when you are hungry."
     h "Drink when you are thirsty."
@@ -93,6 +106,7 @@ label P2C5:
     h "Win no matter the cost."
     h "Second place is just the first loser."
     h "Sympathy is for fools."
+    scene bg the_ego_of_the_human_race
     h "Can’t pay?"
     h "Get lost."
     h "Can’t work?"
@@ -130,6 +144,7 @@ label P2C5:
     h "Be it through pride, stupidity, shame, greed, guilt, envy or a mixture of these qualities, the ugliness of humanity is clear to see when it is on full display."
     h "In the past when information was limited to the privileged, it was difficult to see the world ruled by humans as what it truly was."
     h "However, in modern times where everyone was connected with each other, there was no shortage of the grime and filth that was publicized and broadcasted."
+    scene bg the_ego_of_the_human_race2
     h "Some of it was even heralded as an example of good."
     h "And now, when we are zooming through reality on a time warping track to the future, it is undeniable."
     h "I am flawed."
@@ -218,6 +233,7 @@ label P2C5:
     h "No ritual killings, fewer idols, less suffering, more truth."
     h "No angry mobs and riots."
     h "All the terrible deeds I did in the name of God may have never been needed in the first place."
+    scene bg meaningless_afterlife
     h "What a waste of time."
     h "What a waste of thought."
     h "What a waste of energy."
@@ -226,6 +242,7 @@ label P2C5:
     h "If there is an afterlife, would I change anything?"
     h "Would I still think these thoughts?"
     h "It depends on whether we desire an afterlife."
+    scene bg meaningless_afterlife2
     h "After living in this purgatory of eternal gloom, spending another eternity anywhere else just seems like another unreasonable punishment."
     h "Whether it be heaven or hell, I am tired, very tired."
     h "I simply do not have it in me to do this again."
