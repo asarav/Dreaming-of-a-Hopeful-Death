@@ -5,17 +5,24 @@
 
 define h = Character("Humanity")
 
+image bg the_last_dance_in_ballroom = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich.png"
+image bg the_last_dance_in_ballroom2 = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich 2.png"
+image bg alone_in_ballroom2 = "P2C8/bg P2C8 Alone in a ballroom in the style of Caspar David Friedrich.png"
+
 label P2C8:
     show screen centeredbox("{size=+10}Chapter 14: No More Chances{/size}")
     pause
     hide screen centeredbox
 
+    scene bg the_last_dance_in_ballroom
     h "It is like the last dance in a ballroom."
     h "You take your partner’s hand and either lead them or are led in response to the music that echoes through the lavish hall."
     h "There is a rush of euphoria that gives you momentum with each step you take that matches the beat and changes in the song accordingly."
     h "It is not only a conversation between yourself and your partner, but also between yourselves and the musicians performing at the front of the hall."
+    scene bg the_last_dance_in_ballroom2
     h "The more sophisticated and difficult the movements, the greater the sense of accomplishment."
     h "Before you know it, the song is already over."
+    scene bg alone_in_ballroom2
     h "You ask for one more dance, but you find yourself reaching your hand out to someone who is no longer there."
     h "Old age has caught up."
     h "Your joints ache, and rheumatism prevents you from matching the rhythm."
