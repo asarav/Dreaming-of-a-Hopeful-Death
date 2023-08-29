@@ -65,7 +65,7 @@ label prologue:
     pause
     hide screen centeredbox
 
-    scene bg Prologue_kingdom
+    scene bg Prologue_kingdom_2
 
     show screen centeredbox("With time, as those from the civilized world began to grow less fearful of the forest, the lost traveler was replaced by the prospecting adventurer who wished for profit within the impenetrable woods.")
     pause
@@ -89,11 +89,13 @@ label prologue:
     pause
     hide screen centeredbox
 
-    scene bg Prologue_kingdom_2
 
     show screen centeredbox("The statues withered to dust, and the kingdom which encroached upon the edge of the forest retreated as an extended civil war split the kingdom into two factions.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_kingdom
+
     show screen centeredbox("The royal family was being hunted and escaped by foot into the forest.")
     pause
     hide screen centeredbox
@@ -109,20 +111,22 @@ label prologue:
     show screen centeredbox("Crawling through the thickets, her hands bled as she blindly scrambled in the dark in search of shelter.")
     pause
     hide screen centeredbox
+
+    scene bg Prologue_field_statues
+
     show screen centeredbox("After hours of searching, her hopes were met in the form of a clearing partially illuminated by the moonlight.")
     pause
     hide screen centeredbox
     show screen centeredbox("Upon approaching the shadows, it became clear they held a humanoid form.")
     pause
     hide screen centeredbox
-    
-    scene bg Prologue_field_statues
+
+    scene bg Prologue_princess_statue
 
     show screen centeredbox("She reached out with a hand, as though to ask for help, and it was in that position she stayed as stone crawled upon her arm to leave her as a landmark.")
     pause
     hide screen centeredbox
 
-    scene bg Prologue_princess_statue
 
     show screen centeredbox("Unable to speak, unable to move, unable to ask for help.")
     pause
