@@ -6,13 +6,26 @@
 define h = Character("Humanity")
 image bg P1C2_Humanity_on_hill = "P1C2/bg P1C2_humanity_on_hill.png"
 image bg P1C2_Humanity_on_hill2 = "P1C2/bg P1C2_army_of_humanity.png"
+image bg P1C2_womb = "P1C2/bg P1C2 - A hazy and ethreal dream from the womb.png"
+image bg P1C2_womb2 = "P1C2/bg P1C2 - A hazy and ethreal dream from the womb 2.png"
+image bg P1C2_red_pool = "P1C2/bg P1C2 - A pool in a recreation center at night with a blood red hue.png"
+image bg P1C2_red_pool2 = "P1C2/bg P1C2 - A pool in a recreation center at night with a blood red hue 2.png"
+image bg P1C2_red_pool3 = "P1C2/bg P1C2 - A pool in a recreation center at night with a blood red hue 3.png"
+image bg P1C2_shadow_on_pool = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night.png"
+image bg P1C2_shadow_on_pool2 = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night 2.png"
+
 
 label P1C2:
+    scene bg P1C2_womb
+    
     show screen centeredbox("{size=+10}Chapter 2: Birth{/size}")
     pause
     hide screen centeredbox
     h "Prior to opening my eyes, I had what I thought was a dream."
     h "I dreamed a dream, but I don’t sleep anymore."
+
+    scene bg P1C2_womb2
+    
     h "So, that cannot be what it was."
     h "I was standing, unclothed in a grassy plain on a clear, sunny day."
 
@@ -52,15 +65,27 @@ label P1C2:
     h "Then I blinked."
 
     # Scene Change
+    scene bg P1C2_shadow_on_pool
+
     h "There I was, floating."
     h "I was floating on my back in an endless indoor swimming pool at a recreation center of some sort when the lights were turned off."
     h "There was no one here, and only a gentle back and forth wave that echoed when it met the smooth walls of the pool."
+
+    scene bg P1C2_shadow_on_pool2
+
+
     h "There was a deep stench of chlorine in the air mixed in with the humid atmosphere."
     h "I felt as though my entire body and I were one entity where I knew when my heart would beat, how my blood would flow, and when I would take each breath."
     h "Will there come a time when I can no longer experience this feeling?"
-    h "I could sense my feet begin to drop below the surface, and noticed that there was a dark dye-like substance flowing gradually from my wrists."
+
+    scene bg P1C2_red_pool
+    
+    h "I could sense my feet begin to drop below the surface, and noticed that there was a dark dye-like substance flowing gradually from my wrists."    
     h "Blood, thick and moderately viscous. Yes, this was me trying to escape."
     h "Trying to die."
+
+    scene bg P1C2_red_pool2
+
     h "Was this part of my imagination, or is this a memory?"
     h "Is this happening, did it already happen, or did it never happen at all?"
     h "Did the distinction matter anymore when it is all in my head regardless?"
@@ -72,6 +97,9 @@ label P1C2:
     h "The roll of the dice has been unkind."
     h "My body no longer exists, this version of me no longer exists, and yet this moment feels so real to me just as it did during the time it happened."
     h "My head began to submerge, following my chest."
+    
+    scene bg P1C2_red_pool3
+    
     h "As I sank, I could see trails of darkness following after me, my colorless dark blood painting the streaks of flowing glimmers from the window in varying shades..."
     h "like a rainbow of shadows spreading across my vision, until all I could see was black, bringing me back."
 
