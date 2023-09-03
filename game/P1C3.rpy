@@ -6,14 +6,18 @@
 define h = Character("Humanity")
 image bg P1C3_Current_Universe = "P1C3/bg P1C3_our_current_universe.png"
 image bg P1C3_Current_Universe_2 = "P1C3/bg P1C3_our_current_universe_2.png"
-image bg P1C3_internet = "P1C3/bg P1C3 - 2 The metaverse an ocean of information that can be traversed at the speed of thought.png"
+image bg P1C3_internet = "P1C3/bg P1C3 - The metaverse an ocean of information that can be traversed at the speed of thought 2.png"
+image bg P1C3_primitive_earth = "P1C3/bg P1C3 - The rise of primitive life on Earth billions of years ago.png"
+image bg P1C3_primitive_earth2 = "P1C3/bg P1C3 - The rise of primitive life on Earth billions of years ago 2.png"
+image bg P1C3_technology = "P1C3/bg P1C3 - The rise of technology and human civilization over the millenia.png"
+image bg P1C3_technology2 = "P1C3/bg P1C3 - The rise of technology and human civilization over the millenia 2.png"
 
 label P1C3:
+    scene bg P1C3_Current_Universe
+
     show screen centeredbox("{size=+10}Chapter 3: The Stelliferous Era{/size}")
     pause
     hide screen centeredbox
-
-    scene bg P1C3_Current_Universe
 
     show screen centeredbox("We are now witness to the Stelliferous Era which is the successor of the Primordial Era.")
     pause
@@ -72,6 +76,9 @@ label P1C3:
     show screen centeredbox("While one can continue this exercise indefinitely until arriving at the observable universe of the time which is in the hundreds of sextillions of miles, even stopping at merely the solar system shows that the planets and bodies which humans called home is not even a speck in the vastness of the emptiness of creation.")
     pause
     hide screen centeredbox
+
+    scene bg P1C3_primitive_earth
+
     show screen centeredbox("The rise of life itself is a more recent development that began with primitive microorganisms after the tumultuous formation of the Earth and its oceans.")
     pause
     hide screen centeredbox
@@ -86,6 +93,9 @@ label P1C3:
     hide screen centeredbox
     show screen centeredbox("Then, 470 million years prior to mankind's departure from Earth, animal life left the sea.")
     pause
+
+    scene bg P1C3_primitive_earth2
+
     hide screen centeredbox
     show screen centeredbox("The dinosaurs rose, and then, as has been the case with each reshuffling of species, an extinction event occurred, wiping out three quarters of all species.")
     pause
@@ -189,6 +199,9 @@ label P1C3:
     show screen centeredbox("Within such an environment, prior to the last day man walked the earth, mankind began to run its finger along the seductive surface of human level general artificial intelligence.")
     pause
     hide screen centeredbox
+
+    scene bg P1C3_technology2
+
     show screen centeredbox("Within such an environment, prior to the last day man walked the earth, mankind began to run its finger along the seductive surface of human level general artificial intelligence.")
     pause
     hide screen centeredbox
