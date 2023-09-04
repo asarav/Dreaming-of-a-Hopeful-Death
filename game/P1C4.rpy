@@ -16,16 +16,19 @@ image bg mars_view = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_1.p
 image bg mars_view_2 = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_2.png"
 image bg mars_view_3 = "P1C4/bg P1C4_A_view_of_Mars_from_orbit_a_distance_away_3.png"
 image bg night_sky = "P1C4/bg P1C4_the_night_sky_with_all_the_planets_of_our_solar_system.png"
+image bg hospital_view = "P1C4/bg P1C4_the_view_of_a_hospital_from_the_eyes_of_a_coma_patient.png"
+image bg hospital_view2 = "P1C4/bg P1C4_the_view_of_a_hospital_from_the_eyes_of_a_coma_patient_2.png"
+
 
 label P1C4:
+    scene bg earth_view_orbit
+
     show screen centeredbox("{size=+10}Chapter 4: A Way Out?{/size}")
     pause
     hide screen centeredbox
     show screen centeredbox("Note: As the main character is the assimilation of billions of human beings, it uses the words \"I\" and \"we\" interchangeably based on how it feels.")
     pause
     hide screen centeredbox
-
-    scene bg earth_view_orbit
 
     politician "Do you know what year it is, or how long it has been since we have been trapped in this form?"
     one_of_billions "I lost count after about twelve"
@@ -79,7 +82,8 @@ label P1C4:
     h "I am the one pursued by the mob and I am the mob itself."
     h "Indeed, we have seen moments like this before—moments where we were placed on trial, judged for our crimes, regardless of guilt or innocence."
     h "The times I have been framed for a murder and separated from my children by the justice system."
-    h "I stood there in a publicized court at the mercy of a judge and jury who knew nothing about me or what I had at stake and a disinterested public defender who was overburdened by the number of cases he needed to handle."
+    h "I stood there in a publicized court at the mercy of a judge and jury who knew nothing about me..."
+    h "or what I had at stake and a disinterested public defender who was overburdened by the number of cases he needed to handle."
     h "Even before the trial started, I was met with vitriol and disgust. I learned then that in the court of public opinion, I was guilty until proven innocent."
     h "Everyone wanted something from me except the things I wanted."
     h "The zealous prosecutor wanted the death penalty."
@@ -125,6 +129,7 @@ label P1C4:
     h "My sight acts not only as a reminder of the state we are in, but also as the source of infinite boredom as I spin and spin."
     h "The days blend into weeks, which become years and decades."
     h "I have these memories of lives with gaps, empty spaces, and blanks."
+    scene bg hospital_view
     h "Lives that ended in accidents and injuries, but still lived to become a part of me."
     h "From the outside, I can see nurses and doctors act as witness to the events that occurred during these blanks."
     h "Wires everywhere leading from bodies to monitors."
@@ -132,6 +137,7 @@ label P1C4:
     h "Maybe it was for the best."
     h "If I could see myself, injured, burnt, scarred, and unconscious, I would have asked to pull the plug."
     h "Now, I see myself wishing that there was a plug."
+    scene bg hospital_view2
     h "Yes, I can see the entirety of existence for what it is, but at what cost?"
     h "Even if I did recover and woke up, there was no normal life waiting for me at the end of all the time that had passed."
     h "To see myself, old and decrepit, with my youth robbed from me."
