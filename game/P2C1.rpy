@@ -9,6 +9,7 @@ image bg degenerate_era = "P2C1/bg P2C1 A universe of dying stars and red giants
 image bg degenerate_era2 = "P2C1/bg P2C1 A universe of dying stars and red giants 2.png"
 image bg spacefaring_civilizations = "P2C1/bg P2C1 A painting of space faring civilizations in the galaxy.png"
 image bg spacefaring_civilizations2 = "P2C1/bg P2C1 A painting of space faring civilizations in the galaxy 2.png"
+image bg humanity_form = "P2C1/bg P2C1 - An embryonic morula floating through space photorealistic.png"
 
 label P2C1:
     scene bg degenerate_era
@@ -123,6 +124,7 @@ label P2C1:
     show screen centeredbox("From red giants to nebulae, to a journey through a black hole unaffected by gravity, Humanity was given a full course of sights which it may have never seen if it was never cursed into its form— a form which has shown slight changes over the course of its exploration of creation.")
     pause
     hide screen centeredbox
+    scene bg humanity_form
     show screen centeredbox("Lines began to form, like divisions, splitting the ball of ephemeral flesh into sections like a developing morula consisting of a rapidly developing set of cells originating from a fertilized egg cell.")
     pause
     hide screen centeredbox

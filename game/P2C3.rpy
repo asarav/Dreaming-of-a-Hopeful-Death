@@ -10,6 +10,10 @@ image bg traveling_for_centuries = "P2C3/bg P2C3 Traveling through the vastness 
 image bg galaxies_colliding = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli.png"
 image bg galaxies_colliding2 = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli 2.png"
 image bg galaxies_colliding3 = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli 3.png"
+image bg comets_bodies = "P2C3/bg P2C3 Comets and small bodies in interstellar space photorealistic.png"
+image bg comets_bodies2 = "P2C3/bg P2C3 Comets and small bodies in interstellar space photorealistic 2.png"
+image bg comets_bodies3 = "P2C3/bg P2C3 Comets and small bodies in interstellar space photorealistic 3.png"
+image bg comets_bodies4 = "P2C3/bg P2C3 Comets and small bodies in interstellar space photorealistic 4.png"
 
 label P2C3:
     scene bg zooming_through_universe
@@ -46,6 +50,7 @@ label P2C3:
     h "Almost everything was as though it is set in stone."
     h "Everything, but the universe around me."
     h "It still endured."
+    scene bg comets_bodies
     h "The universe I saw was beautiful."
     h "That much was undeniable."
     h "However, it was unbearably cold and unfeeling."
@@ -60,6 +65,7 @@ label P2C3:
     h "distance from any nearby stars implies that you won't be lucky enough to be within the gravitational pull of any system."
     h "I, however, am no astronaut, cosmonaut, or taikonaut in need of life support."
     h "There is no one here to save me."
+    scene bg comets_bodies2
     h "The empty region between these systems is where I spent billions of years, waiting for whatever it was that propelled me to send me along my way to a place that was not simply black."
     h "It was once I reached Proxima Centauri that I realized how quickly I was traveling."
     h "Although it was not even remotely close to the speeds reached by the Voyager probes, it was fast enough to ensure I did not overstay my welcome."
@@ -100,12 +106,14 @@ label P2C3:
     h "I hoped that if we could communicate that we would be able to find common ground and understand one another."
     h "If intelligence is accompanied by curiosity and a balancing of exploration and exploitation of the environment, then maybe we are more similar than we think."
     h "Indeed, the cosmos is too barren for what little life that sprouts to regard everything with suspicion all the time."
+    scene bg comets_bodies3
     h "These past musings only served to keep me entertained, but I was ultimately unable to answer a single question."
     h "Once I passed Proxima Centauri, my path approached several systems, but ultimately never entered their orbit, and I could only watch as these systems swung by on my flight towards a nebula."
     h "The swirling clouds of gas and dust that made up these nebulae, danced and played in a cosmic ballet, creating patterns and shapes that seemed to defy imagination."
     h "Their vibrant hues, ranging from deep blues and purples to fiery oranges and reds, painted a canvas of color that was both mesmerizing and awe-inspiring."
     h "From a distance, this bright cloud of gas and particulate matter was an imposing structure which colored the tapestry of the galaxy felt as though..."
     h "it was a solid body that held as much activity as an asteroid field, but upon my entering this cloud, I could clearly understand that it was more impressive from afar than it was within."
+    scene bg comets_bodies4
     h "The gas and matter that colored the nebula was extremely diffuse which meant that like all things in the universe, the majority of it was composed of empty space."
     h "There is so much all around us, but when viewed in close proximity, it just looks like empty black."
     h "It was when I reached budding stars and planets which grew from the dust that I could truly savor and appreciate the existence of these clouds of matter."
@@ -124,7 +132,8 @@ label P2C3:
     h "It made no sound, but I imagine if it could, it would have had a deafening roar that tore across the galaxy unheard by none."
     h "As I passed through the gravitational pull of the black hole unimpeded, my follower needed to take the long way around to meet me on the other side."
     h "The sight of light warping into strange geometries as I approached the center was bizarre, and it led me to question all the theories that were formulated in the past."
-    h "While I could simply pass through, my followers had to utilize the black hole to slingshot themselves in my general direction so that it was able to keep up, and in the process, most likely experienced untold amounts of time dilation."
+    h "While I could simply pass through, my followers had to utilize the black hole to slingshot themselves in my general direction..."
+    h "so that it was able to keep up, and in the process, most likely experienced untold amounts of time dilation."
     h "I do not know what the lifespan of the creatures that built these spacefaring objects are, but what is clear is that they have either exceeded and surpassed biological limits, or that such limits no longer apply."
     h "If they could keep pace with me for millions and billions of years, then it stands to reason that the probes were not carrying biological life."
     h "If so, what does that imply for the civilizations that built them?"
@@ -198,5 +207,9 @@ label P2C3:
     h "Regardless of where I was, where I am, when I lived, and who I am, the only thing I was entitled to were my own thoughts, and now, those were the most valuable possessions I had."
     h "The universe may forget us, but we refuse to forget ourselves and lose ourselves within the void."
 
-    jump P2C4
+    menu:
+        "Try to flex phantom limb":
+            jump P2C4
+        "Do nothing":
+            jump P2C4
 

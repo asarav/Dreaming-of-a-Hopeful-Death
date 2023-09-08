@@ -12,6 +12,8 @@ define scientist = Character("A Scientist Among  Billions")
 
 image bg rat_race = "P1C6/bg P1C6 A painting of the insidious nature of the modern life and work.png"
 image bg rat_race2 = "P1C6/bg P1C6 An oil painting of the insidious nature of the modern rat race.png"
+image bg alone_apartment = "P1C6/bg P1C6 - Alone in an apartment on a rainy day.png"
+image bg alone_apartment2 = "P1C6/bg P1C6 - Alone in an apartment on a rainy day 2.png"
 
 label P1C6:
     scene bg rat_race
@@ -186,6 +188,7 @@ label P1C6:
     h "No hello, and no goodbye."
     h "Just cold hard metal meeting with whatever it is I have metamorphosed into."
     h "Like ships passing at sea."
+    scene bg alone_apartment
     h "It is like those moments when I sat alone by the window of many apartment rooms all across the world, grimy and stained by water spots, watching the world outside."
     h "I would have the curtains partially closed while I glanced outside, wondering if I should leave my room, but find a reason not to."
     h "Be it laziness, anxiety, or a general dislike of other people, I imposed upon myself a loneliness by forcing my view of the outside to be from the limited portal of a glass frame."
@@ -205,6 +208,7 @@ label P1C6:
     h "Just take your frozen muck with its horrid consistency, stick it in a machine that hums for two minutes and you have your heated muck with the nutritional value of cardboard."
     h "The flavor was demoralizing."
     h "It was food that was only suited for those who had very little respect for themselves— basically everyone or at least a large percentage of the country."
+    scene bg alone_apartment2
     h "As days turned to weeks within these darkened rooms, I would watch my body atrophy and turn into a perverted joke of what I once was."
     h "The months turned to weeks."
     h "I was nothing more than an aging body wasting its youth."
@@ -222,14 +226,17 @@ label P1C6:
     h "It is a world that is quite easy to get lost in."
     h "So much so that even when there was a hand I could grasp to pull me out, I refused it."
     h "There were those in this world of text and URLs who engaged in conversation without any ulterior motives while there were others who spoke provocatively so as to elicit extreme reactions for their own entertainment."
-    h "If you fell for their trap, you may have found yourself lost within a sea of bitterness and outrage over the most mundane concepts or even illusory topics that have been constructed primarily for the purpose of having something to be angry about."
-    h "Be it the government, certain politicians, petty squabbles over fashion, income, race and sexuality, or generational divides, there is something for everyone to find themselves overly invested in that they ultimately have no power or control over in any significant way."
+    h "If you fell for their trap, you may have found yourself lost within a sea of bitterness and outrage over the most mundane concepts..."
+    h "or even illusory topics that have been constructed primarily for the purpose of having something to be angry about."
+    h "Be it the government, certain politicians, petty squabbles over fashion, income, race and sexuality, or generational divides,..."
+    h "there is something for everyone to find themselves overly invested in that they ultimately have no power or control over in any significant way."
     h "For many with some marginal level of self-awareness, there is a moment of clarity between these phases of emotional outbursts on the internet where one questions why they wasted their time on something so pointless."
     h "The person on the other end may not even be acting on good faith."
     h "They could be an individual who is acting on the behalf of another country to spread disinformation."
     h "Similarly, they could not be human."
     h "It was a problem that we experienced towards the end of our civilization: differentiating between one of us, and bots which were capable of convincingly human conversations."
-    h "The idea that we were arguing with something we ourselves constructed was an unsettling thought, and only served to exacerbate the disappointing weight of our condition— that we were depriving ourselves of a human life, and replacing it with an artificial one with artificial friends and individuals."
+    h "The idea that we were arguing with something we ourselves constructed was an unsettling thought,..."
+    h "and only served to exacerbate the disappointing weight of our condition— that we were depriving ourselves of a human life, and replacing it with an artificial one with artificial friends and individuals."
     h "It very much could have been that none of the experiences we had that were meaningful were real."
     h "The information we were given was not experienced by ourselves first hand."
     h "We never met the people on the other side of the LED screen."

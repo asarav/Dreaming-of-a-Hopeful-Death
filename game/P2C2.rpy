@@ -9,8 +9,9 @@ image bg first_steps = "P2C2/bg P2C2 A child taking its first steps.png"
 image bg first_steps2 = "P2C2/bg P2C2 A painting of a child taking its first steps.png"
 image bg blurry_childhood = "P2C2/bg P2C2 A painting of the blurry memories of childhood.png"
 image bg blurry_childhood2 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 2.png"
-image bg blurry_childhoo3 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 3.png"
+image bg blurry_childhood3 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 3.png"
 image bg blurry_childhood4 = "P2C2/bg P2C2 A painting of the blurry memories of childhood 4.png"
+image bg blurry_family = "P2C2/bg P2C2 - Blurry memories of a family waiting for me at home.png"
 
 label P2C2:
     scene bg first_steps
@@ -59,6 +60,7 @@ label P2C2:
     h "In spite of this, I could feel something drawing us together."
     h "Perhaps to our parents, we were merely a burden."
     h "However, at the time, I felt a feeling of safety, of comfort."
+    scene bg blurry_family
     h "I did not know or care to know of what I was being protected from, but I held the greatest confidence in the abilities of someone who I only knew for a short period of time."
     h "The moment I saw them, they had my trust even though I had no one else I could trust."
     h "There was a feeling of attachment I could not quite explain."
@@ -137,4 +139,8 @@ label P2C2:
     h "The boundless nature of simply being is no longer."
     h "We have cherished it, and we have forgotten it."
 
-    jump P2C3
+    menu:
+        "Try to flex phantom limb":
+            jump P2C3
+        "Do nothing":
+            jump P2C3

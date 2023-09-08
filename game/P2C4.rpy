@@ -9,9 +9,12 @@ define voice1 = Character("A Voice Among Billions")
 image bg school_recess = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya.png"
 image bg school_recess2 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 2.png"
 image bg school_recess3 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 3.png"
+image bg classroom = "P2C4/bg P2C4 A scene of a classroom in an elementary school in the style of Francisco Goya.png"
+image bg classroom2 = "P2C4/bg P2C4 A scene of a classroom in an elementary school in the style of Francisco Goya 2.png"
+image bg picnic = "P2C4/bg P2C4 A scene of a picnic in the forest with children in the style of Francisco Goya 3.png"
 
 label P2C4:
-    scene bg school_recess
+    scene bg classroom
     show screen centeredbox("{size=+10}Chapter 10: The Lives of Others{/size}")
     pause
     hide screen centeredbox
@@ -19,10 +22,11 @@ label P2C4:
     h "My childhood was a missed opportunity, but there is no reason why I cannot have another one, or many others."
     h "There were many instances where I looked at my present self and wondered when I had become an adult despite not maturing in any way."
     h "It seems as though the only difference between a child and an adult is years spent alive and physical differences."
+    scene bg classroom
     h "The rest was determined by society."
     h "But here, there is no society."
     h "We can be whatever we wish and rewrite the rules as we see fit."
-    scene bg school_recess2
+    scene bg school_recess
     h "Yes, here I am, there is a playground."
     h "What should I include in it?"
     h "A slide, some swings, a few trees and rocks to climb, and unlimited recess."
@@ -30,7 +34,7 @@ label P2C4:
     h "But there’s something missing."
     h "Oh yes."
     h "Friends."
-    scene bg school_recess3
+    scene bg school_recess2
     h "How many should I have?"
     h "I should have a lot."
     h "But that sounds tiresome."
@@ -43,11 +47,13 @@ label P2C4:
     h "No, you seem icky."
     h "Want to play tag? Great."
     h "You can be it."
+    scene bg school_recess3
     h "Everyone gets caught except me."
     h "The playground isn't enough."
     h "There's the forest right there."
     h "What, the teachers will stop us? Fine."
     h "No more teachers then."
+    scene bg picnic
     h "Or, how about a change of plans? Picnic in the woods."
     h "The whole class is invited."
     h "You can carry the picnic basket and I'll hold onto the picnic blanket."
@@ -130,4 +136,8 @@ label P2C4:
     h "Some progress is made, but soon, everything returns back to its original state."
     h "We want to live in the moment, but to many, this moment is a never ending disappointment that we are unwilling to accept."
 
-    jump P2C5
+    menu:
+        "Try to flex phantom limb":
+            jump P2C5
+        "Do nothing":
+            jump P2C5
