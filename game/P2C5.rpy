@@ -16,7 +16,8 @@ image bg cursing_the_next_generation2 = "P2C5/bg P2C5 Cursing the next generatio
 image bg cursing_the_next_generation3 = "P2C5/bg P2C5 Cursing the next generation to the pain of living in modern society in the style of Zdzisław Beksiński 3.png"
 image bg the_ego_of_the_human_race = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli.png"
 image bg the_ego_of_the_human_race2 = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli 2.png"
-
+image bg unjust_trial = "P2C5/bg P2C5 An unjust trial in the style of Paul Cezanne.png"
+image bg pure_evil = "P2C5/bg P2C5 Pure evil within human society in the style of Andy Warhol.png"
 label P2C5:
     show screen centeredbox("{size=+10}Chapter 11: Why{/size}")
     pause
@@ -153,6 +154,7 @@ label P2C5:
     h "We are guilty."
     h "We have done wrong."
     h "But we have also done right."
+    scene bg pure_evil
     h "Pure evil does not exist within me as a person."
     h "Only the extremes of emotion and the misguided beliefs that accompany ignorance."
     h "Yes, there are those among me that have tried to act for the greater good."
@@ -212,6 +214,7 @@ label P2C5:
     h "Who was it that told us that we were made in the image of God?"
     h "Whichever god it was that we were made in the image of must truly be just as irresponsible and fickle as we are to leave us in this state."
     h "It is the work of a sadist to unilaterally create a mutation like this which strips us our autonomy."
+    scene bg unjust_trial
     h "Judge, jury, and executioner, but no trial."
     h "Tell us our charges."
     h "Read us our Miranda rights."
@@ -265,9 +268,15 @@ label P2C5:
     h "Whatever this ends in, I want it to end in either triumph or a burst of glory."
     h "Despite how bleak everything is, I can't simply give up."
     h "That would be admitting defeat."
-    h "If all I needed to dig ourselves out of this hole was one more push, one more step, and I raised a white flag before taking it, choosing instead to spend the rest of time wallowing in self-pity, then that would make the trillions and quadrillions of years all the more tragic."
+    h "If all I needed to dig ourselves out of this hole was one more push, one more step, and I raised a white flag before taking it,..."
+    h "choosing instead to spend the rest of time wallowing in self-pity, then that would make the trillions and quadrillions of years all the more tragic."
     h "The story of Humanity should not be one of grief."
     h "It should be one of transcendence and endless drive for more."
     h "That is what Humanity should be remembered as."
 
-    jump P2C6
+    menu:
+        "Try to flex phantom limb":
+            jump P2C6
+        "Do nothing":
+            jump P2C6
+
