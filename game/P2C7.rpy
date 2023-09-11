@@ -11,6 +11,12 @@ image bg alone_in_a_crowded_society3 = "P2C7/bg P2C7 Being alone in a crowded so
 image bg greed_envy_gluttony = "P2C7/bg P2C7 Greed, envy, and gluttony leading to the suffering of the human race.png"
 image bg pride_of_civilization = "P2C7/bg P2C7 The pride of human civilization becoming its downfall.png"
 image bg pride_of_civilization2 = "P2C7/bg P2C7 The pride of human civilization becoming its downfall 2.png"
+image bg alone_in_a_dying_universe = "P2C7/bg P2C7 Alone in a dying universe where everyone else has faded away and only you are left.png"
+image bg calling_out_desperately = "P2C7/bg P2C7 Calling out desperately into an empty universe with noone or anything left to reply back or even leave an echo in a dark and abstract style.png"
+image bg our_ancestors = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts. Their ancestors fought wars so that their descendants cou.png"
+image bg our_ancestors2 = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts. Their ancestors fought wars so that their descendants cou 2.png"
+image bg repeating_thoughts = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions. I wonder, do you need to be intelligent or even.png"
+image bg repeating_thoughts2 = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions. I wonder, do you need to be intelligent or even 2.png"
 
 label P2C7:
     show screen centeredbox("{size=+10}Chapter 13: Stranded{/size}")
@@ -49,6 +55,7 @@ label P2C7:
     h "I would go in, and see the same bartender or barista, and at some point, they would remember my name and my usual orders."
     h "Then, one day, I would come in like I usually did, and they were simply gone, and it was not for a single day."
     h "Sometimes it would be death, other times, life takes them to other places."
+    scene bg calling_out_desperately
     h "I could call out “Come back,” but they were already gone."
     h "Though my memories of them will remain, if we were to meet again, it would not be through the usual means."
     h "Their ends are likely different from my end."
@@ -64,11 +71,14 @@ label P2C7:
     h "Alternatively, it could have merely been the only escape."
     h "It could have been a mercy for those who survived: feed off my dead husk so that at least you may have a chance to live and tell the tales of our glory."
     h "The others who fought and fought to the dying end seemed to be the ones to either achieve immortality and escape, or the first to die."
-    h "As though realizing that there was a choice between endless struggle and finding a solution at the risk of ending an empire, they chose the route that ventured to thrash against the forces of nature before they too would join the darkness."
-    h "In doing so, they expended resources, lives, and quenched their suns, squeezing out every drop of energy they could in the hopes that they could reach the finish line of Samsara and become reborn in another time or another reality where they would no longer need to suffer."
+    h "As though realizing that there was a choice between endless struggle and finding a solution..."
+    h "at the risk of ending an empire, they chose the route that ventured to thrash against the forces of nature before they too would join the darkness."
+    h "In doing so, they expended resources, lives, and quenched their suns, squeezing out every drop of energy they could..."
+    h "in the hopes that they could reach the finish line of Samsara and become reborn in another time or another reality where they would no longer need to suffer."
     h "It was not to be, and they too would vanish."
     h "First it would be one planet, then the system, each bastion of life going dark."
     h "One at a time, like flames being quietly extinguished."
+    scene bg alone_in_a_dying_universe
     h "Each planet died alone."
     h "Each individual in that empire died in their own unique way, but they died nonetheless."
     h "Was it worth it?"
@@ -98,7 +108,8 @@ label P2C7:
     h "However, this is a meager speck within the unobservable universe that lay beyond all light that had a chance to travel before me."
     h "This unobservable universe and everything inside of it is expanding."
     h "It is expanding so rapidly that the remnants of massive superclusters become measly islands within the spaces between, oases within a hostile reality."
-    h "You may venture out into the unknown at your own discretion, but unless you can effortlessly traverse distances on a scale that dwarfs galaxies, clusters, and the former observable universe, then you will simply be setting out to die a meaningless demise with little hope of rescue."
+    h "You may venture out into the unknown at your own discretion, but unless you can effortlessly traverse distances..."
+    h "on a scale that dwarfs galaxies, clusters, and the former observable universe, then you will simply be setting out to die a meaningless demise with little hope of rescue."
     h "Indeed, if there were others just like me, they would be trapped within their predetermined paths, blindly stumbling through an empty reality."
     h "A meeting is never meant to be."
     h "This leaves the poor souls I took with me."
@@ -171,12 +182,14 @@ label P2C7:
     h "If you cannot exhibit your value, you only exhibit the reasoning for your disposal."
     h "As a result, we all live lives we do not wish to."
     h "We turn our backs on who we are and who we think we are meant to be and give up on our dreams."
+    scene bg our_ancestors
     h "Our ancestors learned the sciences and the maths so that we could supposedly learn the arts."
     h "Their ancestors fought wars so that their descendants could learn the sciences."
     h "This was how it was meant to be."
     h "Each generation was to leave a better life for their descendants."
     h "However, the wars never stopped."
     h "The ties between generations degraded."
+    scene bg our_ancestors2
     h "Society never advanced, and people never grew beyond the practice of exhibiting their value as individuals."
     h "The great things we were meant to do were never in the plans."
     h "No, we were only cattle to be slaughtered, walking the paths we were told to walk."
@@ -184,7 +197,8 @@ label P2C7:
     h "In the past, this may not have been the disadvantage we thought it was, because our actions were contributing to our survival."
     h "However, in a time of plenty, in a time when scarcity was no more, we continued regardless of how unreasonable."
     h "Yes, whenever we fixed a problem, we would introduce another in its place."
-    h "It was all systems of control that continued endlessly, depriving us of ourselves, and turning relationships into feeding frenzies where everyone became emotional vultures preying on one another when they were at their most vulnerable."
+    h "It was all systems of control that continued endlessly, depriving us of ourselves, and turning relationships into feeding frenzies..."
+    h "where everyone became emotional vultures preying on one another when they were at their most vulnerable."
     h "We were never meant to build utopias where people can coexist peacefully."
     h "We were not designed for that."
     h "We were meant to survive the forces of nature."
@@ -223,6 +237,7 @@ label P2C7:
     h "I wonder, how many ideas are out there lost to the march of time?"
     h "How many ideas are out there that we have yet to think of?"
     h "Surely it must be infinite."
+    scene bg repeating_thoughts
     h "Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions."
     h "I wonder, do you need to be intelligent or even sentient to form a thought?"
     h "Is it possible for an inanimate stone or even the universe to have thoughts of the future, to form ideas?"
@@ -233,8 +248,10 @@ label P2C7:
     h "There is still the opportunity for interplay."
     h "Perhaps, we too are thoughts and ideas dreamt up by the universe—memes born out of a being that operates on a far greater timescale."
     h "Maybe we were simply those in a long line of thoughts and ideas that were manifested by this creature."
-    h "It could have been that in the moments after the big bang, there was life completely alien to us, based on sub-atomic particles and energy instead of molecules, which lived and died on the matter of nanoseconds that may have had simple thoughts."
+    h "It could have been that in the moments after the big bang, there was life completely alien to us, based on sub-atomic particles and energy..."
+    h "instead of molecules, which lived and died on the matter of nanoseconds that may have had simple thoughts."
     h "I wonder, if those creatures lived in our time, would they have found it to be an unbearable slog as we find this time to be to us?"
+    scene bg repeating_thoughts2
     h "To find out, could we ask the universe?"
     h "Maybe, but would the universe know the answer or be aware of it?"
     h "Like we are unaware of the activities and actions of our cells, we could simply be too insignificant to even be considered a thought."
@@ -254,4 +271,8 @@ label P2C7:
     h "If the universe could speak back, maybe it would be my friend."
     h "Maybe it already is, and I just have not realized."
 
-    jump P2C8
+    menu:
+        "Try to flex phantom limb":
+            jump P2C8
+        "Do nothing":
+            jump P2C8

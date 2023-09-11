@@ -8,13 +8,28 @@ define h = Character("Humanity")
 image bg the_last_dance_in_ballroom = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich.png"
 image bg the_last_dance_in_ballroom2 = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich 2.png"
 image bg alone_in_ballroom2 = "P2C8/bg P2C8 Alone in a ballroom in the style of Caspar David Friedrich.png"
+image bg empty_ballroom = "P2C8/bg P2C8 An empty ballroom that has been long abandoned in the style of Caspar David Friedrich.png"
+image bg empty_ballroom2 = "P2C8/bg P2C8 An empty ballroom that has been long abandoned in the style of Caspar David Friedrich 2.png"
+image bg empty_ballroom3 = "P2C8/bg P2C8 An empty ballroom that has been long abandoned in the style of Caspar David Friedrich 3.png"
+image bg stranded = "P2C8/bg P2C8 Stranded in the vast emptiness of space at the end of time.png"
+image bg stranded2 = "P2C8/bg P2C8 Stranded, floating in the vast emptiness of space at the end of time where nothing is left 2.png"
+image bg redo = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes. The time for that has long passed. Did we do what we w.png"
+image bg redo2 = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes. The time for that has long passed. Did we do what we w 2.png"
+image bg endless_cemetary = "P2C8/bg P2C8 An endless cemetary continuing on and on into the horizon.png"
+image bg endless_cemetary2 = "P2C8/bg P2C8 An endless cemetary continuing on and on into the horizon 2.png"
+image bg labyrinth = "P2C8/bg P2C8 An overhead view of an enormous labyrinth that is being navigated by many people photorealistic.png"
+image bg labyrinth2 = "P2C8/bg P2C8 An overhead view of an enormous labyrinth that is being navigated by many people photorealistic 2.png"
+image bg hall_of_mirrors = "P2C8/bg P2C8 A hall of mirror where each mirror shows a different world.png"
+image bg hall_of_mirrors2 = "P2C8/bg P2C8 A hall of mirror where each mirror shows a different world 2.png"
+
 
 label P2C8:
+    scene bg the_last_dance_in_ballroom
+    
     show screen centeredbox("{size=+10}Chapter 14: No More Chances{/size}")
     pause
     hide screen centeredbox
 
-    scene bg the_last_dance_in_ballroom
     h "It is like the last dance in a ballroom."
     h "You take your partner’s hand and either lead them or are led in response to the music that echoes through the lavish hall."
     h "There is a rush of euphoria that gives you momentum with each step you take that matches the beat and changes in the song accordingly."
@@ -24,19 +39,23 @@ label P2C8:
     h "Before you know it, the song is already over."
     scene bg alone_in_ballroom2
     h "You ask for one more dance, but you find yourself reaching your hand out to someone who is no longer there."
+    scene bg empty_ballroom
     h "Old age has caught up."
     h "Your joints ache, and rheumatism prevents you from matching the rhythm."
     h "The music is gone."
+    scene bg empty_ballroom2
     h "The lights are extinguished, and the light pouring in from the outside has been replaced by moonlight."
     h "The dance you just finished was the last one, and there will never be another one or another one like it."
     h "That was the last dance."
     h "Did we make the most of it?"
+    scene bg empty_ballroom3
     h "The future is still to come."
     h "There is still the chance for possibilities and opportunities."
     h "But we know that those will vanish."
     h "Time ticks on."
     h "For us mortals bound by time, sense, and reflex, this experience that we are registering has already happened."
     h "By the time we recognize a moment to be the present, it no longer is."
+    scene bg redo
     h "Enjoy the moment for it is already over."
     h "The more we understand this, the more it comes to light that the future is a past waiting for us to cognitively register it."
     h "In this sense, all that will happen already has, and we are passive observers trying to react despite operating on a time lag."
@@ -44,6 +63,7 @@ label P2C8:
     h "The present has passed, and the past is all we know."
     h "There are no more chances, no more redoes."
     h "The time for that has long passed."
+    scene bg redo2
     h "Did we do what we wanted prior to this?"
     h "Did we leave our former lives behind satisfied?"
     h "Of course not."
@@ -70,8 +90,10 @@ label P2C8:
     h "It was the scenes where I discarded the person I thought I was meant to be and became another person instead."
     h "Looking back upon those moments is like watching us become strangers to ourselves."
     h "We no longer knew who we were, and gradually forgot the significance of our aspirations."
-    h "We would keep telling ourselves, \"If I save enough money, if I do this or that... then I can finally do the things I truly enjoy.\" It was the regrets I had while on Earth that strike back the hardest now that I am on the other end of the supercluster."
+    h "We would keep telling ourselves, \"If I save enough money, if I do this or that... then I can finally do the things I truly enjoy.\""
+    h "It was the regrets I had while on Earth that strike back the hardest now that I am on the other end of the supercluster."
     h "Even when I was aware of the things I regretted, I was unable to do anything."
+    scene bg stranded
     h "Now, I do not even have the choice."
     h "I imagined myself going back in time to fix the things I believed needed fixing."
     h "I would look back upon the lives that were squandered in the pursuit of meaningless tasks and try to find the moments that would have changed everything."
@@ -84,6 +106,7 @@ label P2C8:
     h "The lives that ended in banality could be redeemed."
     h "I could have salvaged the broken lives and turned them into stars that lit up those around them like the kindling of society."
     h "I could have done all of that..."
+    scene bg stranded2
     h "if I had one more chance."
     h "Life is fragile."
     h "Any day could have been our last."
@@ -107,7 +130,9 @@ label P2C8:
     h "We are simply vagabonds meandering through life, trying to chase the closest thing that can satisfy us."
     h "It does not matter if doing so takes us further away from a true escape or further away from fulfillment."
     h "We cannot see what is beyond the horizon."
-    h "So, instead, we do what we think is best with limited information, trading the long term gratification for immediate satisfaction only to realize that doing so was making us stray further away from the lives we wanted to live."
+    h "So, instead, we do what we think is best with limited information, trading the long term gratification..."
+    h "for immediate satisfaction only to realize that doing so was making us stray further away from the lives we wanted to live."
+    scene bg labyrinth
     h "It is as though there are three versions of us wandering a perilous maze."
     h "One rushes through without thinking of the dangers only to meet their end quickly."
     h "One avoids risks regardless of how small, and ultimately starves after being unable to take a single step forward."
@@ -117,26 +142,36 @@ label P2C8:
     h "The one who was pragmatic lived long and suffered little as he understood that risk was relative when placed within a particular context."
     h "However, that version of us could only act on the information we had at the time."
     h "If we were to meet our end due to conditions which were out of our control, we too would perhaps regret our actions."
+    scene bg labyrinth2
     h "In the end, we cannot be all versions of ourselves, and we will remain dissatisfied."
     h "As we watch our choices develop into outcomes, the lack of perfection rots us from the insides."
     h "The flaws stand out, and the victories are nothing more than expected."
-    h "Those who survived till the end were the ones that wish their suffering ended longer or its nature was changed while those who did not last wish that they could have lived on despite whatever suffering and horror may be in store."
+    h "Those who survived till the end were the ones that wish their suffering ended sooner..."
+    h "or its nature was changed while those who did not last wish that they could have lived on despite whatever suffering and horror may be in store."
     h "In the end, we realize too late that our expedition to keep our heads above water and away from the abyss was meaningless."
     h "The things we love will be perverted into something else."
+    scene bg endless_cemetary
     h "Everyone we know will die."
     h "Nothing is permanent, and even if we were given a second chance, that would not change."
     h "Even if we made the right decisions, nothing would change."
     h "We would still ask for a second chance."
+    scene bg endless_cemetary2
     h "That is the curse of being an inhabitant of the future and a prisoner of the past: hindsight."
     h "Nothing is perfect, and it is impossible to be so."
     h "We can make the right decisions, act optimally, and follow our principles."
     h "However, in the end, we will lust after the path not traveled."
     h "The grass beyond the horizon is greener."
     h "The mirage in the distance is lush and inviting."
+    scene bg hall_of_mirrors
     h "In the hall of mirrors, the worlds behind each mirror are far more enticing than the world we are in."
     h "Whether we have no more chances, or an infinite number of chances, it's all the same."
     h "Time has passed and our mind has wandered around in mental circles."
+    scene bg hall_of_mirrors2
     h "We had these very same thoughts before haven’t we?"
     h "You might be able to change your future actions to some degree, but unless you can turn back the clock, the past is set in stone."
 
-    jump P3C1
+    menu:
+        "Try to flex phantom limb":
+            jump P3C1
+        "Do nothing":
+            jump P3C1

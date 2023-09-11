@@ -5,7 +5,16 @@
 
 define h = Character("Humanity")
 
+image bg ark = "P3C1/bg P3C1 An ark the size of a city (like Noah's ark) waiting for a flood with no animals or people on board photorealistic and dreamy.png"
+image bg ark2 = "P3C1/bg P3C1 An ark the size of a city (like Noah's ark) waiting for a flood with no animals or people on board photorealistic and dreamy 2.png"
+image bg pioneers = "P3C1/bg P3C1 Pioneers of the future crossing the night sky in space ships photorealistic.png"
+image bg black_hole_era = "P3C1/bg P3C1 The black hole era of the universe.png"
+image bg black_hole_era2 = "P3C1/bg P3C1 The black hole era of the universe 2.png"
+image bg black_hole_era3 = "P3C1/bg P3C1 The black hole era of the universe 3.png"
+
 label P3C1:
+    scene bg black_hole_era
+    
     show screen centeredbox("{size=+12}Part 3: Throes of a Curse{/size}")
     pause
     hide screen centeredbox
@@ -21,6 +30,9 @@ label P3C1:
     show screen centeredbox("The sun has risen and now it has set.")
     pause
     hide screen centeredbox
+
+    scene bg black_hole_era2
+    
     show screen centeredbox("Twilight approaches.")
     pause
     hide screen centeredbox
@@ -39,6 +51,9 @@ label P3C1:
     show screen centeredbox("The song heard passing throughout the universe is that of a requiem.")
     pause
     hide screen centeredbox
+
+    scene bg black_hole_era3
+
     show screen centeredbox("In this universe without stars and light, there is very little heat as well.")
     pause
     hide screen centeredbox
@@ -81,6 +96,7 @@ label P3C1:
     show screen centeredbox("This life never had the chance to escape the universe, and as a result, all they could do was struggle till the end.")
     pause
     hide screen centeredbox
+
     show screen centeredbox("They clung onto whatever energy they could squeeze out of this reality through a mastery of particle physics.")
     pause
     hide screen centeredbox
@@ -138,6 +154,9 @@ label P3C1:
     show screen centeredbox("Indeed, many of those who made their way out were at rock bottom with nowhere else to turn.")
     pause
     hide screen centeredbox
+
+    scene bg pioneers
+
     show screen centeredbox("With nothing to lose, they looked towards their master of life and death— the black hole— and decided to unlock the monster in the cage.")
     pause
     hide screen centeredbox
@@ -168,12 +187,18 @@ label P3C1:
     show screen centeredbox("There are no legacies left behind for others to find.")
     pause
     hide screen centeredbox
+
+    scene bg ark
+
     show screen centeredbox("The flood came, and there was no ark.")
     pause
     hide screen centeredbox
     show screen centeredbox("The tombstones are missing, and the graves are gone.")
     pause
     hide screen centeredbox
+
+    scene bg ark2
+
     show screen centeredbox("All that is left is a grave keeper with nothing to do.")
     pause
     hide screen centeredbox

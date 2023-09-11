@@ -16,6 +16,9 @@ image bg megastructures_from_far2 = "P2C6/bg P2C6 Space elevators and orbital ri
 image bg megastructures_from_far3 = "P2C6/bg P2C6 Space elevators and orbital rings viewed on planets from a far away distance in the style of Caspar David Friedrich 3.png"
 image bg telepathic_communication = "P2C6/bg P2C6 Telepathic communication with other civilizations across thousands of light years in the style of Leonardo da Vinci.png"
 image bg telepathic_communication2 = "P2C6/bg P2C6 Telepathic communication with other civilizations across thousands of light years in the style of Leonardo da Vinci 2.png"
+image bg dead_universe = "P2C6/bg P2C6 A dead universe depicted as the remains of a galactic spacefaring civilization laying broken among the stars.png"
+image bg dead_universe2 = "P2C6/bg P2C6 A dead universe depicted as the remains of a galactic spacefaring civilization laying broken among the stars 2.png"
+image bg populated_galaxy = "P2C6/bg P2C6 A galaxy populated with alien civilizations in the style of Dali.png"
 
 label P2C6:
     show screen centeredbox("{size=+10}Chapter 12: The Collapse{/size}")
@@ -25,7 +28,8 @@ label P2C6:
     h "The advance of intelligent species throughout the universe, which was arguably an inevitability, was one thing that I was skeptical I would ever witness."
     h "However, the current state of my existence permitted me to see what would become of our galaxy whenever I was not lost in my own thoughts."
     h "This opportunity was an interesting practice in formulating hypotheses based on what I observed with the naked eye and then refining my perspective as new information was collected over the trillions of years."
-    h "Although the odds were against each and every group that became capable of reaching space, we managed to bear witness to the blooming of a vibrant web of growth across the cosmos that was inspiring, perplexing, and the source of much envy."
+    h "Although the odds were against each and every group that became capable of reaching space,..."
+    h "we managed to bear witness to the blooming of a vibrant web of growth across the cosmos that was inspiring, perplexing, and the source of much envy."
     h "Our first experience with the presence of aliens was in the form of probes that visited us periodically over the first tens of millions of years."
     h "It wasn't until billions of years had passed that we started seeing macro level changes at a higher frequency."
     h "Initially, it was simply a matter of seeing planets that had a certain luminescence that seemed unnatural and out of the norm."
@@ -52,11 +56,13 @@ label P2C6:
     h "This was a civilization that was thinking in the long term."
     h "Their ambitions seemed to extend over millennia, to the outer reaches of their galaxy, and towards the end of the universe’s lifespan."
     h "Ambition, however, is not a rarity among the spacefaring generations of the various races that dot the cosmos, but culture and approach is."
-    h "We were witness to another system that had similar megastructures and incredible engineering, but it was distinctive in that those aforementioned structures appeared to have been present for an extremely long period of time."
+    h "We were witness to another system that had similar megastructures and incredible engineering,..."
+    h "but it was distinctive in that those aforementioned structures appeared to have been present for an extremely long period of time."
     scene bg megastructures_from_far2
     h "Most structures like space elevators and space bridges, which were once thought impossible to construct in our time, have been bleached by solar radiation and broken into fragments due to impacts from space junk."
     h "Somehow the planets had their orbits altered to the point where their orbits were in perfect alignment, allowing for bridges to be made to connect the planets together."
-    h "I do not understand how such alignments could be maintained in the long term when considering that the impact of the gravitational pull of moons and collisions from non-planetary bodies could easily misalign the configuration."
+    h "I do not understand how such alignments could be maintained in the long term..."
+    h "when considering that the impact of the gravitational pull of moons and collisions from non-planetary bodies could easily misalign the configuration."
     h "Our conjecture is that whoever created these space bridges destroyed the moons and any asteroids or comets which could interfere with the space bridges while using the raw materials to construct these bridges."
     h "This allowed for what I saw to exist and to last."
     h "We do not know for sure, since we were too far to see clearly whether this was the case, and there were not enough clues to confirm the negation or affirmation of this theory."
@@ -99,17 +105,22 @@ label P2C6:
     h "Each of these held their own culture, their own views on life, and approached their growth and spread in different ways."
     scene bg merchant_ships
     h "For those that could communicate with each other upon contact, I imagine they would open lines of trade and collaborate on large projects."
-    h "There is no way to know for sure, but the patterns of movement, and interactions between spaceships that appeared to have designs originating from differing schools of thought indicated a level of interplay between multiple species on an interstellar level."
+    h "There is no way to know for sure,..."
+    h "but the patterns of movement, and interactions between spaceships that appeared to have designs originating from differing schools of thought..."
+    h "indicated a level of interplay between multiple species on an interstellar level."
     h "Of course, this is merely speculation."
     h "When all one can do is peer through a hole in a wall, it is the only option left."
     h "Granted, it is always possible that multiple intelligent species grew together and originated on the same planet, and thus were able to coexist from the beginning."
     h "However, I have no way of determining the accuracy or probability of such a supposition."
-    h "We could only extrapolate from the observations that we made based on past experience, and in an existence where all I could do was observe and theorize without consequence, my imagination led me down multiple interesting realms of possibilities."
-    h "Sooner or later, I found myself questioning, given the nature of the large spans of distance between stars and systems and the way in which different systems travel throughout the galaxy, how can communication be handled effectively if it is limited to the speed of light?"
+    h "We could only extrapolate from the observations that we made based on past experience,..."
+    h "and in an existence where all I could do was observe and theorize without consequence, my imagination led me down multiple interesting realms of possibilities."
+    h "Sooner or later, I found myself questioning, given the nature of the large spans of distance between stars and systems..."
+    h "and the way in which different systems travel throughout the galaxy, how can communication be handled effectively if it is limited to the speed of light?"
     h "I am willing to bet that these civilizations have mastered the quantum realm and may be capable of using small artificially created wormholes to send messages."
     scene bg telepathic_communication
     h "This would enable the flow of information to be instantaneous regardless of the distance and limitations imposed upon us by relativity."
-    h "This means that communication between civilizations may actually be like our interactions over the internet: seemingly instant, overflowing with information, and effectively connecting multiple physical places in digital form."
+    h "This means that communication between civilizations may actually be like our interactions over the internet:..."
+    h "seemingly instant, overflowing with information, and effectively connecting multiple physical places in digital form."
     h "When the internet was made available to the average person, it allowed for a homogenizing of culture across the world where people could interact with each other regardless of the country that they were from."
     h "The main dividers seemed to be that of language and hardware."
     scene bg telepathic_communication2
@@ -126,12 +137,16 @@ label P2C6:
     h "Could an entire civilization consist of one consciousness?"
     h "The idea seems a bit too centralized to be manageable."
     h "Naturally, the changing of bodies may be a more intimate and personal action than changing clothes are, since the body can influence how the mind behaves and reacts to the outside world."
-    h "Although the brain controls the actions of the body, it is also true that in many multicellular organisms with a neurological system, the chemical processes of the body can determine and influence the development and behavior of the brain."
+    h "Although the brain controls the actions of the body, it is also true that in many multicellular organisms with a neurological system,..."
+    h "the chemical processes of the body can determine and influence the development and behavior of the brain."
     h "Therefore, I believe it is not out of the question for a choice of body to also be a statement on the choice of mindsets and behaviors one wishes to exhibit."
     h "It could very easily be what the fashion of intelligent species evolves into after they reach a spacefaring status."
     h "As might be expected, these speculations of homogeneity across civilizations and species are dependent upon finding common ground."
+    scene bg populated_galaxy
     h "I envisioned a galaxy of species trading with one another, forming unions, and organizations."
-    h "Like the United Nations, the European Union, NATO, and other large blocs, I fantasized of creatures from many planets organizing into councils, laying down infrastructure for interplanetary travel and allowing tourists from other civilizations onto their planets to leverage their interstellar reach."
+    h "Like the United Nations, the European Union, NATO, and other large blocs,..."
+    h "I fantasized of creatures from many planets organizing into councils, laying down infrastructure for interplanetary travel..."
+    h "and allowing tourists from other civilizations onto their planets to leverage their interstellar reach."
     h "Outsiders would be won over by their soft power and technological prowess and, in the process, their influence and reach would grow even further."
     h "Political structures that might have existed on Earth may exist here in space on a larger scale with more complexity and nuance."
     h "There may be factions and divisions where certain species align themselves militarily with others."
@@ -145,7 +160,8 @@ label P2C6:
     h "Space, as we all know is massive, and it is impossible to be everywhere at once."
     h "If someone wants to commit a crime, smuggle goods, or start a rebellion, it may be very difficult to stop it."
     h "The only way governance on an interstellar level may be possible is through the use of technology and decentralized rule."
-    h "Even with the presence of wormhole based communication, it will take at least light years to send forces to suppress rebellions if those wormholes are microscopic and cannot be used to transmit large amounts of physical matter."
+    h "Even with the presence of wormhole based communication, it will take at least light years..."
+    h "to send forces to suppress rebellions if those wormholes are microscopic and cannot be used to transmit large amounts of physical matter."
     h "Similarly, if there are any disasters or urgent events, the ability of a centralized government to respond is highly limited by its physical distance from the event that is occurring."
     h "This is assuming that these civilizations cannot break past the wall of relativity."
     h "I have not witnessed such a thing, and I have not seen any ships flying into wormholes or even seen a wormhole which can enable shortcuts through space."
@@ -155,8 +171,10 @@ label P2C6:
     h "Will there eventually be a solution to such a problem?"
     h "Perhaps, but what is quite clear to me is that any large factions that emerge within the galaxy will not take a form that is similar to any empires that we have seen in the past."
     h "If they do, it is obvious that such empires will not last long."
-    h "While I can see the possibility of civilizations and races tearing across systems, pillaging and scorching planets as they travel through the cosmos, actual governance and long term settlements that can last millions of years without conflict will require a level of ingenuity and maturity from all life that are its citizens."
-    h "If the history of the human race is anything to go by, all empires eventually fall, and it is solely the competence of the leaders and the sentiment of the citizens which seems to determine whether the fall is graceful or bloody and violent."
+    h "While I can see the possibility of civilizations and races tearing across systems, pillaging and scorching planets as they travel through the cosmos,..."
+    h "actual governance and long term settlements that can last millions of years without conflict will require a level of ingenuity and maturity from all life that are its citizens."
+    h "If the history of the human race is anything to go by, all empires eventually fall,..."
+    h "and it is solely the competence of the leaders and the sentiment of the citizens which seems to determine whether the fall is graceful or bloody and violent."
     h "While I have not seen the expanse and reach of an interstellar civilization, what I have been able to bear witness to was the way in which more advanced civilizations would prey on others."
     h "It is said that there is always a bigger fish, but in space, size alone is not enough."
     h "Strategic savvy and technological superiority seems to be the deciding factor when it comes to battles in space."
@@ -168,11 +186,13 @@ label P2C6:
     h "Much like the conquistadors, I can fathom the concept of travelers from spacefaring groups finding uncolonized planets and claiming these planets for themselves to use as they please."
     h "I estimate that when mankind was just beginning to escape Earth's gravity, such civilizations were few, making the first groups capable of interstellar travel the ones which carried out such invasions."
     h "This must have left civilizations that had yet to make first contact with the decision of whether to advertise their position to potential life in the universe, or to go radio silent."
+    scene bg dead_universe
     h "Indeed, there must have been some planets that managed to hold their own against the invaders for some time, but there also must have been others that have predicted the dangers of communicating on full blast."
     h "Later on, as more planets became colonized, we likely begin to see this reach a ceiling as races and civilizations arrived upon the cosmic borders they formalized for their interstellar territories."
     h "If this was the case, then the increasingly ambitious nature of many of the inventions I saw acted as plausible evidence."
     h "Things I would have originally thought impossible or beyond the realm of intelligent life began to fill the skies."
-    h "From bright systems powered by Dyson spheres and artificial moons to colonies and settlements on the edge of black holes, the ingenuity of intelligent life allowed for those who lived to use the power of stars and black holes to transcend space and time and manipulate the universe to their will."
+    h "From bright systems powered by Dyson spheres and artificial moons to colonies and settlements on the edge of black holes,..."
+    h "the ingenuity of intelligent life allowed for those who lived to use the power of stars and black holes to transcend space and time and manipulate the universe to their will."
     h "At the same time, in the later stages of the universe before the stars went dark, I saw the aftermath of space based life."
     h "These organisms fed off of the space dust and whatever was available in space to reproduce and fill the empty space with biological matter."
     h "Like the plants that filled the empty ocean floors and colored the earth green, these extremophiles (or perhaps astrophiles) were capable of surviving in a vacuum in a range of temperatures."
@@ -191,7 +211,8 @@ label P2C6:
     h "If I had to liken it to something, it was like watching a game of Go."
     h "However, where Go might be played by two players on a flat board with a grid, this was a game with far more complexity."
     h "It was a game with trillions or even quadrillions of players, an endless, continuous grid, and it took place in at least three dimensions."
-    h "The strategic foresight on each and every spaceship, on each army, was something that would make the most intelligent human seem as smart as a rock and I imagine the toll was something that would make the worst of humanity’s past atrocities against their fellow man seem peaceful or merciful in comparison."
+    h "The strategic foresight on each and every spaceship, on each army, was something that would make the most intelligent human seem as smart as a rock..."
+    h "and I imagine the toll was something that would make the worst of humanity’s past atrocities against their fellow man seem peaceful or merciful in comparison."
     scene bg intergalactic_wars2
     h "Then there were the eccentric."
     h "Some of those who were not wiped out in war wasted their resources building strange, functionless structures wherever I went as though they were planting flags."
@@ -203,6 +224,7 @@ label P2C6:
     h "It was a feeling of congeniality, of adoration, of love."
     h "I did not comprehend what compelled these beings to chase after me, but I was thankful."
     h "I was thankful that they did and that they stayed with me for all these years, sacrificing their livelihoods."
+    scene bg dead_universe2
     h "This too, like all good things, had to end."
     h "The last that were with me lost pace, slowing down and taking distance with every century and millennia."
     h "They were losing ground against the current of time."
@@ -213,4 +235,8 @@ label P2C6:
     h "As the stars died, and the universe returned to blackness, I understood then that the luxuries I enjoyed up to that point would never return."
     h "My universe was dead, and what was left of it was a corpse that would rot away until nothing was left."
 
-    jump P2C7
+    menu:
+        "Try to flex phantom limb":
+            jump P2C7
+        "Do nothing":
+            jump P2C7
