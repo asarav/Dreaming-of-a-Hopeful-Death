@@ -6,30 +6,47 @@
 define h = Character("Humanity")
 define voice1 = Character("A Voice Among Billions")
 define a_voice = Character("Another Voice Among Billions")
-define meme = Character("Meme")
+define meme1 = Character("Meme")
 define meme2 = Character("Another Meme")
 define meme3 = Character("A Meme About the Hard Times")
 define meme4 = Character("Chad Meme")
 
+image bg reality_passing_by = "P3C2/bg P3C2 Reality and the universe passing by you at a disorienting speed beyond the standard passage of time.png"
+image bg reality_passing_by2 = "P3C2/bg P3C2 Reality and the universe passing by you at a disorienting speed beyond the standard passage of time 2.png"
+image bg reality_passing_by3 = "P3C2/bg P3C2 Reality and the universe passing by you at a disorienting speed beyond the standard passage of time 3.png"
+image bg reality_passing_by4 = "P3C2/bg P3C2 Reality and the universe passing by you at a disorienting speed beyond the standard passage of time 4.png"
+image bg trillions_of_possibilities = "P3C2/bg P3C2 Trillions upon trillions of possibilities abstract, but also photorealistic.png"
+image bg trillions_of_possibilities2 = "P3C2/bg P3C2 Trillions upon trillions of possibilities abstract, but also photorealistic 2.png"
+image bg trillions_of_possibilities3 = "P3C2/bg P3C2 Trillions upon trillions of possibilities abstract, but also photorealistic 3.png"
+image bg trillions_of_possibilities4 = "P3C2/bg P3C2 Trillions upon trillions of possibilities abstract, but also photorealistic 4.png"
+image bg alcoholic_supercluster = "P3C2/bg P3C2 An alcoholic supercluster.png"
+image bg pinkish_silhouette = "P3C2/bg P3C2 a pinkish silhouette that changes colors based on mood in the vacuum of space.png"
+image bg pinkish_silhouette2 = "P3C2/bg P3C2 a pinkish silhouette that changes colors based on mood in the vacuum of space 2.png"
+
+
 label P3C2:
+    scene bg reality_passing_by
+
     show screen centeredbox("{size=+10}Chapter 16: The Voices in Our Head{/size}")
     pause
-    hide screen centeredbox
-    
+    hide screen centeredbox    
 
     h "Enough time has passed to the point that we are stunned that my mind has not already turned to mush like a form of synaptic retrogenesis."
     h "Humans have an intellect that barely allows them to process a century’s worth of information, but this is far beyond that."
     h "Perhaps it had already become mush from the moment we became one being."
     h "The line between the sane and the insane is thin, indistinct, and vague."
+    scene bg reality_passing_by2
     h "Maybe we were all certain levels of insane, and together we created this complete mess of a person."
     h "Regardless, I have managed to maintain some semblance of human thought that can be described with words."
     h "As to how long that will be the status quo is questionable, but I think that I am at my breaking point."
     h "The voices in my head don’t stop, and I can no longer trace them back to the original personality that they belong to."
     h "They just echo back and forth, talking about everything from the mundane to the freakish."
-    h "From one conversation between two disembodied voices discussing the weather and the rate of inflation to conversations about tumors and how to control groups of people within a cult, the topics are erratic and lack logical ties."
+    h "From one conversation between two disembodied voices discussing the weather and the rate of inflation to conversations about tumors..."
+    h "and how to control groups of people within a cult, the topics are erratic and lack logical ties."
     h "It is as though I am being unwound into multiple people who are no longer who they used to be."
     h "Sometimes the voices are loud, sometimes they are soft, but they are very rarely silent."
     h "I can usually hear them, and whenever I think they are about to fade into the background, they come back."
+    scene bg reality_passing_by3
     h "It is as though the source of the voices can read my mind."
     h "Of course they can."
     h "They are me."
@@ -40,11 +57,13 @@ label P3C2:
     h "However, the moment I relax, the noise begins to come back."
     h "True relief, it seems, is no longer a luxury that I can afford."
     h "When I direct my attention outwards, I find that there is little I can gather to anchor myself to reality."
+    scene bg reality_passing_by4
     h "There is no light, no sound, and I have lost all sense of the speed that I am traveling at."
     h "When everything is pitch black, it is as though you have your eyes closed."
     h "However, when you have your eyes closed, you have the option of opening them."
     h "In our case, I am deprived of all sensory details, as though I was in a sensory deprivation tank for unimaginable periods of time until all my nerves have degenerated and everything has gone numb."
-    h "This state of nothingness has gone on long enough that I can no longer tell if anything we experienced in the past has actually happened, or if I am simply remembering events, real and imagined, to cope with the current reality."
+    h "This state of nothingness has gone on long enough that I can no longer tell if anything we experienced in the past has actually happened,..."
+    h "or if I am simply remembering events, real and imagined, to cope with the current reality."
     h "If I take a method of deductive inference, then we could take the clues and signals that I can observe and use them to extrapolate to the past to learn how I arrived at where I am."
     h "However, there are no clues here."
     h "There are no signals, and no breadcrumbs."
@@ -62,7 +81,8 @@ label P3C2:
     h "Despite having an imperfect perception of the world, we placed so much importance on our senses, and now that they are gone, we have nothing to base our perception of reality upon."
     h "We can say that we think and therefore we are, but the very nature of our existence is a mystery."
     h "Do we take our memories at face value to represent what the past was, or do we scrutinize them to find holes in their construction?"
-    h "If we choose the latter, then how can we distinguish between memories that are inconsistent with reality, and memories that are flawed due to the passage of time which numbs the sharpest of pains and relegates each past event into a homogenous blur?"
+    h "If we choose the latter, then how can we distinguish between memories that are inconsistent with reality, and memories that are flawed due to the passage of time..."
+    h "which numbs the sharpest of pains and relegates each past event into a homogenous blur?"
     h "The tools of reasoning we have at our disposal are deteriorating, and as time passes, our state of mind robs us of our ability to reason and cope with our reality."
     h "This was true when we supposedly walked the earth, but it is truer now."
     voice1 "How bad could letting go be?"
@@ -102,12 +122,14 @@ label P3C2:
     h "The real me is somewhere else."
     h "Maybe the real me can be found, but with each second that passes, that person slips out of our grasp."
     h "What we are now is an amalgamation of qualities that transcend the physical."
+    scene bg pinkish_silhouette
     h "Whenever I picture myself, I do not see a humanoid bipedal body, but rather a pinkish silhouette that changes colors based on my mood."
     h "When I become angry, it becomes pointed and jagged with rough edges."
     h "When I become calm, it turns fluid and amorphous, like water accumulating into a human shaped puddle."
     h "It is as though I am an elemental force of nature."
     h "Sometimes, I am a discrete particle."
     h "Other times, I am a fluctuating wave."
+    scene bg pinkish_silhouette2
     h "With such a mindset, the qualities of cultural exchange and social transactions mutate as well."
     h "Where one could base their identity off of a hometown or location on the earth which was complete with its own local cuisine, architecture, way of life, language, and practices, such identities no longer have any significance."
     h "I am no longer a child in the Chinese countryside, or a businessman in a bustling American city with skyscrapers running along the horizon."
@@ -115,6 +137,7 @@ label P3C2:
     h "I have lived many lives, and took on the roles of many people."
     h "I have thoroughly traced the possible futures of each person, the interactions they might have had with other parts of me, and how they may have chosen to live."
     h "In the process, I have memories of lives I have only imagined outnumbering the lives that I have actually lived."
+    scene bg trillions_of_possibilities
     h "This is trillions upon trillions of possibilities."
     h "Furthermore, these lives are not limited to those lived on Earth or even in this universe."
     h "Can a human mind handle all of that?"
@@ -127,6 +150,7 @@ label P3C2:
     h "My sense of humor had already been somewhat twisted and warped towards the avant-garde due to the vibrant meme culture of the internet era, but humor in this day and age has become something else."
     h "Vast expanses of empty space have become personified."
     h "They take on personalities and play a role in my jokes."
+    scene bg alcoholic_supercluster
     meme1 "Hello, I used to be a supercluster."
     meme1 "After becoming an alcoholic, I became divorced from my universe and now pay alimony to a quasar."
     meme1 "Look at how my standards have dropped."
@@ -138,6 +162,7 @@ label P3C2:
     meme3 "My boss is rolling in antimatter, but for some reason, I don't get a raise."
     meme4 "Random variables be like: I don't know what I am."
     meme4 "Meanwhile confident chad Gaussian distributions be like: if it wasn't for me being responsible for the central limit theorem, you peasants would have no complexity and only entropy."
+    scene bg trillions_of_possibilities2
     h "The ones with strange sounds are among the best."
     h "Despite farts as a facet of humor being used in jokes in the 21st century, for some reason, variations of this sound simply did not seem to go away."
     h "Even today, a random fart here or there can breathe life into a boring joke that fell flat on its face."
@@ -148,10 +173,13 @@ label P3C2:
     h "There is something to ground them within my mind."
     h "The best jokes seem to be the ones that are meta and complex with self-references and high level connections between ideas and concepts that have nothing to do with each other on a surface level."
     h "Such inside jokes can make mundane, everyday things humorous because they implicate something deeper that is the source of the joke."
-    h "Similar to hearing a random default Android notification out of the blue, the simple parts of everyday life have transformed into the centerpieces of jokes that are difficult to explain, but do not seem to lose their freshness."
+    h "Similar to hearing a random default Android notification out of the blue, the simple parts of everyday life have transformed..."
+    h "into the centerpieces of jokes that are difficult to explain, but do not seem to lose their freshness."
     h "Over the years, while the jokes become more and more unrecognizable to the humans of the past, they still manage to tie in some aspect of the universe around us."
     h "Although we have been running out of material as everything gradually went dark, humor, which has been one of the only coping mechanisms we had left, never went away."
-    h "Even now, we find a way around the obstacles placed in front of us by diving deep into our memories and transforming them into their many permutations like a machine learning algorithm training itself on the same data over and over again and increasing its training data through clever mathematical tricks."
+    h "Even now, we find a way around the obstacles placed in front of us by diving deep into our memories..."
+    h "and transforming them into their many permutations like a machine learning algorithm training itself on the same data over and over again and increasing its training data through clever mathematical tricks."
+    scene bg trillions_of_possibilities3
     h "Our humor no longer draws from what has happened, but also what is possible, what is impossible, and everything in between."
     h "Of course, when it comes to memes and jokes, part of the appeal is being able to share them with others."
     h "To enjoy such an experience, we have effectively created a social network of one person: me."
@@ -163,7 +191,8 @@ label P3C2:
     h "We have back and forth conversations where we try to outdo what was previously posted."
     h "One image gets downloaded, photoshopped, and then re-uploaded to try to improve upon what came before."
     h "Before long, we have forgotten what the original looked like and all our attention is focused on the surreal creation that shows as most recent in our message thread."
-    h "These conversations I have with myself initially felt like a futile struggle against my loneliness, but eventually these different parts of my personality and my identity that I split myself into seemed to almost take on the appearance and presence of separate individuals with minds of their own."
+    h "These conversations I have with myself initially felt like a futile struggle against my loneliness,..."
+    h "but eventually these different parts of my personality and my identity that I split myself into seemed to almost take on the appearance and presence of separate individuals with minds of their own."
     h "Somewhere along the line, I was no longer playing a role, but was instead looking in a fractured mirror where each reflection seemed to have its own opinions and takes on different topics."
     h "I could bounce ideas off of each one, watch them talk to each other, and see them develop over time."
     h "Each one had their own ego with their own distinct idiosyncrasies."
@@ -171,7 +200,9 @@ label P3C2:
     h "The interactions were soon taken out of the social networks and became more complex."
     h "Anything that people could do with each other, we did with one another: music, art, love, conflict, all of it."
     h "Music and art in particular were very interesting and followed a trajectory similar to our sense of humor."
-    h "In the case of musical improvisation in a group, while we began with traditional instruments and sounds, once we realized that the limitations we had previously no longer applied, our sounds and melodies entered the realm of the otherworldly."
+    h "In the case of musical improvisation in a group, while we began with traditional instruments and sounds,..."
+    h "once we realized that the limitations we had previously no longer applied, our sounds and melodies entered the realm of the otherworldly."
+    scene bg trillions_of_possibilities4
     h "It is not simply a matter of playing the right notes."
     h "Eventually, it grows in complexity."
     h "Soon, it is quick repeatable patterns of key changes."
@@ -185,7 +216,8 @@ label P3C2:
     h "That is the basic requirement."
     h "Outside of that, anything can happen."
     h "Replace your musical instruments with the whirs and hums of machinery, remove a part completely, use silence as a central part of your song."
-    h "The structure of songs themselves can also be completely unconventional where they do not necessarily have a beginning or an end, but transition from one part to another in a loop like an auditory Möbius strip that ends where it begins and begins where it ends."
+    h "The structure of songs themselves can also be completely unconventional..."
+    h "where they do not necessarily have a beginning or an end, but transition from one part to another in a loop like an auditory Möbius strip that ends where it begins and begins where it ends."
     h "Conversely, they can become inverted where melodies become the backing while the backing takes center stage."
     h "Some of these concepts have been tried in 21st century music, but others such as the infinite loop are not as conventional."
     h "Then there are the vocals."
@@ -215,13 +247,16 @@ label P3C2:
     h "What is nice about the current creative environment is that we are no longer motivated by the box office, subscribers to a streaming service or a financial quarter, so anything is allowed."
     h "We can make every indie film and every indie film with too large of a budget."
     h "It all lives in our head, so there are no costs or liabilities borne in terms of special effects, computer graphics or stunt work."
-    h "Some of the actors who form a part of me need some way to pass the time, so we can create works that not only have an unlimited budget with perfect visuals, but also add in the star power and recognition that the films of old had."
+    h "Some of the actors who form a part of me need some way to pass the time,..."
+    h "so we can create works that not only have an unlimited budget with perfect visuals, but also add in the star power and recognition that the films of old had."
     h "It is the best of both worlds when we can keep a stable mind."
-    h "There are those among us who saw this as an opportunity to create a virtual currency based on an economy of thoughts and ideas, but that was quickly shot down as idiotic and as a way to pointlessly impose limits on ourselves."
+    h "There are those among us who saw this as an opportunity to create a virtual currency based on an economy of thoughts and ideas,..."
+    h "but that was quickly shot down as idiotic and as a way to pointlessly impose limits on ourselves."
     h "When anything is possible, why introduce currencies and scarcity when it serves no purpose?"
     voice1 "Don’t ruin it."
     voice1 "We did enough of that before."
-    h "In addition to the stars and celebrities that were alive at the time of the curse, there are the stars and celebrities that were born out here in space through the amalgamation of the best qualities of some of the more admirable individuals within the industry."
+    h "In addition to the stars and celebrities that were alive at the time of the curse, there are the stars and celebrities that were born out here in space..."
+    h "through the amalgamation of the best qualities of some of the more admirable individuals within the industry."
     h "Some of them were not even human."
     h "Finally, the dead have been brought back to life to cameo in the summer blockbusters."
     h "Imagine Marlon Brando or Laurence Olivier making powerful appearances on the scene and reminding everyone of what acting is."
@@ -233,7 +268,8 @@ label P3C2:
     h "This has enabled us to effectively live in worlds of our own creation without a need to care about what is happening on the outside."
     h "The inside has become all that mattered and it is the mechanism by which we can live a semblance of a life."
     h "The many lives we have experienced have been countless and have taken place on planets, in space, in impossible locations, and in realities with their own unique rules."
-    h "There have been realities with magic, fantastical places with superheroes and realities where we can live completely unencumbered by time, space, and any limitations other than the ones that accompany our mental processes."
+    h "There have been realities with magic, fantastical places with superheroes..."
+    h "and realities where we can live completely unencumbered by time, space, and any limitations other than the ones that accompany our mental processes."
     h "Imagination and thought have effectively been the tools that we used to seek solace from the chains that bound us in the real world."
     h "At times there are some nagging thoughts that can break the dream."
     voice1 "None of this is real."
@@ -268,12 +304,15 @@ label P3C2:
     h "We discussed cultural similarities and how the way we think was dependent upon our physical states and the languages we use to describe our environment."
     h "There were times when nuances were lost, or when single words would have multiple meanings which resulted in ambiguities when discussing complex ideas."
     h "It is one thing to make a simple greeting in another language, it is another to have a fluid conversation, and it is another to discuss highly specialized topics within that language."
-    h "These frustrations were gradually smoothed out over the years, but when such situations did appear, we found ourselves explaining simple concepts in a highly detailed manner, or reverting to using mathematics to find common ground."
+    h "These frustrations were gradually smoothed out over the years, but when such situations did appear,..."
+    h "we found ourselves explaining simple concepts in a highly detailed manner, or reverting to using mathematics to find common ground."
     h "As math can be fairly unambiguous and precise, it was a good method by which to eliminate situations where clarity may be lacking."
     h "With that said, the act of using math as a medium by which to communicate certain things can be draining."
-    h "While they have computational capabilities that are orders of magnitude more advanced than anything we have ever developed prior to the curse, we simply have a human level intelligence with the memories of billions of humans."
+    h "While they have computational capabilities that are orders of magnitude more advanced than anything we have ever developed..."
+    h "prior to the curse, we simply have a human level intelligence with the memories of billions of humans."
     h "When it came to such conversations, we were undoubtedly the bottleneck and I remember being quite grateful with how patient they were during such exchanges."
-    h "It is not an understatement when I state that our technological achievements and the knowledge we gained over the years were nothing in the face of a civilization that managed to survive up to this point and freely travel through the universe as though they were taking a languid stroll through the countryside."
+    h "It is not an understatement when I state that our technological achievements and the knowledge we gained over the years..."
+    h "were nothing in the face of a civilization that managed to survive up to this point and freely travel through the universe as though they were taking a languid stroll through the countryside."
     h "We eventually arrived upon what was to become of us."
     h "We could simply vanish into the darkness."
     h "However, they told me that to do so would be a waste of an opportunity."
@@ -324,4 +363,8 @@ label P3C2:
     h "They tell us of the mistakes we have made, the mistakes we are making, and the mistakes that we will make."
     h "All we can do in response is to simply dream another dream and hope for a satisfying ending."
 
-    jump P3C3
+    menu:
+        "Try to flex phantom limb":
+            jump P3C3
+        "Do nothing":
+            jump P3C3
