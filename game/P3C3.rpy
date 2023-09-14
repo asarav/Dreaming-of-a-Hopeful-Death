@@ -5,7 +5,14 @@
 
 define h = Character("Humanity")
 
+image bg empty_hospital_bed = "P3C3/bg P3C3 An empty hospital bed in a modern hospital.png"
+image bg empty_hospital_bed2 = "P3C3/bg P3C3 An empty hospital bed in a modern hospital 2.png"
+image bg empty_neonatal = "P3C3/bg P3C3 An empty neonatal section of a hospital.png"
+image bg empty_neonatal2 = "P3C3/bg P3C3 An empty neonatal section of a hospital 2.png"
+
 label P3C3:
+    scene bg empty_hospital_bed
+
     show screen centeredbox("{size=+10}Chapter 17: Steps Towards the Finish Line{/size}")
     pause
     hide screen centeredbox
@@ -13,8 +20,10 @@ label P3C3:
     h "The birth was difficult."
     h "Before the predicted due date, her body was already weak and it was uncertain what medical complications might arise during the final days of the pregnancy."
     h "We think we can depend on modern medicine, but it is just a stop gap for the creeping fate that all of us have."
-    h "This is assuming that proper treatment is provided which is not always the case when considering all of the bureaucratic hoops the average patient needs to jump through in addition to placing oneself at the mercy of human error."
+    h "This is assuming that proper treatment is provided which is not always the case when considering all of the bureaucratic hoops the average patient needs to jump through..."
+    h "in addition to placing oneself at the mercy of human error."
     h "Childbirth is always traumatic to the body regardless of the level of health of the mother, and it leaves its mark and shortens the lifespan."
+    scene bg empty_hospital_bed2
     h "Such is the price of creating another life."
     h "It is the price that accompanies carrying a child for nine months."
     h "It is a price that is paid in the form of effectively running the human body at a higher speed and under a higher load so that it can properly account for the life that it will eventually bring into the world."
@@ -22,8 +31,10 @@ label P3C3:
     h "all are affected."
     h "In such conditions, one has to wonder what is prioritized by evolution: the life of the mother, or the life of the child?"
     h "One has the potential to produce more offspring and raise the offspring while the other is the future of the species."
-    h "For some species, birth kills the mother while producing multiple offspring while for others, offspring are plentiful to the point where cannibalism is sometimes not only not counterproductive, but also encouraged depending on the situation."
+    h "For some species, birth kills the mother while producing multiple offspring..."
+    h "while for others, offspring are plentiful to the point where cannibalism is sometimes not only not counterproductive, but also encouraged depending on the situation."
     h "For us humans, however, the child seems to serve greater importance."
+    scene bg empty_neonatal
     h "In a sense, the moment one's offspring is born, it becomes the beginning of the end."
     h "You as a person die, and in its place is a drone that serves the needs of the child."
     h "Your hopes and dreams become lowered in priority, and whatever you may have had planned are less valid."
@@ -36,6 +47,7 @@ label P3C3:
     h "It is as though an ape is telling a human to climb a tree instead of walking on two feet."
     h "It is as though a knight is admonishing an office worker for being unable to duel to the death."
     h "It is a form of generational procrastination where the previous generation imposes their will on the next while also diminishing their will in the present."
+    scene bg empty_neonatal2
     h "Your child is a message in a bottle to the future."
     h "In the process, you not only give yourself for the sake of the child, but also acknowledge that you have become a lost cause."
     h "The future is no longer about you."
@@ -121,4 +133,8 @@ label P3C3:
     h "Even they will no longer matter when the last human dies, when our culture vanishes, and when the earth turns to ash."
     h "Nothing is permanent including you and the marks you and your descendants tried to leave."
 
-    jump P3C4
+    menu:
+        "Try to flex phantom limb":
+            jump P3C4
+        "Do nothing":
+            jump P3C4
