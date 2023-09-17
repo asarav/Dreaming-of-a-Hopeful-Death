@@ -6,7 +6,14 @@
 define h = Character("Humanity")
 define voice1 = Character("A Voice Among Billions")
 
+image bg curse_of_life = "P3C4/bg P3C4 The curse of life.png"
+image bg curse_of_life2 = "P3C4/bg P3C4 The curse of life 2.png"
+image bg remains_of_humanity = "P3C4/bg P3C4 The cursed remains of the human race.png"
+image bg remains_of_humanity2 = "P3C4/bg P3C4 The cursed remains of the human race 2.png"
+image bg torment_of_knowledge = "P3C4/bg P3C4 The torment and suffering of knowledge.png"
+
 label P3C4:
+    scene bg remains_of_humanity
     show screen centeredbox("{size=+10}Chapter 18: Progeny{/size}")
     pause
     hide screen centeredbox
@@ -24,6 +31,9 @@ label P3C4:
     h "Be it through our cosmic neighbors or through descendants, life as we know it will no longer originate within this cold space."
     voice1 "What’s done is done."
     voice1 "No use worrying about a future that will never occur."
+    
+    scene bg remains_of_humanity2
+    
     h "Our wish to have a legacy that outlives us is also buried."
     h "We cannot have any children or anything resembling offspring."
     h "We cannot pass our teachings onto anyone, and there are many among us that think that is for the best."
@@ -42,6 +52,9 @@ label P3C4:
     h "To bring life into such conditions is simply cruelty."
     h "We know of what pain is in store."
     h "If we do not wish to experience it, why would our children?"
+
+    scene bg curse_of_life
+    
     voice1 "Common sense seems to trump tradition."
     voice1 "Our duty brought upon us by cultural and societal norms are irrelevant in conditions where cause and effect are seemingly absent."
     h "Indeed, I wonder if our predecessors thought the same thing."
@@ -60,6 +73,9 @@ label P3C4:
     h "Our experience is ours alone."
     h "The pain of others is not ours to feel."
     h "The challenges that we face as individuals are the most immediate and pressing."
+
+    scene bg curse_of_life2
+    
     h "Our life is the only one we experience and our death is the one that ends it all."
     h "It is because of this that we are driven by our personal desires for the majority of our lives."
     h "This means that all of us knows what it means to never follow our dreams, to suffer in agony, and to wallow in disappointment."
@@ -108,6 +124,9 @@ label P3C4:
     h "Just as the stars were for us, it is likely that we were the same for whatever it is that comes next."
     h "What may be, is difficult to tell in this void that permeates all of existence."
     h "Knowing that we will never know what comes after, what it is we were meant to create is one of those truths that eats away at oneself like acid on rock."
+
+    scene bg torment_of_knowledge
+
     h "The knowledge and reason that we torment ourselves with is not enough to provide us with all the answers."
     h "Though we know this now, I wonder if those who brought us into this world knew as well and still did so despite knowing."
     h "There is a deep resentment for those who brought us into this life which never ends."
@@ -124,6 +143,11 @@ label P3C4:
     h "If we were to have children through some miracle, it may indeed be true that we would betray them as our predecessors betrayed us by forcefully imposing life upon them."
     h "Life and death is the curse and nirvana is out of our reach."
     h "To never experience either is to experience true freedom through ignorance."
-    h "At least then do we never experience our hopes and dreams being trampled by reality and ending in our passing which ultimately signifies nothing and leaves a fading legacy that too passes into insignificance with the march of time."
+    h "At least then do we never experience our hopes and dreams being trampled by reality..."
+    h "and ending in our passing which ultimately signifies nothing and leaves a fading legacy that too passes into insignificance with the march of time."
 
-    jump P4C1
+    menu:
+        "Try to flex phantom limb":
+            jump P4C1
+        "Do nothing":
+            jump P4C1
