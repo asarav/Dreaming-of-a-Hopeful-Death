@@ -5,7 +5,12 @@
 
 define h = Character("Humanity")
 
+image bg dark_era = "P4C1/bg P4C1 The dark era of our universe.png"
+image bg dark_era2 = "P4C1/bg P4C1 The dark era of our universe 2.png"
+
 label P4C1:
+    scene bg dark_era
+
     show screen centeredbox("{size=+12}Part 4: A Whimper{/size}")
     pause
     hide screen centeredbox
@@ -58,6 +63,9 @@ label P4C1:
     show screen centeredbox("By extension, thought and sentience supported by standard matter also becomes impossible.")
     pause
     hide screen centeredbox
+
+    scene bg dark_era2
+
     show screen centeredbox("For anything to be born in this sealed tomb of a universe, it must come from a side of it that we do not yet fully grasp.")
     pause
     hide screen centeredbox

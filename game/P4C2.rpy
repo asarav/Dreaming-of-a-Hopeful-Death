@@ -5,6 +5,16 @@
 
 define h = Character("Humanity")
 
+image bg abstract_degeneration_memory = "P4C2/bg P4C2 he abstract degeneration of memory in the style of William Utermohlen.png"
+image bg abstract_degeneration_memory2 = "P4C2/bg P4C2 he abstract degeneration of memory in the style of William Utermohlen 2.png"
+image bg abstract_degeneration_memory3 = "P4C2/bg P4C2 he abstract degeneration of memory in the style of William Utermohlen 3.png"
+image bg brain_death = "P4C2/bg P4C2 The brain death in the style of Zdzisław Beksiński.png"
+image bg brain_death2 = "P4C2/bg P4C2 The brain death in the style of Zdzisław Beksiński 2.png"
+image bg brain_death3 = "P4C2/bg P4C2 The brain death in the style of Zdzisław Beksiński 3.png"
+image bg torn_psyche = "P4C2/bg P4C2 The psyche being torn apart in the style of Zdzisław Beksiński.png"
+image bg unraveling_self = "P4C2/bg P4C2 The unraveling of the self and one's identity in the style of Zdzisław Beksiński.png"
+
+
 label P4C2:
     show screen centeredbox("{size=+10}Chapter 20: A Pale Horse{/size}")
     pause
@@ -122,4 +132,8 @@ label P4C2:
     h "Life is a selfish existence that desires itself."
     h "Once it is gone, nothing will desire it ever again."
 
-    jump P4C3
+    menu:
+        "Try to flex phantom limb":
+            jump P4C3
+        "Do nothing":
+            jump P4C3
