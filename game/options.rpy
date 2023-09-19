@@ -150,7 +150,7 @@ define config.save_directory = "DreamingofaHopefulDeath-1670885829"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/icon.jpg"
 
 
 ## Build configuration #########################################################

@@ -5,6 +5,10 @@
 
 define h = Character("Humanity")
 
+image bg life_of_regrets = "P4C3/bg P4C3 A life of regrets and unfulfilled dreams.png"
+image bg future_of_humanity = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 2.png"
+image bg future_of_humanity2 = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 3.png"
+
 label P4C3:
     show screen centeredbox("{size=+10}Chapter 21: An Unfulfilled Purpose{/size}")
     pause
@@ -199,4 +203,8 @@ label P4C3:
     h "We may struggle, but we are still chained to the same sequence of events."
     h "So where would that leave us then?"
 
-    jump P4C4
+    menu:
+        "Try to flex phantom limb":
+            jump P4C4
+        "Do nothing":
+            jump P4C4
