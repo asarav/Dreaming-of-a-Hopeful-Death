@@ -5,6 +5,12 @@
 
 define h = Character("Humanity")
 
+image bg floating_in_endless_space = "P4C4/bg P4C4 Floating in endless space in a surreal style.png"
+image bg floating_in_endless_space2 = "P4C4/bg P4C4 Floating in endless space in a surreal style 2.png"
+image bg floating_on_ocean = "P4C4/bg P4C4 Floating on an endless ocean in a surreal style.png"
+image bg standing_on_cliff = "P4C4/bg P4C4 Standing at the edge of a cliff in a surreal style.png"
+image bg absence_of_purpose = "P4C4/bg P4C4 The absence of a purpose in a surreal style.png"
+
 label P4C4:
     show screen centeredbox("{size=+10}Chapter 22: Meaning{/size}")
     pause
@@ -115,4 +121,8 @@ label P4C4:
     h "Any firm mental foothold that was once there within us has broken away beneath us."
     h "Now, all that is left is for us to fall into the abyss."
 
-    jump P4C5
+    menu:
+        "Try to flex phantom limb":
+            jump P4C5
+        "Do nothing":
+            jump P4C5
