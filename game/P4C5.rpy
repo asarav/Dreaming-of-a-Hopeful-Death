@@ -6,7 +6,13 @@
 define h = Character("Humanity")
 define stranger = Character("A Stranger Calling Out From the Void")
 
+image bg lost_in_pure_black = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought.png"
+image bg lost_in_pure_black2 = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought and form in a surreal style 2.png"
+image bg lost_in_pure_black3 = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought and form in a surreal style 3.png"
+
 label P4C5:
+    scene bg lost_in_pure_black
+
     show screen centeredbox("{size=+10}Chapter 23: The Whimper{/size}")
     pause
     hide screen centeredbox
@@ -24,6 +30,9 @@ label P4C5:
     h "If I did not have the worn memories of a time when we were children of the earth, I think I would not have even believed that I held these senses to begin with."
     h "What was once a life that held the colors and hues of a vibrant painting has now become washed out and torn by the touch of infinity."
     h "The strokes are unrecognizable, and the canvas is deteriorating with detritus gathering beneath."
+
+    scene bg lost_in_pure_black2
+
     h "In the moments I remember that I am a sentient being with my own thoughts, I may try to think as loudly as I can into the infinity that surrounds me or try to move a phantom limb."
     h " We would say we are here and that I am who I am."
     h "It is largely a pointless exercise, but I have been at it for so long that the practice has been made automatic almost to the point it has lost all significance."
@@ -42,6 +51,9 @@ label P4C5:
     h "Despite it being a miracle, I am still unimportant."
     h "I have still been unable to make my mark."
     h "In the end, I am but a speck in a growing sea of emptiness who never mattered and never will ... I am sorry."
+
+    scene bg lost_in_pure_black3
+
     stranger "Hello, can you hear me?"
     stranger "Over."
     h "..."

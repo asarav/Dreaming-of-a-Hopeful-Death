@@ -12,6 +12,8 @@ image bg standing_on_cliff = "P4C4/bg P4C4 Standing at the edge of a cliff in a 
 image bg absence_of_purpose = "P4C4/bg P4C4 The absence of a purpose in a surreal style.png"
 
 label P4C4:
+    scene bg absence_of_purpose
+
     show screen centeredbox("{size=+10}Chapter 22: Meaning{/size}")
     pause
     hide screen centeredbox
@@ -29,6 +31,9 @@ label P4C4:
     h "If the meaning of something changes too often, it can become meaningless, because a term can refer to many different things."
     h "A world of changing meaning, particularly when such change is constantly occurring, would be hell for a human intellect."
     h "The mind would lose its footing and become disoriented like a schizophrenic losing their grasp on reality."
+
+    scene bg floating_in_endless_space
+
     h "For something to have a meaning, there is an assumption that it does not change significantly over time."
     h "Whether that something does change or not seems to be beyond a human’s ability to comprehend."
     h "Meaning, in other words, is temporally fixed."
@@ -50,6 +55,9 @@ label P4C4:
     h "It is something that is born out of the finite nature of a human life to justify our existence as more than just chemical processes."
     h "\"This life has to mean something.\""
     h "\"Why would I continue with it otherwise?\""
+
+    scene bg floating_in_endless_space2
+
     h "However, from an empirical standpoint, there is no such thing as a life’s purpose."
     h "It is a philosophical concept that was invented for us to continue living and to live in a deliberate manner."
     h "The reason for this being that we believe our life has value, and that value is maximized for the duration we are alive and minimized in the duration that we are not—particularly before we are born."
@@ -82,6 +90,9 @@ label P4C4:
     h "If I do so, would I still be me?"
     h "Like the ship of Theseus, if you take a ship and replace all of its parts is it still the same ship?"
     h "Frankly, I am losing the patience to even humor the discussion."
+
+    scene bg floating_on_ocean
+
     h "This brings us to question why it matters who I am."
     h "Why do I need to have an identity?"
     h "Or even a purpose?"
@@ -100,6 +111,9 @@ label P4C4:
     h "The future has yet to occur and as a result, none of it exists."
     h "Once it becomes the present, I can simply decide how I wish to respond to it."
     h "It is irrelevant whether this emptiness is real or if I have been dreaming it all this time."
+
+    scene bg standing_on_cliff
+
     h "Reality is just a foundation by which I can interpret to choose how to live."
     h "That is all."
     h "Perception is what matters, and we have full control of that."
