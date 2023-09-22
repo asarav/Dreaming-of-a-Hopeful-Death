@@ -5,8 +5,21 @@
 
 define h = Character("Humanity")
 # The game starts here.
+image bg aged_princess = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest. Time has passed, and now the princess who is a .png"
+image bg aged_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest. Time has passed, and now the princess who is a 2.png"
+image bg cracked_princess = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form. Plants are beginning to take r.png"
+image bg cracked_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form. Plants are beginning to take r 2.png"
+image bg broken_statue = "epilogue/The weathered remains of a female statue on the forest floor with a tree growing from the area where the statue fell..png"
+image bg broken_statue2 = "epilogue/The weathered remains of a female statue on the forest floor with a tree growing from the area where the statue fell 2.png"
+image bg dying_tree = "epilogue/A large tree within the forest that is withered and dying..png"
+image bg dying_tree2 = "epilogue/A large tree within the forest that is withered and dying 2.png"
+image bg large_desert = "epilogue/A large desert with no end where a forest once stood.png"
+image bg large_desert2 = "epilogue/A large desert with no end where a forest once stood 2.png"
+image bg large_desert3 = "epilogue/A large desert with no end where a forest once stood 3.png"
 
 label epilogue:
+    scene bg aged_princess
+
     # Epilogue
     show screen centeredbox("{size=+12}{outlinecolor=#000000}Epilogue{/outlinecolor}{/size}")
     pause
@@ -32,6 +45,9 @@ label epilogue:
     show screen centeredbox("She became a passing curiosity rather than an individual with wants and needs.")
     pause
     hide screen centeredbox
+
+    scene bg aged_princess2
+
     show screen centeredbox("She was no longer a living, breathing being, but an art piece.")
     pause
     hide screen centeredbox
@@ -50,6 +66,9 @@ label epilogue:
     show screen centeredbox("The seasons passed, and her companions who stood by her side eroded away piece by piece.")
     pause
     hide screen centeredbox
+
+    scene bg cracked_princess2
+
     show screen centeredbox("She too was beginning to lose pieces of herself as the years passed.")
     pause
     hide screen centeredbox
@@ -65,6 +84,9 @@ label epilogue:
     show screen centeredbox("The fragments fell by her side and were either washed away or disintegrated due to the elements.")
     pause
     hide screen centeredbox
+
+    scene bg cracked_princess
+
     show screen centeredbox("These things that were once part of her were gone, and they were not coming back.")
     pause
     hide screen centeredbox
@@ -77,6 +99,9 @@ label epilogue:
     show screen centeredbox("What was once skin deep later became fingers, a nose, and eventually entire limbs.")
     pause
     hide screen centeredbox
+
+    scene bg broken_statue2
+
     show screen centeredbox("The first arm that was to go was the one that was outstretched and reaching out in desperation.")
     pause
     hide screen centeredbox
@@ -98,6 +123,9 @@ label epilogue:
     show screen centeredbox("These were a force to topple her over to meet the same end as her fingers and outstretched arm.")
     pause
     hide screen centeredbox
+
+    scene bg broken_statue
+
     show screen centeredbox("With her arm no longer there to balance her, she fell backwards with her eyes directed towards the sky and the ceiling formed by the forest canopy overhead.")
     pause
     hide screen centeredbox
@@ -128,18 +156,33 @@ label epilogue:
     show screen centeredbox("It grew into a strong tree that lasted many centuries only to follow her in its eventual demise where its corpse formed a withered husk.")
     pause
     hide screen centeredbox
+
+    scene bg dying_tree
+
     show screen centeredbox("In the millennia that followed, the rains grew fewer and fewer.")
     pause
     hide screen centeredbox
+
+    scene bg dying_tree2
+
     show screen centeredbox("The forest starved and lost its luster.")
     pause
     hide screen centeredbox
+
+    scene bg large_desert
+
     show screen centeredbox("The forest and all its creatures vanished after fighting a long battle and its place was sprawling desert that was home to its own class of inhabitants.")
     pause
     hide screen centeredbox
+
+    scene bg large_desert2
+
     show screen centeredbox("Throughout all of this, the planet on which the princess once stood continued to spin.")
     pause
     hide screen centeredbox
+
+    scene bg large_desert3
+
     show screen centeredbox("It continued to revolve around its sun, and the cosmos remained unaffected as all the heavenly bodies traveled their predetermined paths.")
     pause
     hide screen centeredbox
