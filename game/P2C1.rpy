@@ -12,6 +12,8 @@ image bg spacefaring_civilizations2 = "P2C1/bg P2C1 A painting of space faring c
 image bg humanity_form = "P2C1/bg P2C1 - An embryonic morula floating through space photorealistic.png"
 
 label P2C1:
+    play music "audio/Preludes, Op. 28 - No. 4 'Suffocation'.mp3" fadeout 2.0 fadein 2.0
+
     scene bg degenerate_era
     show screen centeredbox("{size=+12}Part 2: Wishes from a Past Far Gone{/size}")
     pause

@@ -311,9 +311,6 @@ label P1C6:
         "Do I really have a phantom limb?"
 
         "Try to flex phantom limb":
-
             jump P2C1
-
         "Do nothing":
-
             jump P2C1

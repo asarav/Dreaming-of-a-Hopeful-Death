@@ -9,6 +9,8 @@ image bg dark_era = "P4C1/bg P4C1 The dark era of our universe.png"
 image bg dark_era2 = "P4C1/bg P4C1 The dark era of our universe 2.png"
 
 label P4C1:
+    play music "audio/Peer Gynt Suite no. 1, Op. 46 - II. Aase's Death.mp3" fadeout 2.0 fadein 2.0
+
     scene bg dark_era
 
     show screen centeredbox("{size=+12}Part 4: A Whimper{/size}")

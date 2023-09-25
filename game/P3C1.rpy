@@ -13,6 +13,8 @@ image bg black_hole_era2 = "P3C1/bg P3C1 The black hole era of the universe 2.pn
 image bg black_hole_era3 = "P3C1/bg P3C1 The black hole era of the universe 3.png"
 
 label P3C1:
+    play music "audio/Etude Op. 25 no. 7 in C sharp minor- 'Cello'.mp3" fadeout 2.0 fadein 2.0
+    
     scene bg black_hole_era
     
     show screen centeredbox("{size=+12}Part 3: Throes of a Curse{/size}")

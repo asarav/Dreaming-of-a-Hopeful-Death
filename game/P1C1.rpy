@@ -13,6 +13,8 @@ image bg P1C1_empty_metropolis4 = "P1C1/bg P1C1 - 2 New York city after all huma
 
 
 label P1C1:
+    play music "audio/Dreaming of a Hopeful Death Intro Theme.mp3" fadeout 2.0 fadein 1.0
+
     scene bg P1C1_title
 
     show screen centeredbox("{size=+16}Dreaming of a Hopeful Death{/size}")

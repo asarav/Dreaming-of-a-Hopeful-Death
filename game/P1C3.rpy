@@ -13,6 +13,8 @@ image bg P1C3_technology = "P1C3/bg P1C3 - The rise of technology and human civi
 image bg P1C3_technology2 = "P1C3/bg P1C3 - The rise of technology and human civilization over the millenia 2.png"
 
 label P1C3:
+    play music "audio/Songs Without Words - No.12 in F Sharp Minor, Op.30.mp3" fadeout 2.0 fadein 2.0
+
     scene bg P1C3_Current_Universe
 
     show screen centeredbox("{size=+10}Chapter 3: The Stelliferous Era{/size}")
