@@ -187,5 +187,4 @@ label epilogue:
     pause
     hide screen centeredbox
 
-    # End the game here
-    return
+    jump credits

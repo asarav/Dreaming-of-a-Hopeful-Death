@@ -38,7 +38,7 @@ label prologue:
     # images directory to show it.
     scene bg Prologue_witch_cabin
 
-    play music "audio/Songs Without Words - No.12 in F Sharp Minor, Op.30.mp3" fadeout 1.0 fadein 1.0
+    play music "audio/Pavane for a Dead Princess.mp3" fadeout 2.0 fadein 2.0
     # Prologue
     show screen centeredbox("{size=+12}{outlinecolor=#000000}Prologue{/outlinecolor}{/size}")
     pause

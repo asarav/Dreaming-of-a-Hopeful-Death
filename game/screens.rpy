@@ -559,6 +559,23 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
+            text _("Made by A. S. Mori.\n")
+
+            text _("Based on the novel of the same name by A. S. Mori.\n")
+
+            text _("\nMusic:\n\n")
+            text _("Dreaming of a Hopeful Death Title - A. S. Mori\n")
+            text _("Songs Without Words: No.12 in F Sharp Minor, Op.30, Felix Mendelssohn, European Archive\n")
+            text _("Pavane For a Dead Princess - Maurice Ravel, Markus Staab\n")
+            text _("Preludes Op. 28 No. 4 Suffocation - Chopin, Ivan Ilic\n")
+            text _("Peer Gynt Suite no. 1, Op. 46 II Aase's Death - Edvard Grieg, Musopen Symphony\n")
+            text _("Etude Op. 25 no. 7 in C sharp minor- 'Cello' - Chopin, Edward Neeman\n\n\n")
+
+            text _("To support A. S. Mori, please consider purchasing the novel Dreaming of a Hopeful Death which is available in multiple formats on {a=https://www.amazon.com/Dreaming-Hopeful-Death-S-Mori-ebook/dp/B0BT4ZYKTF}Amazon{/a}.\n")
+
+            text _("To stay up to date on A. S. Mori's work, follow him on {a=https://asmori.substack.com/}Substack{/a}\n")
+
+
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
 
