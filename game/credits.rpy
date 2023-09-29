@@ -43,6 +43,9 @@ label credits:
     show screen centeredbox("{size=+10}Etude Op. 25 no. 7 in C sharp minor- 'Cello' - Chopin, Edward Neeman{/size}")
     pause
     hide screen centeredbox
+    show screen centeredbox("{size=+10}All images were generated within Dall-E 2 and prompted by A. S. Mori.{/size}")
+    pause
+    hide screen centeredbox
     show screen centeredbox("{size=+10}To support A. S. Mori, please consider purchasing the novel Dreaming of a Hopeful Death which is available in multiple formats on Amazon.{/size}")
     pause
     hide screen centeredbox

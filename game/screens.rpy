@@ -571,6 +571,8 @@ screen about():
             text _("Peer Gynt Suite no. 1, Op. 46 II Aase's Death - Edvard Grieg, Musopen Symphony\n")
             text _("Etude Op. 25 no. 7 in C sharp minor- 'Cello' - Chopin, Edward Neeman\n\n\n")
 
+            text _("All images were generated within Dall-E 2 and prompted by A. S. Mori.\n\n")
+
             text _("To support A. S. Mori, please consider purchasing the novel Dreaming of a Hopeful Death which is available in multiple formats on {a=https://www.amazon.com/Dreaming-Hopeful-Death-S-Mori-ebook/dp/B0BT4ZYKTF}Amazon{/a}.\n")
 
             text _("To stay up to date on A. S. Mori's work, follow him on {a=https://asmori.substack.com/}Substack{/a}\n")
