@@ -12,6 +12,12 @@ image bg school_recess3 = "P2C4/bg P2C4 A scene of elementary school recess in t
 image bg classroom = "P2C4/bg P2C4 A scene of a classroom in an elementary school in the style of Francisco Goya.png"
 image bg classroom2 = "P2C4/bg P2C4 A scene of a classroom in an elementary school in the style of Francisco Goya 2.png"
 image bg picnic = "P2C4/bg P2C4 A scene of a picnic in the forest with children in the style of Francisco Goya 3.png"
+image bg startup = "P2C4/bg P2C4 A fast paced ilfe at a startup.png"
+image bg startup2 = "P2C4/bg P2C4 A fast paced ilfe at a startup 2.png"
+image bg meditating = "P2C4/bg P2C4 Meditating in a Buddhist temple on a mountain.png"
+image bg buddhist_garden = "P2C4/bg P2C4 A Buddhist garden in a temple in the mountains.png"
+image bg buddhist_garden2 = "P2C4/bg P2C4 A Buddhist garden in a temple in the mountains 2.png"
+
 
 label P2C4:
     scene bg classroom
@@ -79,6 +85,7 @@ label P2C4:
     h "It's everything I wanted that I never had a chance to enjoy."
     voice1 "Enough of this."
     h "I want to experience something else."
+    scene bg startup
     h "Today is a busy day like all others."
     h "I enter the campus, swipe my card, and make my way to my cubicle which has my name plate on it."
     h "The lighting is the same as it is every day."
@@ -95,6 +102,7 @@ label P2C4:
     h "With careful planning and a systematic approach, we finish the day with a successful launch and good reviews."
     h "A job well done."
     voice1 "You could dream up anything and this is what you chose to think about?"
+    scene bg startup2
     h "I walk into work the next day with a sense of purpose."
     h "I swipe my employee badge and stroll past security back to my desk."
     h "I set my pc up and start looking at what our tasks are for the day."
@@ -106,15 +114,18 @@ label P2C4:
     h "We are making the world a better place, and I am playing a large role in the journey to a better world."
     h "I matter."
     voice1 "It’s too mundane."
+    scene bg meditating
     h "The temple in which I reside is usually quite peaceful and somewhat remote."
     h "The duties of a monk, while demanding a living that is lacking in modern luxuries is rewarding once appreciated."
     h "The daily routine of tending to the temple grounds can be monotonous, but the four seasons give the chores a bit of variety throughout the year."
     h "The temple, while being a place of meditation and worship, is also a reflection of my work."
+    scene bg buddhist_garden
     h "Whether it is clean, whether it is ruined or well-maintained is all a result of my labor."
     h "There is always something falling apart in this aging temple, so the fine treatment witnessed here is, in some sense, proof of a lifetime of devotion and care."
     h "There is a certain level of pride in seeing the outcome of hardship that makes it seem as though it is all worth it even when knowing and understanding that the temple will still wither away over time."
     h "When I pass, when no one is around to keep this collection of stone in one piece, it will become dust."
     h "However, I still continue."
+    scene bg buddhist_garden2
     h "I clean the grounds, I care for the fish in the ponds and till the stones in the garden."
     h "I continue to recite mantras and write sutras."
     h "I enjoy the peace, and I find comfort in the hardship."

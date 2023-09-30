@@ -22,7 +22,15 @@ image bg trillions_of_possibilities4 = "P3C2/bg P3C2 Trillions upon trillions of
 image bg alcoholic_supercluster = "P3C2/bg P3C2 An alcoholic supercluster.png"
 image bg pinkish_silhouette = "P3C2/bg P3C2 a pinkish silhouette that changes colors based on mood in the vacuum of space.png"
 image bg pinkish_silhouette2 = "P3C2/bg P3C2 a pinkish silhouette that changes colors based on mood in the vacuum of space 2.png"
-
+image bg alien_orchestra = "P3C2/bg P3C2 An alien and abstract orchestra of otherworldly instruments completely unknown to man.png"
+image bg alien_orchestra2 = "P3C2/bg P3C2 An alien and abstract orchestra of otherworldly instruments completely unknown to man 2.png"
+image bg rocky_sequel = "P3C2/bg P3C2 The 4000th sequel to the Rocky franchise with futuristic boxing.png"
+image bg rocky_sequel2 = "P3C2/bg P3C2 The 4000th sequel to the Rocky franchise with futuristic boxing 2.png"
+image bg balls_of_light = "P3C2/bg P3C2 Two balls of light floating in space and conversing for an eternity..png"
+image bg hand_reaching_out = "P3C2/bg P3C2 A hand reaching out for a last lifeline which is disappearing into the darkness.png"
+image bg hand_reaching_out2 = "P3C2/bg P3C2 A hand reaching out for a last lifeline which is disappearing into the darkness 2.png"
+image bg hand_reaching_out3 = "P3C2/bg P3C2 A hand reaching out for a last lifeline which is disappearing into the darkness 3.png"
+image bg hand_reaching_out4 = "P3C2/bg P3C2 A hand reaching out for a last lifeline which is disappearing into the darkness 4.png"
 
 label P3C2:
     scene bg reality_passing_by
@@ -200,13 +208,14 @@ label P3C2:
     h "The interactions were soon taken out of the social networks and became more complex."
     h "Anything that people could do with each other, we did with one another: music, art, love, conflict, all of it."
     h "Music and art in particular were very interesting and followed a trajectory similar to our sense of humor."
+    scene bg alien_orchestra
     h "In the case of musical improvisation in a group, while we began with traditional instruments and sounds,..."
     h "once we realized that the limitations we had previously no longer applied, our sounds and melodies entered the realm of the otherworldly."
-    scene bg trillions_of_possibilities4
     h "It is not simply a matter of playing the right notes."
     h "Eventually, it grows in complexity."
     h "Soon, it is quick repeatable patterns of key changes."
     h "Later, it became a matter of changing the instrument that plays a particular part in the middle of a bar."
+    scene bg alien_orchestra2
     h "Nothing is off limits, which means that anything can happen regardless of whether it is physically possible or not."
     h "As long as it has a certain level of predictability, then it is still musical."
     h "If it can be followed, then it is music."
@@ -234,9 +243,11 @@ label P3C2:
     h "It is an exercise in self-gratification through forcing a certain level of imagination and creativity on the listener."
     h "Film is no exception either."
     h "In addition to the sequels, there are also original movie premises playing rent free in our head."
+    scene bg rocky_sequel
     h "Can you imagine that the Rocky franchise has made it all the way to 5000 sequels?"
     h "I can't either."
     h "At first, watching Rocky go back in time to box Hitler was thought to be the peak."
+    scene bg rocky_sequel2
     h "However, soon we kept topping the previous entry until we hit 5000."
     h "There's something that never gets old about overcoming adversity to eventually triumph."
     h "I tried to hold a Rocky marathon, but somewhere along the line, I forgot the plot events for a large amount of them which shortened the marathon significantly."
@@ -287,6 +298,7 @@ label P3C2:
     h "They came back to this grotesque creature who could not speak or provide."
     h "They came back despite the challenge of doing so and with no expectation of payment or reward."
     h "They had no physical presence, but for our sake, they took on a form that allowed for us to see them as though they were another entity we could interact it."
+    scene bg balls_of_light
     h "In our time of solitary confinement in the largest prison, they knocked on the bars to our cell in the form of a winged ball of light and said, \"Hello.\""
     h "The visions I had were of one of a great dialogue that lasted for thousands of years of greetings where we made each other's acquaintance and grew to know one another as different civilizations."
     h "It initially began as a series of signals, like a light based Morse code."
@@ -318,6 +330,7 @@ label P3C2:
     h "However, they told me that to do so would be a waste of an opportunity."
     h "They told us of a place where we could live."
     h "Not in another time or in another universe, but in this same universe."
+    scene bg trillions_of_possibilities4
     h "We were told that there were many faces to this reality, and what we knew was but a fragment of what was out there."
     h "We were supposedly just fish living within a glass of water that gradually gained cracks over time, and that there was an ocean out there."
     h "It was far away, but it was out there."
@@ -325,17 +338,20 @@ label P3C2:
     h "We could have a place to call our own, a return to the individual identities and bodies we once had, and an appropriate amount of guidance to ensure that we do not repeat the mistakes of the past."
     h "The stories they told of these hidden parts of the universe were fantastical."
     h "There were monsters and giants out there of which they knew, and they believed that there were deities and gods surpassing even them in the spaces beyond which they have yet to comprehend."
-    h " They told us of creatures that traveled from universe to universe, imparting wisdom to intelligent species or poaching them by introducing varying amounts of entropy into closed systems."
+    h "They told us of creatures that traveled from universe to universe, imparting wisdom to intelligent species or poaching them by introducing varying amounts of entropy into closed systems."
     h "They told us of battles being fought between conservationists and prospectors hoping to either preserve or exploit multidimensional reserves."
     h "There were battles and wars that transcended time, space, dimensions, probability, and even mathematics and common logic."
     h "These are metaphysical wars that are beyond the comprehension of our companion, but they have enough capacity to at least understand such battles were occurring."
     h "Within such a tapestry of interplay, we were to live within a small portion of a multiversal reserve that was being protected by the environmentalists on the outside of our three dimensional fishbowl."
+    scene bg hand_reaching_out
     h "At the same time, they offered us three other choices."
     h "The first was to take us into the past and place us where we once stood."
     h "All the problems and luxuries we had would once more be ours to carry if we choose, and we would be able to live out the fate we would have lived if there had been no interference whatsoever."
+    scene bg hand_reaching_out2
     h "The second was to offer each and every one of us a life that suited our tastes."
     h "All of us would go on to live a life of our choosing in different parallel universes."
     h "It was a tempting offer."
+    scene bg hand_reaching_out3
     h "Finally, the third choice was to simply leave us alone to see our current state through to the end wherever or whenever it may be."
     h "They would simply leave, and nothing would happen."
     h "In the case of the first two, we were also given the option of keeping our memories of this ordeal we have spent the lifetime of the universe experiencing, or erasing them and reverting to zero."
@@ -349,6 +365,7 @@ label P3C2:
     h "There was one other dream that I found deeply unsettling."
     h "It was one where we found ourselves face to face with the one who placed us in this situation."
     h "When given the chance to converse, to ask questions, to plead and beg, we stayed silent."
+    scene bg hand_reaching_out4
     h "Here was the one who holds our fate in its hands, and yet we are unable to do anything."
     h "It was not because we were incapable of action, of thought, or speech, but rather because we chose not to act."
     h "The being that made us this way chose to take on a form that we would understand and sense."

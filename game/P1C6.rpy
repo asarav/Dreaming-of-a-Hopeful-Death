@@ -14,6 +14,13 @@ image bg rat_race = "P1C6/bg P1C6 A painting of the insidious nature of the mode
 image bg rat_race2 = "P1C6/bg P1C6 An oil painting of the insidious nature of the modern rat race.png"
 image bg alone_apartment = "P1C6/bg P1C6 - Alone in an apartment on a rainy day.png"
 image bg alone_apartment2 = "P1C6/bg P1C6 - Alone in an apartment on a rainy day 2.png"
+image bg empirical_data = "P1C6/bg P1C6 Drawing conclusions from empirical data in the style of Monet.png"
+image bg empirical_data2 = "P1C6/bg P1C6 Drawing conclusions from empirical data in the style of Monet 2.png"
+image bg grind = "P1C6/bg P1C6 The unending repetitive grind of daily modern life in the style of Hieronymus Bosch.png"
+image bg grind2 = "P1C6/bg P1C6 The unending repetitive grind of daily modern life in the style of Hieronymus Bosch 2.png"
+image bg human_contact = "P1C6/bg P1C6 The hopeless desire for human contact in the modern age in the style of Michelangelo.png"
+image bg endless_work = "P1C6/bg P1C6 An endless life of work, work, and more work from birth to old age.png"
+image bg endless_work2 = "P1C6/bg P1C6 An endless life of work, work, and more work from birth to old age 2.png"
 
 label P1C6:
     scene bg rat_race
@@ -55,6 +62,7 @@ label P1C6:
     voice1 "We live and afterwards, it is as though we were never here."
     h "We have reached the verge of death many times, and have questioned countless times why we were alive, why we continued to live in the face of unfair and cruel circumstances."
     h "What is it that matters, especially now that civilization is lost to the past."
+    scene bg endless_work
     h "In many past lives, I have worked and worked and worked."
     h "Sometimes to simply live."
     h "Other times for material possessions which had little meaning and only became devalued with the passage of time."
@@ -71,6 +79,7 @@ label P1C6:
     executive "You do it to live."
     executive "You do it to justify your place in society."
     h "None of that applies anymore."
+    scene bg endless_work2
     h "There is no society, and no one is asking for me to justify my place in the universe."
     h "I have nothing to prove."
     h "Gone is the footing I had."
@@ -90,12 +99,14 @@ label P1C6:
     h "No carrot, and no stick."
     h "There is nothing to work for, and nothing to flee from."
     h "There is merely a cavern of missing emotions and feelings in the place where human experience once was."
+    scene bg grind
     h "There is no constant drive for productivity anymore."
     h "No quarterly deadlines."
     h "No crops to tend to."
     h "No laws to pass."
     h "No people to save."
     h "No reputation to uphold."
+    scene bg grind2
     h "No one to exploit."
     h "No one to be exploited by."
     h "No one to please."
@@ -200,6 +211,7 @@ label P1C6:
     h "Instead I chose a cheap imitation of reality, preferring the virtual to the real to avoid any confrontation or additional effort."
     h "Convenience over satisfaction."
     h "The possibilities that could have been are lost in the spaces we never traversed."
+    scene bg human_contact
     h "We lived in a world that had no necessity for human contact, and human relations could be disposed of in some instances."
     h "The food I ate, the supplies I needed, all could be procured without needing to take one step outside."
     h "There is an app to take away the work under the guise of convenience while also taking away interaction as we know it."
@@ -269,8 +281,10 @@ label P1C6:
     h "Is that a light at the end of the tunnel, or a great disappointment."
     h "Maybe I wished deep inside that I was human, that these memories and the strong feelings I recollect from them were real and meant more to me."
     h "\"Is there a way for me to know for sure\""
+    scene bg empirical_data2
     h "\"A conclusive method to determine what is real and what is not?\""
     scientist "Construct a hypothesis."
+    scene bg empirical_data
     scientist "See what we can observe, and if our observations don’t match, then the hypothesis is false."
     scientist "We need to collect empirical data and draw our conclusions."
     scientist "Science is our only ally."

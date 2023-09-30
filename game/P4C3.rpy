@@ -8,6 +8,8 @@ define h = Character("Humanity")
 image bg life_of_regrets = "P4C3/bg P4C3 A life of regrets and unfulfilled dreams.png"
 image bg future_of_humanity = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 2.png"
 image bg future_of_humanity2 = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 3.png"
+image bg digital_future = "P4C3/bg P4C3 A future where government is obsolete and everything is completely digitized.png"
+
 
 label P4C3:
     scene bg life_of_regrets
@@ -141,6 +143,7 @@ label P4C3:
     h "Regardless, the methods of growth are not limited to the physical world."
     h "In the world of software and information, physical space is arbitrarily limitless, and it is possible to simulate large numbers of individuals measuring in orders of magnitude far beyond the billions that we were used to seeing."
     h "As long as computational throughput is not a limitation, the possibilities are endless, and a war for resources can be mitigated."
+    scene bg digital_future
     h "Indeed, the future of humanity is not a physical one, but rather one of information."
     h "It always has been, but in such conditions, it is far more obvious."
     h "Reproduction too is no longer physical, but informational."
