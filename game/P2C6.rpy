@@ -5,9 +5,9 @@
 
 define h = Character("Humanity")
 
-image bg dying_civilizations = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzisław Beksiński.png"
-image bg dying_civilizations2 = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzisław Beksiński 2.png"
-image bg first_contact = "P2C6/bg P2C6 First contact with extraterrestrials in the style of Zdzisław Beksiński.png"
+image bg dying_civilizations = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzislaw Beksinski.png"
+image bg dying_civilizations2 = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzislaw Beksinski 2.png"
+image bg first_contact = "P2C6/bg P2C6 First contact with extraterrestrials in the style of Zdzislaw Beksinski.png"
 image bg intergalactic_wars = "P2C6/bg P2C6 Intergalactic wars in the far future. photorealistic.png"
 image bg intergalactic_wars2 = "P2C6/bg P2C6 Intergalactic wars in the far future. photorealistic 2.png"
 image bg merchant_ships = "P2C6/bg P2C6 Merchant ships that are are traveling across the galaxy as part of intergalactic trade networks. photorealistic.png"
