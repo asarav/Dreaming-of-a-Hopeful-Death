@@ -55,6 +55,9 @@ label credits:
     show screen centeredbox("{size=+10}Thank you for playing till the end.{/size}")
     pause
     hide screen centeredbox
+    show screen centeredbox("Dreaming of a Hopeful Death © 2023 by A. S. Mori is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/")
+    pause
+    hide screen centeredbox
 
     # End the game here
     return

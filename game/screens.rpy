@@ -580,7 +580,7 @@ screen about():
 
             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n")
 
-            text _("Copyright © 2023. All rights reserved.")
+            text _("Dreaming of a Hopeful Death © 2023 by A. S. Mori is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/\n")
 
 
 style about_label is gui_label
