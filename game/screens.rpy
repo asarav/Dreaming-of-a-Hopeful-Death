@@ -578,7 +578,9 @@ screen about():
             text _("To stay up to date on A. S. Mori's work, follow him on {a=https://asmori.substack.com/}Substack{/a}\n")
 
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n")
+
+            text _("Copyright © 2023. All rights reserved.")
 
 
 style about_label is gui_label
