@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg dark_era = "P4C1/bg P4C1 The dark era of our universe.png"
 image bg dark_era2 = "P4C1/bg P4C1 The dark era of our universe 2.png"
 

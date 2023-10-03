@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg alone_in_a_crowded_society = "P2C7/bg P2C7 Being alone in a crowded society.png"
 image bg alone_in_a_crowded_society2 = "P2C7/bg P2C7 Being alone in a crowded society 2.png"
 image bg alone_in_a_crowded_society3 = "P2C7/bg P2C7 Being alone in a crowded society 3.png"
@@ -12,11 +10,11 @@ image bg greed_envy_gluttony = "P2C7/bg P2C7 Greed, envy, and gluttony leading t
 image bg pride_of_civilization = "P2C7/bg P2C7 The pride of human civilization becoming its downfall.png"
 image bg pride_of_civilization2 = "P2C7/bg P2C7 The pride of human civilization becoming its downfall 2.png"
 image bg alone_in_a_dying_universe = "P2C7/bg P2C7 Alone in a dying universe where everyone else has faded away and only you are left.png"
-image bg calling_out_desperately = "P2C7/bg P2C7 Calling out desperately into an empty universe with noone or anything left to reply back or even leave an echo in a dark and abstract style.png"
-image bg our_ancestors = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts. Their ancestors fought wars so that their descendants cou.png"
-image bg our_ancestors2 = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts. Their ancestors fought wars so that their descendants cou 2.png"
-image bg repeating_thoughts = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions. I wonder, do you need to be intelligent or even.png"
-image bg repeating_thoughts2 = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions. I wonder, do you need to be intelligent or even 2.png"
+image bg calling_out_desperately = "P2C7/bg P2C7 Calling out desperately into an empty universe.png"
+image bg our_ancestors = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts.png"
+image bg our_ancestors2 = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts 2.png"
+image bg repeating_thoughts = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions.png"
+image bg repeating_thoughts2 = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions 2.png"
 
 label P2C7:
     show screen centeredbox("{size=+10}Chapter 13: Stranded{/size}")

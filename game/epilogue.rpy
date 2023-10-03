@@ -2,13 +2,11 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-
-define h = Character("Humanity")
 # The game starts here.
-image bg aged_princess = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest. Time has passed, and now the princess who is a .png"
-image bg aged_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest. Time has passed, and now the princess who is a 2.png"
-image bg cracked_princess = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form. Plants are beginning to take r.png"
-image bg cracked_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form. Plants are beginning to take r 2.png"
+image bg aged_princess = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest.png"
+image bg aged_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest 2.png"
+image bg cracked_princess = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form.png"
+image bg cracked_princess2 = "epilogue/A princess who was turned to stone reaching out towards the sky with wide and visible cracks forming in her stone form 2.png"
 image bg broken_statue = "epilogue/The weathered remains of a female statue on the forest floor with a tree growing from the area where the statue fell..png"
 image bg broken_statue2 = "epilogue/The weathered remains of a female statue on the forest floor with a tree growing from the area where the statue fell 2.png"
 image bg dying_tree = "epilogue/A large tree within the forest that is withered and dying..png"

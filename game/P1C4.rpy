@@ -3,7 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
 define politician = Character("Politician")
 define one_of_billions = Character("One of Billions within Humanity")
 define a_child_among_billions = Character("A Child Among Billions")

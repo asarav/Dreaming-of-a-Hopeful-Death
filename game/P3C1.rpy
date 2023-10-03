@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg ark = "P3C1/bg P3C1 An ark the size of a city (like Noah's ark) waiting for a flood with no animals or people on board photorealistic and dreamy.png"
 image bg ark2 = "P3C1/bg P3C1 An ark the size of a city (like Noah's ark) waiting for a flood with no animals or people on board photorealistic and dreamy 2.png"
 image bg pioneers = "P3C1/bg P3C1 Pioneers of the future crossing the night sky in space ships photorealistic.png"

@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg P1C1_title = "P1C1/bg P1C1 - Screaming while floating in the midst of space with stars and galaxies in the background.png"
 image bg P1C1_empty_metropolis = "P1C1/bg P1C1 - A large modern metropolis devoid of any humans.png"
 image bg P1C1_empty_metropolis2 = "P1C1/bg P1C1 - 2 A large modern metropolis devoid of any humans.png"

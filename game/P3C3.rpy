@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg empty_hospital_bed = "P3C3/bg P3C3 An empty hospital bed in a modern hospital.png"
 image bg empty_hospital_bed2 = "P3C3/bg P3C3 An empty hospital bed in a modern hospital 2.png"
 image bg empty_neonatal = "P3C3/bg P3C3 An empty neonatal section of a hospital.png"

@@ -3,9 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-define voice1 = Character("A Voice Among Billions")
-
 image bg school_recess = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya.png"
 image bg school_recess2 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 2.png"
 image bg school_recess3 = "P2C4/bg P2C4 A scene of elementary school recess in the style of Francisco Goya 3.png"

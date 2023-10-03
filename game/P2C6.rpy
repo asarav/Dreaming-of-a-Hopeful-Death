@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg dying_civilizations = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzislaw Beksinski.png"
 image bg dying_civilizations2 = "P2C6/bg P2C6 Dying galactic civilizations in the style of Zdzislaw Beksinski 2.png"
 image bg first_contact = "P2C6/bg P2C6 First contact with extraterrestrials in the style of Zdzislaw Beksinski.png"

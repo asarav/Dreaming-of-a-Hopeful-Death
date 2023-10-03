@@ -3,7 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
 image bg P1C2_Humanity_on_hill = "P1C2/bg P1C2_humanity_on_hill.png"
 image bg P1C2_Humanity_on_hill2 = "P1C2/bg P1C2_army_of_humanity.png"
 image bg P1C2_womb = "P1C2/bg P1C2 - A hazy and ethreal dream from the womb.png"

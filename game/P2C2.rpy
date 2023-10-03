@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg first_steps = "P2C2/bg P2C2 A child taking its first steps.png"
 image bg first_steps2 = "P2C2/bg P2C2 A painting of a child taking its first steps.png"
 image bg blurry_childhood = "P2C2/bg P2C2 A painting of the blurry memories of childhood.png"

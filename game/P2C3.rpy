@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg zooming_through_universe = "P2C3/bg P2C3 A first person view of traveling through space at light speed in the style of Leonardo Da Vinci.png"
 image bg traveling_for_centuries = "P2C3/bg P2C3 Traveling through the vastness of space for hundreds lightyears in the style of Henry Fuseli.png"
 image bg galaxies_colliding = "P2C3/bg P2C3 Galaxies colliding in the style of Henry Fuesli.png"

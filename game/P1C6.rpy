@@ -3,7 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
 define voice1 = Character("A Voice Among Billions")
 define a_voice = Character("Another Voice Among Billions")
 define executive = Character("An Executive Among Billions")

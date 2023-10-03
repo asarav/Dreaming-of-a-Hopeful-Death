@@ -3,9 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-define voice1 = Character("A Voice Among Billions")
-
 image bg curse_of_life = "P3C4/bg P3C4 The curse of life.png"
 image bg curse_of_life2 = "P3C4/bg P3C4 The curse of life 2.png"
 image bg remains_of_humanity = "P3C4/bg P3C4 The cursed remains of the human race.png"

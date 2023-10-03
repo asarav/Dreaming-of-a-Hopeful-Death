@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg the_last_dance_in_ballroom = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich.png"
 image bg the_last_dance_in_ballroom2 = "P2C8/bg P2C8 The last dance in a ballroom in the style of Caspar David Friedrich 2.png"
 image bg alone_in_ballroom2 = "P2C8/bg P2C8 Alone in a ballroom in the style of Caspar David Friedrich.png"
@@ -13,8 +11,8 @@ image bg empty_ballroom2 = "P2C8/bg P2C8 An empty ballroom that has been long ab
 image bg empty_ballroom3 = "P2C8/bg P2C8 An empty ballroom that has been long abandoned in the style of Caspar David Friedrich 3.png"
 image bg stranded = "P2C8/bg P2C8 Stranded in the vast emptiness of space at the end of time.png"
 image bg stranded2 = "P2C8/bg P2C8 Stranded, floating in the vast emptiness of space at the end of time where nothing is left 2.png"
-image bg redo = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes. The time for that has long passed. Did we do what we w.png"
-image bg redo2 = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes. The time for that has long passed. Did we do what we w 2.png"
+image bg redo = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes.png"
+image bg redo2 = "P2C8/bg P2C8 The present has passed, and the past is all we know. There are no more chances, no more redoes 2.png"
 image bg endless_cemetary = "P2C8/bg P2C8 An endless cemetary continuing on and on into the horizon.png"
 image bg endless_cemetary2 = "P2C8/bg P2C8 An endless cemetary continuing on and on into the horizon 2.png"
 image bg labyrinth = "P2C8/bg P2C8 An overhead view of an enormous labyrinth that is being navigated by many people photorealistic.png"

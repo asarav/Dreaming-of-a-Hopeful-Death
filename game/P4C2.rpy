@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg abstract_degeneration_memory = "P4C2/bg P4C2 The abstract degeneration of memory in the style of William Utermohlen.png"
 image bg abstract_degeneration_memory2 = "P4C2/bg P4C2 The abstract degeneration of memory in the style of William Utermohlen 2.png"
 image bg abstract_degeneration_memory3 = "P4C2/bg P4C2 The abstract degeneration of memory in the style of William Utermohlen 3.png"

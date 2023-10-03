@@ -3,7 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
 image bg P1C3_Current_Universe = "P1C3/bg P1C3_our_current_universe.png"
 image bg P1C3_Current_Universe_2 = "P1C3/bg P1C3_our_current_universe_2.png"
 image bg P1C3_internet = "P1C3/bg P1C3 - The metaverse an ocean of information that can be traversed at the speed of thought 2.png"

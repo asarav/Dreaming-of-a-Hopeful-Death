@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg degenerate_era = "P2C1/bg P2C1 A universe of dying stars and red giants.png"
 image bg degenerate_era2 = "P2C1/bg P2C1 A universe of dying stars and red giants 2.png"
 image bg spacefaring_civilizations = "P2C1/bg P2C1 A painting of space faring civilizations in the galaxy.png"

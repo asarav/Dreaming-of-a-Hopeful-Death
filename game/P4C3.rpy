@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg life_of_regrets = "P4C3/bg P4C3 A life of regrets and unfulfilled dreams.png"
 image bg future_of_humanity = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 2.png"
 image bg future_of_humanity2 = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 3.png"

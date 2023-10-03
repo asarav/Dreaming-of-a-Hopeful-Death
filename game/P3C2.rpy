@@ -3,9 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-define voice1 = Character("A Voice Among Billions")
-define a_voice = Character("Another Voice Among Billions")
 define meme1 = Character("Meme")
 define meme2 = Character("Another Meme")
 define meme3 = Character("A Meme About the Hard Times")

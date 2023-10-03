@@ -2,8 +2,6 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-
-define h = Character("Humanity")
 define stranger = Character("A Stranger Calling Out From the Void")
 
 image bg lost_in_pure_black = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought.png"

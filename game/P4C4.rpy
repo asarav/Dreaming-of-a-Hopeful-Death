@@ -3,8 +3,6 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
-
 image bg floating_in_endless_space = "P4C4/bg P4C4 Floating in endless space in a surreal style.png"
 image bg floating_in_endless_space2 = "P4C4/bg P4C4 Floating in endless space in a surreal style 2.png"
 image bg floating_on_ocean = "P4C4/bg P4C4 Floating on an endless ocean in a surreal style.png"

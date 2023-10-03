@@ -3,9 +3,7 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Humanity")
 define economist = Character("An Economist Among Billions")
-define voice1 = Character("A Voice Among Billions")
 define activist = Character("An Activist Among Billions")
 
 image bg meaningless_afterlife = "P2C5/bg P2C5 A meaningless afterlife in the style of Zdzislaw Beksinski.png"
