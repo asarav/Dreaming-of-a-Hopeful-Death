@@ -16,7 +16,13 @@ image bg the_ego_of_the_human_race = "P2C5/bg P2C5 The human race's ego in the s
 image bg the_ego_of_the_human_race2 = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli 2.png"
 image bg unjust_trial = "P2C5/bg P2C5 An unjust trial in the style of Paul Cezanne.png"
 image bg pure_evil = "P2C5/bg P2C5 Pure evil within human society in the style of Andy Warhol.png"
+image bg unending_loathing = "P2C5\bg P2C5 Unending loathing in the style of Zdzisław Beksiński.png"
+image bg unending_loathing2 = "P2C5\bg P2C5 Unending loathing in the style of Zdzisław Beksiński 2.png"
+image bg unending_loathing3 = "P2C5\bg P2C5 Unending loathing in the style of Zdzisław Beksiński 3.png"
+
 label P2C5:
+    scene bg unending_loathing
+
     show screen centeredbox("{size=+10}Chapter 11: Why{/size}")
     pause
     hide screen centeredbox
@@ -34,6 +40,9 @@ label P2C5:
     h "All we can do is think our thoughts and eventually ask, “Why?”"
     h "“Why?” as I always have."
     h "So what was it that I did wrong?"
+
+    scene bg unending_loathing2
+
     h "What sins did I commit to deserve this?"
     h "Why me?"
     h "Indeed, they are too numerous to count."
@@ -42,6 +51,7 @@ label P2C5:
     h "This is what it means to be human."
     h "However, within the midst of desires and failings, there are moments, missions where we are allowed to redeem ourselves."
     h "The form this takes is different for each person, but to say that the fruit of human labor is from a barren field is disingenuous in the least."
+    scene bg unending_loathing3
     h "But was it enough?"
     h "Was it enough to justify our existence?"
     h "Arguably, we did not advocate our worth through our actions."

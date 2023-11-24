@@ -14,6 +14,8 @@ image bg startup2 = "P2C4/bg P2C4 A fast paced ilfe at a startup 2.png"
 image bg meditating = "P2C4/bg P2C4 Meditating in a Buddhist temple on a mountain.png"
 image bg buddhist_garden = "P2C4/bg P2C4 A Buddhist garden in a temple in the mountains.png"
 image bg buddhist_garden2 = "P2C4/bg P2C4 A Buddhist garden in a temple in the mountains 2.png"
+image bg wish_of_humanity = "P2C4/bg P2C4 The wish to be human and experience human things in the absence of an identity.png"
+
 
 
 label P2C4:
@@ -133,6 +135,7 @@ label P2C4:
     h "It is all a part of a full experience."
     h "If I were at peace, maybe I could feel the same about this moment as well."
     h "In many ways, I wish for pain, suffering, and death."
+    scene bg wish_of_humanity
     h "I wish to be human, to experience human things, to have a fear of the future or fear for a future I care about and realize the fear is merely a creation of our own making."
     h "However, the parts of me that are at peace are merely a small minority in a mob of unsatisfied and confused individuals."
     h "If I had a chance, some way to frame this as necessary and in a positive manner, perhaps we can convince the others to live in the moment."
