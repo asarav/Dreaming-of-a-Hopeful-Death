@@ -12,6 +12,8 @@ image bg P1C2_red_pool2 = "P1C2/bg P1C2 - A pool in a recreation center at night
 image bg P1C2_red_pool3 = "P1C2/bg P1C2 - A pool in a recreation center at night with a blood red hue 3.png"
 image bg P1C2_shadow_on_pool = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night.png"
 image bg P1C2_shadow_on_pool2 = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night 2.png"
+image bg P1C2_silhouette = "P1C2\bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains.png"
+image bg P1C2_silhouette2 = "P1C2\bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains 2.png"
 
 
 label P1C2:
@@ -33,11 +35,17 @@ label P1C2:
     h "I have no recollection of how I arrived there, but I was there, and I was calm, as though I belonged there."
     h "The endless ripples of green which undulated up to the horizon were punctuated by clusters of trees..."
     h "and ended in a mountain range that rose up in the distance to meet cumulus clouds that filled the deep blue above with small puffs of white and gray."
-    h"It was lush, it was pristine, and it was lonely: an Eden for one."
+    h "It was lush, it was pristine, and it was lonely: an Eden for one."
+    
+    scene bg P1C2_silhouette
+    
     h "I peered around to glimpse an androgynous humanoid figure in the distance atop a hill."
     h "Perhaps the figure saw me as well since it craned its neck, towards me."
     h "I ruminated on whether I should approach it for what felt like minutes, before taking my first step in the direction of the only other person I could see in this vacant land."
     h "The figure did the same, approaching me gradually, languidly swinging its arms in the same manner as me as it navigated the decline down from the hill as I climbed my way up."
+
+    scene bg P1C2_silhouette2
+
     h "With the sun to its back, I had trouble making out its features."
     h "As I got closer, I could make out the details, fingers, ears, and a nose."
     h "We advanced."

@@ -8,6 +8,10 @@ image bg space_probe = "P1C5/bg P1C5 - An advanced space probe from another civi
 image bg rocket = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic.png"
 image bg rocket2 = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic 2.png"
 image bg rocket3 = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic 3.png"
+image bg futuristic_probe = "P1C5\bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic.png"
+image bg futuristic_probe2 = "P1C5\bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic 2.png"
+image bg colonies = "P1C5\bg P1C5 - The remains of a colony on Mars photorealistic.png"
+image bg colonies2 = "P1C5\bg P1C5 - The remains of a colony on Mars photorealistic 2.png"
 
 label P1C5:
     scene bg rocket
@@ -116,6 +120,7 @@ label P1C5:
     extraterrestrial "Many decades after we sent our last probe, in the year 3196 of the Stellar calendar era, the Trinity project was the next step we would take prior to sending out generation ships."
     extraterrestrial "This project consisted of three probes— each of which was a lander and an orbiter that would allow for high resolution mapping of the ground from orbit..."
     extraterrestrial "and physical analysis of the surface in multiple frequencies and spectra."
+    scene bg futuristic_probe
     extraterrestrial "These probes were meticulously constructed works of shining art that utilized the latest advances in material science, manufacturing, and logistics."
     extraterrestrial "From an economic standpoint, each government was mobilized to spare some level of effort towards this undertaking."
     extraterrestrial "For each probe, the majority of the mass was that of an engine whose purpose was primarily to decelerate the probe for the majority of its journey towards its target."
@@ -126,6 +131,7 @@ label P1C5:
     extraterrestrial "Upon approach to the solar system of the targets, the probes will detach their antimatter engines and then use nuclear fusion and ion engines for the remainder of their travel to their destination."
     extraterrestrial "This was the sequence of events that were to be performed, and for each milestone, the generations that were there at the beginning, and the generations that succeeded them..."
     extraterrestrial "watched in suspense waiting for anything to go wrong with the complex machinery."
+    scene bg futuristic_probe2
     extraterrestrial "It was centuries of high tension where all who stood at the forefront of the mission were on constant edge..."
     extraterrestrial "due to the complexity of the maneuvers, but also the pressure from bureaucracy to not screw up and set a negative precedent that jeopardizes any future missions."
     extraterrestrial "Fortunately, each stage, from the assembly of the orbiters and landers in zero gravity to the firing of the photonic array..."
@@ -152,10 +158,12 @@ label P1C5:
     extraterrestrial "While a significant change in environmental conditions could indeed affect biodiversity and the like, that was not enough to explain why cities of such size did not have the remains of a population to match."
     extraterrestrial "It is unlikely that these beings were unable to utilize their technology and progress to solve such problems, so the prevailing theory was not that they were wiped out, but rather that they left."
     extraterrestrial "As to why, perhaps the other orbiters could shed light on this mystery while the Divine Stone lander continued its investigation autonomously."
+    scene bg colonies
     extraterrestrial "The first probe which was named Eternal Forge after an item from an ancient religion many millennia ago arrived at the fourth planet to find similar debris in orbit."
     extraterrestrial "However, the main difference is that such debris and satellites were in lesser quantities than the third planet."
     extraterrestrial "This indicated that the conditions for the intelligent life which lived within this solar system favored that of high levels of oxygen, nitrogen, and water."
     extraterrestrial "Perhaps this civilization was only just beginning to colonize its system as there is less of a presence of artifacts like the ones we found on the third planet."
+    scene bg colonies2
     extraterrestrial "There were no large cities here, but rather small colonies which used dome structures to separate the planet’s thin atmosphere from the artificial atmosphere that was sealed in."
     extraterrestrial "Those of us observing back on our home planet immediately began designs for missions to the moons of the third and fourth planet as it was likely that similar colonies could be found in those locations as well."
     extraterrestrial "Based on the waste products of these colonies, it appeared that methane, and solar power were used to power these facilities."
