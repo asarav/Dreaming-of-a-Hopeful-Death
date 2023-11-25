@@ -8,10 +8,10 @@ image bg space_probe = "P1C5/bg P1C5 - An advanced space probe from another civi
 image bg rocket = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic.png"
 image bg rocket2 = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic 2.png"
 image bg rocket3 = "P1C5/bg P1C5 - A large rocketship in the style of the Saturn V being built in the orbit of an Earthlike planet photorealistic 3.png"
-image bg futuristic_probe = "P1C5\bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic.png"
-image bg futuristic_probe2 = "P1C5\bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic 2.png"
-image bg colonies = "P1C5\bg P1C5 - The remains of a colony on Mars photorealistic.png"
-image bg colonies2 = "P1C5\bg P1C5 - The remains of a colony on Mars photorealistic 2.png"
+image bg futuristic_probe = "P1C5/bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic.png"
+image bg futuristic_probe2 = "P1C5/bg P1C5 - A sleek space and futuristic probe travelling through space photorealistic 2.png"
+image bg colonies = "P1C5/bg P1C5 - The remains of a colony on Mars photorealistic.png"
+image bg colonies2 = "P1C5/bg P1C5 - The remains of a colony on Mars photorealistic 2.png"
 
 label P1C5:
     scene bg rocket

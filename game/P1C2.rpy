@@ -12,8 +12,8 @@ image bg P1C2_red_pool2 = "P1C2/bg P1C2 - A pool in a recreation center at night
 image bg P1C2_red_pool3 = "P1C2/bg P1C2 - A pool in a recreation center at night with a blood red hue 3.png"
 image bg P1C2_shadow_on_pool = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night.png"
 image bg P1C2_shadow_on_pool2 = "P1C2/bg P1C2 - A shadow floating on a pool in a recreation center at night 2.png"
-image bg P1C2_silhouette = "P1C2\bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains.png"
-image bg P1C2_silhouette2 = "P1C2\bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains 2.png"
+image bg P1C2_silhouette = "P1C2/bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains.png"
+image bg P1C2_silhouette2 = "P1C2/bg P1C2 - The silhouette of someone standing atop a mountain overlooking some plains 2.png"
 
 
 label P1C2:
