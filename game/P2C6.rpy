@@ -17,8 +17,12 @@ image bg telepathic_communication2 = "P2C6/bg P2C6 Telepathic communication with
 image bg dead_universe = "P2C6/bg P2C6 A dead universe depicted as the remains of a galactic spacefaring civilization laying broken among the stars.png"
 image bg dead_universe2 = "P2C6/bg P2C6 A dead universe depicted as the remains of a galactic spacefaring civilization laying broken among the stars 2.png"
 image bg populated_galaxy = "P2C6/bg P2C6 A galaxy populated with alien civilizations in the style of Dali.png"
+image bg intelligent_species = "P2C6/bg P2C6 The advance of intelligent species throughout the universe.png"
+image bg intelligent_species2 = "P2C6/bg P2C6 The advance of intelligent species throughout the universe 2.png"
 
 label P2C6:
+    scene bg intelligent_species
+
     show screen centeredbox("{size=+10}Chapter 12: The Collapse{/size}")
     pause
     hide screen centeredbox
@@ -33,6 +37,7 @@ label P2C6:
     h "Initially, it was simply a matter of seeing planets that had a certain luminescence that seemed unnatural and out of the norm."
     h "While many of these could have been the cause of complex chemical reactions, I believe that many of the rocky planets that I have seen were in fact inhabited by creatures that sensed visible light."
     h "Similar to how the earth once shined brightly in the darkness due to the presence of electric light illuminating our world, these other planets seemed to have similar properties like a candle in the dark night."
+    scene bg intelligent_species2
     h "Of course, when considering the pale blue dot, how easily can one make out artificial light within the great distances we traversed?"
     h "Our notions of intelligent life in these early stages may have been misconceptions based on wishful thinking."
     h "However, what we would find later would turn our preconceptions on their head and provide a helping of credence to our imaginative daydreams."
