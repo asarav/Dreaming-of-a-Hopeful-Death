@@ -15,13 +15,18 @@ image bg our_ancestors = "P2C7/bg P2C7 Our ancestors learned the sciences and th
 image bg our_ancestors2 = "P2C7/bg P2C7 Our ancestors learned the sciences and the maths so that we could supposedly learn the arts 2.png"
 image bg repeating_thoughts = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions.png"
 image bg repeating_thoughts2 = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions 2.png"
+image bg universe_as_speck = "P2C7/bg P2C7 The observable universe as a meagre spek.png"
+image bg universe_as_speck2 = "P2C7/bg P2C7 The observable universe as a meagre spek 2.png"
+image bg universe_as_speck3 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzisław Beksiński.png"
+image bg universe_as_speck4 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzisław Beksiński 2.png"
+image bg conversation = "P2C7/bg P2C7 conversation and interplay in the style of Zdzisław Beksiński.png"
 
 label P2C7:
+    scene bg alone_in_a_crowded_society
     show screen centeredbox("{size=+10}Chapter 13: Stranded{/size}")
     pause
     hide screen centeredbox
 
-    scene bg alone_in_a_crowded_society
     h "In a sense, we are all born alone, live alone, and die alone."
     h "This is the predicament of all life."
     h "The presence of others is merely a distraction from this fact."
@@ -84,6 +89,7 @@ label P2C7:
     h "Is it worth it to continue to live in misery and pass long after nothing is left?"
     h "Only the dead can tell, and they're long gone."
     h "The ones who are left will either leave this universe for greener pastures or will meet similar ends."
+    scene bg universe_as_speck3
     h "All that is left here are ashes, voids, and nothing on the horizon."
     h "You can choose your destination, but you can't see it."
     h "Discovery, exploration, conquest: pointless when all the fields you find are barren."
@@ -103,12 +109,14 @@ label P2C7:
     h "This observable universe which consists of clusters, superclusters, and more has a scale that is beyond human understanding."
     h "You could see a number describing its size and not fully understand it due to lacking the context."
     h "It is massive."
+    scene bg universe_as_speck
     h "However, this is a meager speck within the unobservable universe that lay beyond all light that had a chance to travel before me."
     h "This unobservable universe and everything inside of it is expanding."
     h "It is expanding so rapidly that the remnants of massive superclusters become measly islands within the spaces between, oases within a hostile reality."
     h "You may venture out into the unknown at your own discretion, but unless you can effortlessly traverse distances..."
     h "on a scale that dwarfs galaxies, clusters, and the former observable universe, then you will simply be setting out to die a meaningless demise with little hope of rescue."
     h "Indeed, if there were others just like me, they would be trapped within their predetermined paths, blindly stumbling through an empty reality."
+    scene bg universe_as_speck2
     h "A meeting is never meant to be."
     h "This leaves the poor souls I took with me."
     h "Like all things, I had taken them for granted until the day they were gone despite understanding their eventual fate."
@@ -131,6 +139,7 @@ label P2C7:
     h "The endless spiral of blame that I fall within never seems to stop dragging me deeper into the abyss of incomprehension."
     h "I did not understand them, their purpose, or who they were."
     h "They did not understand me, otherwise we should have been able to communicate."
+    scene bg universe_as_speck4
     h "It was a lost opportunity."
     h "I felt for them."
     h "They remember a time when the universe was more abundant."
@@ -222,6 +231,7 @@ label P2C7:
     h "It is also a thought that has a stronger empirical basis than a naive notion that love can conquer all."
     h "There is much of me that wishes not to think of it, and oftentimes, I do not."
     h "It is also a topic that is very rarely broached in conversation."
+    scene bg conversation
     h "Ah! There is another silver lining: conversation and interplay."
     h "The marriage of minds in the exploration of ideas: collaboration, cooperation, confluence, and maybe even a shared mission."
     h "The ability to share your thoughts and incorporate ideas completely alien from anything you may consider yourself."

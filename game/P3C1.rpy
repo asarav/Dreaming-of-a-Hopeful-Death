@@ -9,6 +9,8 @@ image bg pioneers = "P3C1/bg P3C1 Pioneers of the future crossing the night sky 
 image bg black_hole_era = "P3C1/bg P3C1 The black hole era of the universe.png"
 image bg black_hole_era2 = "P3C1/bg P3C1 The black hole era of the universe 2.png"
 image bg black_hole_era3 = "P3C1/bg P3C1 The black hole era of the universe 3.png"
+image bg civilization_in_black_hole = "P3C1/bg P3C1 An advanced civilization falling into a black hole.png"
+image bg civilization_in_black_hole2 = "P3C1/bg P3C1 An advanced civilization falling into a black hole 2.png"
 
 label P3C1:
     play music "audio/Etude Op. 25 no. 7 in C sharp minor- 'Cello'.mp3" fadeout 2.0 fadein 2.0
@@ -69,6 +71,7 @@ label P3C1:
     show screen centeredbox("The new reality is now one of those wandering through the vastness unable to find friends, family, loved ones, or even strangers before decaying where they stand.")
     pause
     hide screen centeredbox
+
     show screen centeredbox("There is almost nothing left except for black holes, and with the absence of light and heat, the presence of these can only be noticed upon approaching such bodies.")
     pause
     hide screen centeredbox
@@ -100,6 +103,9 @@ label P3C1:
     show screen centeredbox("They clung onto whatever energy they could squeeze out of this reality through a mastery of particle physics.")
     pause
     hide screen centeredbox
+
+    scene bg civilization_in_black_hole
+
     show screen centeredbox("This meant that life took on a form that fed on the black holes that remained.")
     pause
     hide screen centeredbox
@@ -121,6 +127,9 @@ label P3C1:
     show screen centeredbox("It was both an existence of pure daring, but also one of bondage.")
     pause
     hide screen centeredbox
+
+    scene bg civilization_in_black_hole2
+
     show screen centeredbox("Among the millions of civilizations that remained to the end, the ones that managed to escape the universe and make their way out numbered less than ten.")
     pause
     hide screen centeredbox

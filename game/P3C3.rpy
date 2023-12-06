@@ -7,6 +7,11 @@ image bg empty_hospital_bed = "P3C3/bg P3C3 An empty hospital bed in a modern ho
 image bg empty_hospital_bed2 = "P3C3/bg P3C3 An empty hospital bed in a modern hospital 2.png"
 image bg empty_neonatal = "P3C3/bg P3C3 An empty neonatal section of a hospital.png"
 image bg empty_neonatal2 = "P3C3/bg P3C3 An empty neonatal section of a hospital 2.png"
+image bg forgotten_by_time = "P3C3/bg P3C3 Being forgotten by time in a photorealistic and surreal style.png"
+image bg running_from_responsibility = "P3C3/bg P3C3 Running away from the responsibility of parenthood in a photorealistic and surreal style.png"
+image bg running_from_responsibility2 = "P3C3/bg P3C3 Running away from the responsibility of parenthood in a photorealistic and surreal style 2.png"
+image bg cycle_of_death = "P3C3/bg P3C3 The undending cycle of life and death in an ethreal and mindbending style.png"
+image bg cycle_of_death2 = "P3C3/bg P3C3 The undending cycle of life and death in an ethreal and mindbending style 2.png"
 
 label P3C3:
     scene bg empty_hospital_bed
@@ -53,11 +58,13 @@ label P3C3:
     h "That future has no place for you."
     h "You are old news, and if you raise your child well enough, you may be able to redeem yourself and your failures."
     h "You do this because your legacy is the only thing that we believe truly lasts."
+    scene bg cycle_of_death
     h "The tree that dies is replaced by the forest it seeds."
     h "That is the idea."
     h "From your efforts, a lineage that will eventually make a dent will emerge and validate your efforts."
     h "Of course, the cycle never stops."
     h "Your children will attempt to succeed and by failing in doing so, they push their plans onto their children as well."
+    scene bg cycle_of_death2
     h "Humanity is nothing more than a series of failures where any sense of progress is truly gained by learning from the past."
     h "When the mistakes of the past no longer apply, new types of challenges and the respective failures that originate from them make an appearance."
     h "It is not simply that we are always failing, but rather that we are usually failing at different things."
@@ -73,6 +80,7 @@ label P3C3:
     h "From the perspective of a parent, it was an exciting moment, but also one of concern, because the ability to move forward could be a double edged sword."
     h "On one hand, the only way we progress is by putting one step in front of the other by moving in an incremental manner."
     h "Conversely, if you are not looking, you could easily walk your way off a cliff simply because you are unaware of what to watch out for."
+    scene bg running_from_responsibility
     h "I suppose that is where my responsibilities lie: to ensure that our future progresses in the right direction."
     h "What is the right direction?"
     h "No one knows."
@@ -94,6 +102,7 @@ label P3C3:
     h "In the battle against time and expedition to progress through life, will he be able to navigate the challenges and claim victory?"
     h "All we can do is simply provide our children with the tools needed to handle the world."
     h "Whether they use them or not and how they use those tools, skills, and experiences is ultimately within their hands."
+    scene bg running_from_responsibility2
     h "The responsibility that weighs us down as parents early in a child's growth can weigh us down even later in life when we have little control."
     h "The guilt and obligation can act as a curse or a burden even though it does not feel wrong to wish to have some level of influence on factors we ultimately have no rights to control."
     h "Our child too is an individual with their own thoughts and emotions."
@@ -120,6 +129,7 @@ label P3C3:
     h "Will they care for me when I can no longer care for myself?"
     h "I can envision myself at the end of all of this dying alone as I know many others have."
     h "I can see the same fate befall my spouse, our child, his children, and many others."
+    scene bg forgotten_by_time
     h "I can see the earth rotting to dust long and combusting within the sun after our graves have been defiled by nature and there is nothing to remember us by."
     h "I can see us being remembered by our children and perhaps grandchildren and then being forgotten by our descendants afterwards with nothing more than a gravestone to stand as some proof that we have lived."
     h "I can see the same happening to our children as well."

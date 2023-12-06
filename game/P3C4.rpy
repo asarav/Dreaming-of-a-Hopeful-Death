@@ -8,6 +8,9 @@ image bg curse_of_life2 = "P3C4/bg P3C4 The curse of life 2.png"
 image bg remains_of_humanity = "P3C4/bg P3C4 The cursed remains of the human race.png"
 image bg remains_of_humanity2 = "P3C4/bg P3C4 The cursed remains of the human race 2.png"
 image bg torment_of_knowledge = "P3C4/bg P3C4 The torment and suffering of knowledge.png"
+image bg forced_life = "P3C4/bg P3C4 Life being forced upon us in a photorealistic and surreal style.png"
+image bg forced_life2 = "P3C4/bg P3C4 Life being forced upon us in a photorealistic and surreal style 2.png"
+image bg forced_life3 = "P3C4/bg P3C4 Life being forced upon us in a photorealistic and surreal style 3.png"
 
 label P3C4:
     scene bg remains_of_humanity
@@ -78,6 +81,9 @@ label P3C4:
     h "This means that all of us knows what it means to never follow our dreams, to suffer in agony, and to wallow in disappointment."
     h "We all know what the ups and downs are, and we are well aware that it is our death which ends everything and takes away all that ails us and all that gives us joy."
     h "In the end, we are in a constant state of deprivation."
+    
+    scene bg forced_life
+    
     h "That is what life is."
     h "Anything you gain will be lost in the end."
     h "The question is whether that loss is worth the life you lived."
@@ -87,6 +93,9 @@ label P3C4:
     voice1 "To never know is to look forward to a limitless future."
     voice1 "Ignorance can have the illusion of freedom with the benefits of obliviousness to all the pain."
     voice1 "The decision to live is not a decision that we make."
+
+    scene bg forced_life2
+
     h "It is made for us."
     h "It is made for us without our consent."
     h "Whether you are born into riches or born into slavery, your life is not something that you chose."
@@ -102,6 +111,9 @@ label P3C4:
     h "They too will be forgotten."
     h "It feels strange to say it, but life seems so unnatural despite it being of natural origins."
     h "We all feel that we are meant for something more, but it is truth that we were all originally born only to die."
+
+    scene bg forced_life3
+
     h "We were never meant to be the final product."
     h "We were solely a footnote in a series of footnotes."
     h "It begs the question of what is the final product if it is not us."
