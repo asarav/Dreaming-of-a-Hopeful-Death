@@ -34,6 +34,8 @@ image bg brain_in_vat3 = "P3C2/bg P3C2 A brain floating in a vat of acid in a sc
 image bg phantom_limb = "P3C2/bg P3C2 phantom limbs in a ethreal and mindbending style.png"
 image bg phantom_limb2 = "P3C2/bg P3C2 phantom limbs in a ethreal and mindbending style 2.png"
 image bg phantom_limb3 = "P3C2/bg P3C2 phantom limbs in a ethreal and mindbending style 3.png"
+image bg celebrities = "P3C2/bg P3C2 Celebrities and stars which exist interacting with celebrities and stars who don't exist.png"
+image bg brando_olivier = "P3C2/bg P3C2 Marlon Brando and Laurence Olivier acting together in a modern blockbuster.png"
 
 label P3C2:
     scene bg reality_passing_by
@@ -123,7 +125,6 @@ label P3C2:
     h "That is an opportunity that seems all too enticing at times."
     h "Perhaps there will come a day when I let go and begin to engage in conversation with these voices."
     h "However, that day is not today."
-    scene bg brain_in_vat4
     h "I am still aware of who we are and who we are not and, the moment we take the plunge, that distinction ceases to be as apparent as it is now."
     h "In a world of nothing, the smallest crumb appears appetizing."
     h "Despite this, whether I like it or not, I have managed to create a foundation of self-control."
@@ -276,10 +277,12 @@ label P3C2:
     h "When anything is possible, why introduce currencies and scarcity when it serves no purpose?"
     voice1 "Don’t ruin it."
     voice1 "We did enough of that before."
+    scene bg celebrities
     h "In addition to the stars and celebrities that were alive at the time of the curse, there are the stars and celebrities that were born out here in space..."
     h "through the amalgamation of the best qualities of some of the more admirable individuals within the industry."
     h "Some of them were not even human."
     h "Finally, the dead have been brought back to life to cameo in the summer blockbusters."
+    scene bg brando_olivier
     h "Imagine Marlon Brando or Laurence Olivier making powerful appearances on the scene and reminding everyone of what acting is."
     h "It is an everlasting golden age of ideas and creativity."
     h "The number of high quality items outputted varies from time to time, but it has its ups and downs."

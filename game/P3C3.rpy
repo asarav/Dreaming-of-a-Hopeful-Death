@@ -12,6 +12,7 @@ image bg running_from_responsibility = "P3C3/bg P3C3 Running away from the respo
 image bg running_from_responsibility2 = "P3C3/bg P3C3 Running away from the responsibility of parenthood in a photorealistic and surreal style 2.png"
 image bg cycle_of_death = "P3C3/bg P3C3 The undending cycle of life and death in an ethreal and mindbending style.png"
 image bg cycle_of_death2 = "P3C3/bg P3C3 The undending cycle of life and death in an ethreal and mindbending style 2.png"
+image bg increasing_entropy = "P3C3/bg P3C3 The nature of the universe being one of increasing entropy.png"
 
 label P3C3:
     scene bg empty_hospital_bed
