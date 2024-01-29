@@ -5,6 +5,7 @@
 
 image bg dark_era = "P4C1/bg P4C1 The dark era of our universe.png"
 image bg dark_era2 = "P4C1/bg P4C1 The dark era of our universe 2.png"
+image bg dead_end = "P4C1/bg P4C1 The universe hitting a dead end at the end of its lifespan.png"
 
 label P4C1:
     play music "audio/Peer Gynt Suite no. 1, Op. 46 - II. Aase's Death.mp3" fadeout 2.0 fadein 2.0
@@ -33,6 +34,9 @@ label P4C1:
     show screen centeredbox("After an infinite amount of time, only zero is left.")
     pause
     hide screen centeredbox
+
+    scene bg dead_end
+
     show screen centeredbox("It's all a dead end.")
     pause
     hide screen centeredbox

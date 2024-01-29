@@ -118,6 +118,7 @@ label P3C3:
     h "Will it be something trivial that ends it all, or will it be a number of mistakes and failures cascading until something gives and breaks the camel's back?"
     h "Yes, relationships do not last forever."
     h "However, they are best when they are positive."
+    scene bg increasing_entropy
     h "The nature of the universe is one of increasing entropy."
     h "To maintain order, energy is required to keep the forces of chaos at bay."
     h "I do not wish for us to become estranged."
