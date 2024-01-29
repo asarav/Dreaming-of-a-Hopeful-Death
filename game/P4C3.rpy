@@ -7,7 +7,20 @@ image bg life_of_regrets = "P4C3/bg P4C3 A life of regrets and unfulfilled dream
 image bg future_of_humanity = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 2.png"
 image bg future_of_humanity2 = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 3.png"
 image bg digital_future = "P4C3/bg P4C3 A future where government is obsolete and everything is completely digitized.png"
-
+image bg human_viruses = "P4C3/bg P4C3 Humans spreading like viruses across the Earth in a photorealistic style.png"
+image bg human_viruses2 = "P4C3/bg P4C3 Humans spreading like viruses across the Earth in a photorealistic style 2.png"
+image bg digital_mind = "P4C3/bg P4C3 Digital representations of the human mind.png"
+image bg digital_biological_coexistence = "P4C3/bg P4C3 Digital humans coexisting with biological humans.png"
+image bg digital_biological_coexistence2 = "P4C3/bg P4C3 Digital humans coexisting with biological humans 2.png"
+image bg digital_biological_coexistence3 = "P4C3/bg P4C3 Digital humans coexisting with biological humans 3.png"
+image bg pure_information = "P4C3/bg P4C3 A substrate of pure information separated from the physical plane digital art.png"
+image bg pure_information = "P4C3/bg P4C3 A substrate of pure information separated from the physical plane digital art 2.png"
+image bg digital_copy = "P4C3/bg P4C3 Copying the digital self digital art.png"
+image bg humanity_fracturing = "P4C3/bg P4C3 The future of humanity fracturing into different species digital art.png"
+image bg humanity_fracturing2 = "P4C3/bg P4C3 The future of humanity fracturing into different species digital art 2.png"
+image bg humanity_fracturing3 = "P4C3/bg P4C3 The future of humanity fracturing into different species digital art 3.png"
+image bg conquering_universe = "P4C3/bg P4C3 The future of humanity conquering the entirety of the observable universe digital art.png"
+image bg conquering_universe2 = "P4C3/bg P4C3 The future of humanity conquering the entirety of the observable universe digital art 2.png"
 
 label P4C3:
     scene bg life_of_regrets

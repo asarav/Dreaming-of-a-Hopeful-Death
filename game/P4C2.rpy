@@ -11,6 +11,8 @@ image bg brain_death2 = "P4C2/bg P4C2 The brain death in the style of Zdzislaw B
 image bg brain_death3 = "P4C2/bg P4C2 The brain death in the style of Zdzislaw Beksinski 3.png"
 image bg torn_psyche = "P4C2/bg P4C2 The psyche being torn apart in the style of Zdzislaw Beksinski.png"
 image bg unraveling_self = "P4C2/bg P4C2 The unraveling of the self and one's identity in the style of Zdzislaw Beksinski.png"
+image bg living_life_avoiding_death = "P4C2/bg P4C2 Living life while avoiding death within our reality.png"
+image bg family_country_friends = "P4C2/bg P4C2 Family, country, and friends as the crowning jewel of life in a surreal but grounded style.png"
 
 
 label P4C2:
@@ -100,6 +102,9 @@ label P4C2:
     h "To not live despite being living is obviously worse than many of the other possibilities."
     h "It is regretful to not make the best of life while you have it."
     h "However, what of the other possibilities?"
+
+    scene bg living_life_avoiding_death
+
     h "To be afraid of death could indeed be counterproductive, but if one is not aware of death, one cannot value life."
     h "This provides a quandary where one must accept a certain level of risk to live their life to the fullest while minimizing risk so that such a life is not cut too short."
     h "There is a balance there that I have not appreciated in the past for good reason."
@@ -112,6 +117,9 @@ label P4C2:
     h "It is one thing to not fear death while living for the promise of an afterlife."
     h "It is another to not fear death while living with no guarantee of an afterlife."
     h "I do not know where people can find the courage to overcome such fears, but for those who have faced death and lived, they have believed that there are things worth risking life for."
+
+    scene bg family_country_friends
+
     h "Be it family, country, friends, or the greater good, there was something which became the crowning jewel of a life well lived to justify the sacrifice."
     h "What that is for us, I do not know."
     h "In a reality where none of those things exist anymore, there is nothing to make us rush bravely into death as we have once done."
