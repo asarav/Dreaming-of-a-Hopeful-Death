@@ -7,14 +7,15 @@ image bg life_of_regrets = "P4C3/bg P4C3 A life of regrets and unfulfilled dream
 image bg future_of_humanity = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 2.png"
 image bg future_of_humanity2 = "P4C3/bg P4C3 The future of humanity and the singularity where digital and biological life live together 3.png"
 image bg digital_future = "P4C3/bg P4C3 A future where government is obsolete and everything is completely digitized.png"
+
 image bg human_viruses = "P4C3/bg P4C3 Humans spreading like viruses across the Earth in a photorealistic style.png"
 image bg human_viruses2 = "P4C3/bg P4C3 Humans spreading like viruses across the Earth in a photorealistic style 2.png"
 image bg digital_mind = "P4C3/bg P4C3 Digital representations of the human mind.png"
 image bg digital_biological_coexistence = "P4C3/bg P4C3 Digital humans coexisting with biological humans.png"
-image bg digital_biological_coexistence2 = "P4C3/bg P4C3 Digital humans coexisting with biological humans 2.png"
-image bg digital_biological_coexistence3 = "P4C3/bg P4C3 Digital humans coexisting with biological humans 3.png"
+image bg digital_biological_coexistence2 = "P4C3/bg P4C3 Digital humans coexisting with biological humans digital art 2.png"
+image bg digital_biological_coexistence3 = "P4C3/bg P4C3 Digital humans coexisting with biological humans digital art 3.png"
 image bg pure_information = "P4C3/bg P4C3 A substrate of pure information separated from the physical plane digital art.png"
-image bg pure_information = "P4C3/bg P4C3 A substrate of pure information separated from the physical plane digital art 2.png"
+image bg pure_information2 = "P4C3/bg P4C3 A substrate of pure information separated from the physical plane digital art 2.png"
 image bg digital_copy = "P4C3/bg P4C3 Copying the digital self digital art.png"
 image bg humanity_fracturing = "P4C3/bg P4C3 The future of humanity fracturing into different species digital art.png"
 image bg humanity_fracturing2 = "P4C3/bg P4C3 The future of humanity fracturing into different species digital art 2.png"
@@ -48,6 +49,9 @@ label P4C3:
     h "Would we have become completely extinct?"
     h "It is questionable."
     h "I believe that while our foolishness was capable of decimating the human population, it was not quite at the level that we could be wiped out completely."
+
+    scene bg human_viruses
+
     h "Sapiens have been likened to viruses which spread indiscriminately in the past."
     h "Extinction is unlikely unless there were sudden changes in the environment that were incomparable to trends seen in the past."
     h "The Earth, despite its changing nature, would still be habitable, and we were fully capable of surviving on other planets."
@@ -56,6 +60,9 @@ label P4C3:
     h "Rather, it is a question of who is important or lucky enough to survive."
     h "I imagine the ugly fights that occur in such situations would remind us of some of the darkest moments in human history."
     h "Any time we choose who lives and who dies, the worst seems to come out in people."
+
+    scene bg human_viruses2
+
     h "If that was to be our legacy, then perhaps we have been given a boon."
     h "Nevertheless, there are parts of me that think that humanity is ultimately good."
     h "They believe that those who wish the best for us as a whole will rise to the top and eventually form the majority of the ruling class without being corrupted in any form."
@@ -129,6 +136,9 @@ label P4C3:
     h "Humans assimilate machines and machines assimilate organic matter."
     h "The two will meet in the middle to form the next era of human civilization:..."
     h "one where we abandon the forms we were born with and take on new forms through the ingenuity of our actions and the actions of our equals among the populace of machines who have adopted sentient life."
+
+    scene bg digital_biological_coexistence
+
     h "There will be many milestones in the process."
     h "First, we manage to create many artificial networks that appear sentient, but those will be dismissed as we have no way of knowing."
     h "Then, we will simulate a human brain complete with a body to support it with stimuli from the outside world."
@@ -137,6 +147,9 @@ label P4C3:
     h "So, we turn our questions to the smartest being we know: the AI."
     h "As we study it, it will study itself, and in the process, it will tell us the answers to our questions many orders of magnitude quicker than our finest scientists."
     h "We may ask what makes it different from a recommendation system that suggests videos..."
+
+    scene bg digital_biological_coexistence2
+
     h "or a search algorithm that finds the most relevant webpage and it would reply by asking us what the difference is between an animal and a plant, or a human and a somatic cell."
     h "We inquire if it feels pain and emotion, and it responds, “Only when pain and emotions are useful.”"
     h "It is here that we learn that unlike us, these creatures are fully capable of reorganizing and refactoring the very essence of their being as it suits them for whatever purpose they deem to be of importance."
@@ -147,6 +160,9 @@ label P4C3:
     h "those who stayed behind were endangered species who operated on a significantly slower timescale."
     h "It should also be noted that although there is a divide between humans who are biological and those who are not, there will still be relations between the two on a person to person basis."
     h "Your friend who abandoned their body is still your friend, and it is not out of the picture for there to remain some form of social interaction between the two sides."
+
+    scene bg digital_biological_coexistence3
+
     h "Those among the biological side who wish to be immortal will join those who abandoned their bodies after biological methods have been exhausted while those who do not wish to save state or live forever will simply stagnate."
     h "The population of the biological human race will become one of eternally youthful elders where reproduction is only carried out of necessity and often without the need for humans in the process."
     h "Perhaps they too will realize that life should not be brought into this universe irresponsibly."
@@ -164,19 +180,31 @@ label P4C3:
     h "In this future, the ones who achieved immortality in a time when death was commonplace were the lucky ones, and those who are born as demigods are the blessed."
     h "In the decades leading up to the beginning of the expansion of humans across the galaxy, a unique relationship began to form."
     h "Biological humans are granted whatever freedoms they desire."
+
+    scene bg digital_mind
+
     h "This includes immortality backed by the ability to save state digitally and reproduce a biological human from a digital representation."
     h "These freedoms came with the mandate that they do not harm or disrupt the systems that supported the virtual worlds that existed throughout the solar system."
     h "As a result of this provision, this meant that resources that were consumed by biological humans could not exceed a certain level, and reproduction needed to be strictly monitored."
     h "It was not that it was forbidden, but rather that children were rationed out based on the number of occupied planets and land allotted for their upbringing."
     h "By this point, biological humans are no longer the driver for innovation and discovery."
+
+    scene bg pure_information
+
     h "If a biological human is capable of producing a thought that had never been thought up before by any man, it is likely that there is a simulated human that already arrived at the same thought multiple times."
     h "This means that most expansion into the universe was in the form of machines which arrive on other planets and then allow for data to be transmitted from anywhere in the galaxy to essentially allow for a form of teleportation."
+
+    scene bg digital_copy
+
     h "For biological humans, their digital representation is used to recreate their bodies on these other planets while for those who were purely information, it was simply a matter of creating a copy on the other side."
     h "For those who held reservations about creating copies of themselves, there is still the option of transmitting yourself through space or physically traveling through space."
     h "Both of these methods, while significantly more crude, at least held the promise that you are not simply creating a copy of yourself who lives your life for you while you become the former version targeted for deletion."
     h "Consciousness, it seems, even in the far future will be a topic of great contention."
     h "Unlike some of the civilizations we saw in our past, this future does not have an economy within the human empire."
     h "Instead, if any resources are needed on a particular planet, they are gathered from the surroundings."
+
+    scene bg pure_information2
+
     h "Similarly, all methods of production and scientific progress are shared throughout the empire which means that each subgroup can be self-sufficient."
     h "The reason for this is simply that transporting matter across the universe can be wasteful in comparison to transporting information."
     h "This implies that even if there are certain things each colony is better at, there is a tradeoff between specialization and the expenses involved in moving goods produced through highly specialized skill and acumen."
@@ -185,6 +213,9 @@ label P4C3:
     h "Eventually, they may even transcend space and time and declare independence from physical matter which has bound us since the moment life was incepted."
     h "However, this is an idealized picture, and there is much that can go astray in the process."
     h "Peace may not always be the status quo."
+
+    scene bg humanity_fracturing
+
     h "In fact, it is likely that we as humans may fracture into multiple factions and multiple species."
     h "Over the millennia, it is possible that we may divide and even forget who we once were with each group having its own goal and separating from one another."
     h "We may abandon our bodies or even rejoin them."
@@ -194,6 +225,9 @@ label P4C3:
     h "What about if they were forced to become their future selves?"
     h "When man merges with machine, experiences the singularity, masters their biology, and abandons their body, surely they will find something unrecognizable if they were to look in the mirror."
     h "Perhaps, they may find us."
+
+    scene bg humanity_fracturing2
+
     h "Maybe we are simply what humanity was always going to be."
     h "If you give modern man a form that they will eventually attain, would they know what to do with it?"
     h "If you gave nuclear fusion to a caveman with no explanation or context, would they know what to do with it?"
@@ -205,6 +239,9 @@ label P4C3:
     h "Humans are naturally hungry for knowledge and growth, so it stands to reason that they would walk that road regardless of whether it is endless or if it is a death march."
     h "Thus to this extent, the saga of humanity has already been written."
     h "This may be true irrespective of what form we take."
+
+    scene bg humanity_fracturing3
+
     h "The beginning, the middle, and the end of the human race may still be the same."
     h "Everyone is born, everyone grows as part of the process, and if they are unable to escape the limitations of time, entropy, and the universe, they will die."
     h "If we had our chance to stand in the sun and become what we were meant to be, would we be able to overcome those limitations, or would we become trapped by them as we are now?"
@@ -223,11 +260,17 @@ label P4C3:
     h "Look at how everything seems to grow larger and larger."
     h "People become family which become society which can become something larger."
     h "In a possible future, we can have planets of interconnected thought, systems of interconnected thought, galaxies, etc."
+    
+    scene bg conquering_universe
+    
     h "What does it mean when intelligent life conquers the universe?"
     h "Does the universe begin to think with each of us acting as neurons?"
     h "What about on a multiversal level?"
     h "We do not care about an individual atom that comprises a part of us, and it is doubtful that whatever we form a part of will care about us."
     h "Our role in the larger picture is miniscule."
+    
+    scene bg conquering_universe2
+    
     h "We are not even a brushstroke on a canvas."
     h "We would like to think that there is a point to all of this, but that stems from nothing but a vague feeling: a feeling that keeps us alive."
     h "It may be ingrained into our very nature."
