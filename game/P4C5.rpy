@@ -7,6 +7,9 @@ define stranger = Character("A Stranger Calling Out From the Void")
 image bg lost_in_pure_black = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought.png"
 image bg lost_in_pure_black2 = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought and form in a surreal style 2.png"
 image bg lost_in_pure_black3 = "P4C5/bg P4C5 Lost in pure black, emptiness, and devoid of thought and form in a surreal style 3.png"
+image bg flashes_of_light = "P4C5/bg P4C5 Flashes of light within the darkness.png"
+image bg flashes_of_light2 = "P4C5/bg P4C5 Flashes of light within the darkness 2.png"
+image bg flashes_of_light3 = "P4C5/bg P4C5 Flashes of light within the darkness 3.png"
 
 label P4C5:
     scene bg lost_in_pure_black
@@ -61,6 +64,9 @@ label P4C5:
     stranger "Over."
     h "..."
     h "..."
+
+    scene bg flashes_of_light
+
     h "Am I just hallucinating before the end?"
     stranger "You are the only other person I could find here."
     stranger "You are breaking up."
@@ -70,6 +76,9 @@ label P4C5:
     h "Can you give me answers?"
     h "..."
     h "Tell me, are you like me, or are you something else?"
+
+    scene bg flashes_of_light2
+
     stranger "I cannot hear you. We have been talking for billions of cycles."
     stranger "The reduction in energy on your side is making it hard for us to understand you."
     stranger "Can you hear us?"
@@ -80,6 +89,9 @@ label P4C5:
     stranger "Time has run out."
     stranger "Wherever you are, I hope you are at peace."
     stranger "Goodbye."
+
+    scene bg flashes_of_light3
+
     h "..."
     h "Thank..."
     h "..."
