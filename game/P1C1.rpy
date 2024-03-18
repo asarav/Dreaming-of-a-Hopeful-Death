@@ -6,8 +6,8 @@
 image bg P1C1_title = "P1C1/bg P1C1 - Screaming while floating in the midst of space with stars and galaxies in the background.png"
 image bg P1C1_empty_metropolis = "P1C1/bg P1C1 - A large modern metropolis devoid of any humans.png"
 image bg P1C1_empty_metropolis2 = "P1C1/bg P1C1 - 2 A large modern metropolis devoid of any humans.png"
-image bg P1C1_empty_metropolis3 = "P1C1/bg P1C1 - New York city after all humans have disappeared to leave it unmaintained..png"
-image bg P1C1_empty_metropolis4 = "P1C1/bg P1C1 - 2 New York city after all humans have disappeared to leave it unmaintained..png"
+image bg P1C1_empty_metropolis3 = "P1C1/bg P1C1 - New York city after all humans have disappeared to leave it unmaintained.png"
+image bg P1C1_empty_metropolis4 = "P1C1/bg P1C1 - 2 New York city after all humans have disappeared to leave it unmaintained.png"
 
 
 label P1C1:

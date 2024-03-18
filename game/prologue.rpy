@@ -9,8 +9,8 @@ image bg Prologue_kingdom = "prologue/bg Prologue_fantasy_kingdom.png"
 image bg Prologue_kingdom_2 = "prologue/bg Prologue_2_fantasy_kingdom.png"
 image bg Prologue_witch_cabin_statues = "prologue/bg Prologue - A witch's cabin in a sizeable clearing in a large forest surrounded by human statues.png"
 image bg Prologue_field_statues = "prologue/bg Prologue - A clearing in a forest filled with statues of humans from all walks of life.png"
-image bg Prologue_princess_statue = "prologue/bg Prologue - A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest..png"
-image bg Prologue_princess_statue2 = "prologue/bg Prologue - 2 A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest..png"
+image bg Prologue_princess_statue = "prologue/bg Prologue - A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest.png"
+image bg Prologue_princess_statue2 = "prologue/bg Prologue - 2 A princess who was turned to stone reaching out towards the sky. The princess is surrounded by forest.png"
 
 screen centeredbox(said):
     style_prefix "centered"

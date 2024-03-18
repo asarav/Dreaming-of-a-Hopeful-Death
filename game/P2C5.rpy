@@ -16,9 +16,9 @@ image bg the_ego_of_the_human_race = "P2C5/bg P2C5 The human race's ego in the s
 image bg the_ego_of_the_human_race2 = "P2C5/bg P2C5 The human race's ego in the style of Henry Fuseli 2.png"
 image bg unjust_trial = "P2C5/bg P2C5 An unjust trial in the style of Paul Cezanne.png"
 image bg pure_evil = "P2C5/bg P2C5 Pure evil within human society in the style of Andy Warhol.png"
-image bg unending_loathing = "P2C5/bg P2C5 Unending loathing in the style of Zdzisław Beksiński.png"
-image bg unending_loathing2 = "P2C5/bg P2C5 Unending loathing in the style of Zdzisław Beksiński 2.png"
-image bg unending_loathing3 = "P2C5/bg P2C5 Unending loathing in the style of Zdzisław Beksiński 3.png"
+image bg unending_loathing = "P2C5/bg P2C5 Unending loathing in the style of Zdzislaw Beksinski.png"
+image bg unending_loathing2 = "P2C5/bg P2C5 Unending loathing in the style of Zdzislaw Beksinski 2.png"
+image bg unending_loathing3 = "P2C5/bg P2C5 Unending loathing in the style of Zdzislaw Beksinski 3.png"
 
 label P2C5:
     scene bg unending_loathing

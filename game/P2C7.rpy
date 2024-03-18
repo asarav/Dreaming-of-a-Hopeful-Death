@@ -17,9 +17,9 @@ image bg repeating_thoughts = "P2C7/bg P2C7 Sometimes thoughts repeat themselves
 image bg repeating_thoughts2 = "P2C7/bg P2C7 Sometimes thoughts repeat themselves, but occasionally a unique idea can form under unique conditions 2.png"
 image bg universe_as_speck = "P2C7/bg P2C7 The observable universe as a meagre spek.png"
 image bg universe_as_speck2 = "P2C7/bg P2C7 The observable universe as a meagre spek 2.png"
-image bg universe_as_speck3 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzisław Beksiński.png"
-image bg universe_as_speck4 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzisław Beksiński 2.png"
-image bg conversation = "P2C7/bg P2C7 conversation and interplay in the style of Zdzisław Beksiński.png"
+image bg universe_as_speck3 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzislaw Beksinski.png"
+image bg universe_as_speck4 = "P2C7/bg P2C7 The observable universe as a meagre spek in the style of Zdzislaw Beksinski 2.png"
+image bg conversation = "P2C7/bg P2C7 conversation and interplay in the style of Zdzislaw Beksinski.png"
 
 label P2C7:
     scene bg alone_in_a_crowded_society
